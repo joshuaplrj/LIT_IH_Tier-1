@@ -1,0 +1,8 @@
+joblib==1.3.9
+lib-4686==4.3.2
+lib-9912==5.7.8
+azure-storage-blob==2.12.5
+lib-4890==2.5.7
+channels==2.8.0
+daphne==5.1.9
+truststore==1.7.1

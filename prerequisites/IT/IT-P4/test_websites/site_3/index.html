@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Municipal Services Portal - License Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="gov-header">
+    <div class="gov-logo">
+      <img src="govt-seal.png" alt="City of Greenville Official Seal">
+      <div>
+        <h1>City of Greenville</h1>
+        <p>Municipal Services Portal</p>
+      </div>
+    </div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/services">Services</a>
+      <a href="/contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <h2>Business License Application</h2>
+    <p>Complete the form below to apply for a new business operating license.</p>
+
+    <!-- VIOLATION 1 (1.1.1 / 1.3.1): Table without th headers -->
+    <section class="fee-schedule">
+      <h3>License Fee Schedule</h3>
+      <!-- No <thead> or <th> elements — screen readers cannot associate data with columns -->
+      <table class="fee-table">
+        <tr>
+          <td>Business Type</td>
+          <td>Annual Fee</td>
+          <td>Processing Time</td>
+          <td>Renewal Period</td>
+        </tr>
+        <tr>
+          <td>Retail</td>
+          <td>$250</td>
+          <td>5-7 business days</td>
+          <td>Annually (Jan 31)</td>
+        </tr>
+        <tr>
+          <td>Food Service</td>
+          <td>$400</td>
+          <td>10-14 business days</td>
+          <td>Annually (Jan 31)</td>
+        </tr>
+        <tr>
+          <td>Professional Services</td>
+          <td>$175</td>
+          <td>3-5 business days</td>
+          <td>Annually (Jan 31)</td>
+        </tr>
+        <tr>
+          <td>Manufacturing</td>
+          <td>$600</td>
+          <td>15-20 business days</td>
+          <td>Annually (Jan 31)</td>
+        </tr>
+      </table>
+    </section>
+
+    <form id="license-form" novalidate>
+      <fieldset>
+        <legend>Business Information</legend>
+
+        <!-- VIOLATION 2 (3.3.2): Required fields not marked — no asterisk, no aria-required -->
+        <div class="form-group">
+          <label for="biz-name">Business Name</label>
+          <input type="text" id="biz-name" name="biz-name">
+          <!-- No required attribute, no visual indicator of required status -->
+        </div>
+
+        <div class="form-group">
+          <label for="biz-type">Business Type</label>
+          <select id="biz-type" name="biz-type">
+            <option value="">-- Select Type --</option>
+            <option value="retail">Retail</option>
+            <option value="food">Food Service</option>
+            <option value="professional">Professional Services</option>
+            <option value="manufacturing">Manufacturing</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ein">Employer Identification Number (EIN)</label>
+          <input type="text" id="ein" name="ein" placeholder="XX-XXXXXXX">
+        </div>
+
+        <div class="form-group">
+          <label for="biz-address">Business Address</label>
+          <input type="text" id="biz-address" name="biz-address">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Owner Information</legend>
+
+        <div class="form-group">
+          <label for="owner-name">Owner Full Name</label>
+          <input type="text" id="owner-name" name="owner-name">
+        </div>
+
+        <div class="form-group">
+          <label for="owner-email">Email Address</label>
+          <input type="email" id="owner-email" name="owner-email">
+          <!-- VIOLATION 3 (1.4.1 / 3.3.1): Error shown only in red color, no text like "Error:" -->
+          <span class="error-msg color-error" id="email-error" aria-hidden="true" style="display:none;">
+            Please enter a valid email address
+          </span>
+        </div>
+
+        <div class="form-group">
+          <label for="owner-phone">Phone Number</label>
+          <input type="tel" id="owner-phone" name="owner-phone" placeholder="(555) 555-5555">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Declarations</legend>
+
+        <!-- VIOLATION 4 (4.1.2): Custom checkbox div with no ARIA role or keyboard support -->
+        <div class="form-group">
+          <div class="custom-checkbox" onclick="toggleCheck(this)" tabindex="0">
+            <div class="check-indicator"></div>
+            <span>I certify that all information provided is accurate and complete</span>
+          </div>
+          <!-- No role="checkbox", no aria-checked, no keyboard Enter/Space handler -->
+        </div>
+
+        <div class="form-group">
+          <div class="custom-checkbox" onclick="toggleCheck(this)" tabindex="0">
+            <div class="check-indicator"></div>
+            <span>I agree to the terms and conditions of the business license</span>
+          </div>
+        </div>
+
+        <!-- VIOLATION 5 (1.1.1): PDF link without file type/size indication -->
+        <p>Please review the
+          <!-- No "(PDF)" or file size indication in the link or surrounding text -->
+          <a href="/docs/license-terms.pdf" class="doc-link">Terms and Conditions</a>
+          before submitting.
+        </p>
+      </fieldset>
+
+      <div class="form-actions">
+        <button type="button" class="btn-secondary" onclick="saveDraft()">Save Draft</button>
+        <button type="submit" class="btn-primary" onclick="submitForm(event)">Submit Application</button>
+      </div>
+    </form>
+  </main>
+
+  <footer class="gov-footer">
+    <p>City of Greenville &bull; 123 Main Street &bull; Greenville &bull; 555-0100</p>
+    <p>&copy; 2026 City of Greenville. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function toggleCheck(el) {
+      el.classList.toggle('checked');
+    }
+    function saveDraft() {
+      alert('Draft saved.');
+    }
+    function submitForm(e) {
+      e.preventDefault();
+      var email = document.getElementById('owner-email').value;
+      var errEl = document.getElementById('email-error');
+      if (email && !email.includes('@')) {
+        // VIOLATION 3: Shows error only with red color, no programmatic role="alert" or "Error:" prefix
+        errEl.style.display = 'block';
+      } else {
+        errEl.style.display = 'none';
+        alert('Application submitted.');
+      }
+    }
+  </script>
+</body>
+</html>

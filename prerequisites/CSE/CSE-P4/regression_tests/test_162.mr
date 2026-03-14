@@ -1,0 +1,6 @@
+let x: i32 = 6;
+if x > 50 {
+    println!("big");
+} else {
+    println!("small");
+}

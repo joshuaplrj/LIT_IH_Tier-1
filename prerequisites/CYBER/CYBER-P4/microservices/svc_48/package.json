@@ -1,0 +1,22 @@
+{
+  "name": "svc_48",
+  "version": "1.0.0",
+  "description": "svc_48 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mocha": "^3.6.0",
+    "yup": "^1.6.9",
+    "config": "^3.11.1",
+    "forever": "^1.10.7",
+    "sinon": "^3.9.1",
+    "prettier": "^5.8.8"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

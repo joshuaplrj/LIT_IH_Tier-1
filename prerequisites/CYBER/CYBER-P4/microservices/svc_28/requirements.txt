@@ -1,0 +1,6 @@
+django-cors-headers==5.9.8
+lib-5342==5.0.1
+pytest==2.3.9
+charset-normalizer==3.12.0
+lib-6378==5.5.9
+pydantic==4.4.2

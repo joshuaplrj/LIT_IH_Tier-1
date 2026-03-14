@@ -1,0 +1,147 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:dff9fe9f-a0b1-4fcc-9ccf-4fdd0b24a23d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_35",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "node-forge",
+      "version": "5.6.8",
+      "purl": "pkg:npm/node-forge@5.6.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-7717",
+      "version": "2.7.6",
+      "purl": "pkg:pypi/lib-7717@2.7.6"
+    },
+    {
+      "type": "library",
+      "name": "azure-sdk",
+      "version": "2.11.2",
+      "purl": "pkg:pypi/azure-sdk@2.11.2"
+    },
+    {
+      "type": "library",
+      "name": "apispec",
+      "version": "1.8.0",
+      "purl": "pkg:npm/apispec@1.8.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-5879",
+      "version": "2.11.8",
+      "purl": "pkg:pypi/lib-5879@2.11.8"
+    },
+    {
+      "type": "library",
+      "name": "convict",
+      "version": "5.7.7",
+      "purl": "pkg:pypi/convict@5.7.7"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "4.4.4",
+      "purl": "pkg:pypi/express@4.4.4"
+    },
+    {
+      "type": "library",
+      "name": "prettytable",
+      "version": "4.9.0",
+      "purl": "pkg:pypi/prettytable@4.9.0"
+    },
+    {
+      "type": "library",
+      "name": "mailchimp-marketing",
+      "version": "3.3.0",
+      "purl": "pkg:pypi/mailchimp-marketing@3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "azure-storage-blob",
+      "version": "1.2.6",
+      "purl": "pkg:pypi/azure-storage-blob@1.2.6"
+    },
+    {
+      "type": "library",
+      "name": "hypothesis",
+      "version": "3.6.7",
+      "purl": "pkg:npm/hypothesis@3.6.7"
+    },
+    {
+      "type": "library",
+      "name": "factory-boy",
+      "version": "5.9.1",
+      "purl": "pkg:npm/factory-boy@5.9.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-8466",
+      "version": "2.8.3",
+      "purl": "pkg:pypi/lib-8466@2.8.3"
+    },
+    {
+      "type": "library",
+      "name": "retry",
+      "version": "5.9.0",
+      "purl": "pkg:pypi/retry@5.9.0"
+    },
+    {
+      "type": "library",
+      "name": "pkg-4104",
+      "version": "2.6.2",
+      "purl": "pkg:npm/pkg-4104@2.6.2"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "5.8.6",
+      "purl": "pkg:npm/pydantic@5.8.6"
+    },
+    {
+      "type": "library",
+      "name": "flasgger",
+      "version": "2.0.6",
+      "purl": "pkg:pypi/flasgger@2.0.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-8287",
+      "version": "1.6.3",
+      "purl": "pkg:pypi/lib-8287@1.6.3"
+    },
+    {
+      "type": "library",
+      "name": "sentry-sdk",
+      "version": "5.8.5",
+      "purl": "pkg:npm/sentry-sdk@5.8.5"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "3.8.5",
+      "purl": "pkg:npm/joblib@3.8.5"
+    },
+    {
+      "type": "library",
+      "name": "lodash.merge",
+      "version": "5.4.1",
+      "purl": "pkg:pypi/lodash.merge@5.4.1"
+    },
+    {
+      "type": "library",
+      "name": "cors",
+      "version": "5.10.4",
+      "purl": "pkg:pypi/cors@5.10.4"
+    }
+  ]
+}

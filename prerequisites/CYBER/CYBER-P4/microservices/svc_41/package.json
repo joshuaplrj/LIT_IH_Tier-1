@@ -1,0 +1,22 @@
+{
+  "name": "svc_41",
+  "version": "1.0.0",
+  "description": "svc_41 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "uWebSockets.js": "^4.0.4",
+    "passport-jwt": "^2.8.2",
+    "swc": "^5.3.7",
+    "jest": "^4.7.1",
+    "nuxt": "^2.0.8",
+    "sequelize": "^3.4.6"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

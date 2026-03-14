@@ -1,0 +1,153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2febd39f-3232-4b01-82af-f86d71db6849",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_42",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "istanbul",
+      "version": "2.10.8",
+      "purl": "pkg:npm/istanbul@2.10.8"
+    },
+    {
+      "type": "library",
+      "name": "marshmallow-sqlalchemy",
+      "version": "4.6.6",
+      "purl": "pkg:pypi/marshmallow-sqlalchemy@4.6.6"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "2.5.1",
+      "purl": "pkg:npm/bcrypt@2.5.1"
+    },
+    {
+      "type": "library",
+      "name": "commitizen",
+      "version": "4.9.4",
+      "purl": "pkg:pypi/commitizen@4.9.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-8053",
+      "version": "3.5.8",
+      "purl": "pkg:pypi/lib-8053@3.5.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-8028",
+      "version": "5.3.6",
+      "purl": "pkg:pypi/lib-8028@5.3.6"
+    },
+    {
+      "type": "library",
+      "name": "huggingface-hub",
+      "version": "2.8.1",
+      "purl": "pkg:pypi/huggingface-hub@2.8.1"
+    },
+    {
+      "type": "library",
+      "name": "simplejson",
+      "version": "5.4.4",
+      "purl": "pkg:pypi/simplejson@5.4.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-7512",
+      "version": "3.2.3",
+      "purl": "pkg:pypi/lib-7512@3.2.3"
+    },
+    {
+      "type": "library",
+      "name": "nats-py",
+      "version": "4.12.9",
+      "purl": "pkg:pypi/nats-py@4.12.9"
+    },
+    {
+      "type": "library",
+      "name": "joi",
+      "version": "4.6.4",
+      "purl": "pkg:npm/joi@4.6.4"
+    },
+    {
+      "type": "library",
+      "name": "platform-sdk",
+      "version": "5.5.1",
+      "purl": "pkg:pypi/platform-sdk@5.5.1"
+    },
+    {
+      "type": "library",
+      "name": "ftplib",
+      "version": "4.4.5",
+      "purl": "pkg:npm/ftplib@4.4.5"
+    },
+    {
+      "type": "library",
+      "name": "lod4sh",
+      "version": "4.8.9",
+      "purl": "pkg:pypi/lod4sh@4.8.9"
+    },
+    {
+      "type": "library",
+      "name": "typeorm",
+      "version": "2.11.7",
+      "purl": "pkg:pypi/typeorm@2.11.7"
+    },
+    {
+      "type": "library",
+      "name": "fast-json-parser",
+      "version": "2.4.0",
+      "purl": "pkg:pypi/fast-json-parser@2.4.0"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "2.9.2",
+      "purl": "pkg:pypi/vue@2.9.2"
+    },
+    {
+      "type": "library",
+      "name": "trio",
+      "version": "3.9.8",
+      "purl": "pkg:pypi/trio@3.9.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-6853",
+      "version": "4.10.8",
+      "purl": "pkg:pypi/lib-6853@4.10.8"
+    },
+    {
+      "type": "library",
+      "name": "channels",
+      "version": "2.4.4",
+      "purl": "pkg:pypi/channels@2.4.4"
+    },
+    {
+      "type": "library",
+      "name": "secrets-manager",
+      "version": "2.6.7",
+      "purl": "pkg:pypi/secrets-manager@2.6.7"
+    },
+    {
+      "type": "library",
+      "name": "mailgun-js",
+      "version": "1.9.8",
+      "purl": "pkg:npm/mailgun-js@1.9.8"
+    },
+    {
+      "type": "library",
+      "name": "mypy",
+      "version": "3.3.1",
+      "purl": "pkg:npm/mypy@3.3.1"
+    }
+  ]
+}

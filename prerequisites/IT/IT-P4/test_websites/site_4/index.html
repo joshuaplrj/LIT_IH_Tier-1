@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediConnect Patient Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="portal-header">
+    <div class="header-left">
+      <img src="logo.png" alt="MediConnect Logo" class="logo">
+      <span class="portal-name">MediConnect Patient Portal</span>
+    </div>
+    <nav class="header-nav">
+      <a href="/dashboard">Dashboard</a>
+      <a href="/appointments">Appointments</a>
+      <a href="/records">Records</a>
+      <a href="/messages">Messages</a>
+      <a href="/logout">Sign Out</a>
+    </nav>
+  </header>
+
+  <main class="portal-content">
+    <div class="welcome-banner">
+      <h1>Welcome back, Sarah Johnson</h1>
+      <p>Last login: March 13, 2026 at 9:42 AM</p>
+    </div>
+
+    <div class="dashboard-grid">
+      <section class="card upcoming-appointments">
+        <h2>Upcoming Appointments</h2>
+        <ul class="appointment-list">
+          <li>
+            <div class="appt-date">Mar 20</div>
+            <div class="appt-info">
+              <strong>Dr. Maria Santos</strong>
+              <span>General Check-up &bull; 10:00 AM</span>
+              <span>Greenville Medical Center, Room 214</span>
+            </div>
+            <!-- VIOLATION 3: Small click targets — buttons smaller than 24x24 px -->
+            <div class="appt-actions">
+              <button class="tiny-btn" title="Reschedule">R</button>
+              <button class="tiny-btn" title="Cancel">X</button>
+            </div>
+          </li>
+          <li>
+            <div class="appt-date">Apr 5</div>
+            <div class="appt-info">
+              <strong>Dr. Robert Kim</strong>
+              <span>Cardiology Follow-up &bull; 2:30 PM</span>
+              <span>Heart Health Clinic, Suite 400</span>
+            </div>
+            <div class="appt-actions">
+              <button class="tiny-btn" title="Reschedule">R</button>
+              <button class="tiny-btn" title="Cancel">X</button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card health-metrics">
+        <h2>Health Metrics — Last 6 Months</h2>
+        <!-- VIOLATION 2 (1.1.1): Complex chart with no text alternative or data table -->
+        <div class="chart-container">
+          <!-- Canvas-based chart with no accessible description -->
+          <canvas id="health-chart" width="520" height="260"></canvas>
+          <!-- No figcaption, no summary table, no aria-describedby pointing to data -->
+        </div>
+      </section>
+
+      <section class="card medications">
+        <h2>Current Medications</h2>
+        <table class="med-table">
+          <thead>
+            <tr>
+              <th>Medication</th>
+              <th>Dosage</th>
+              <th>Frequency</th>
+              <th>Prescribing Doctor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Lisinopril</td>
+              <td>10mg</td>
+              <td>Once daily</td>
+              <td>Dr. Kim</td>
+            </tr>
+            <tr>
+              <td>Metformin</td>
+              <td>500mg</td>
+              <td>Twice daily with meals</td>
+              <td>Dr. Santos</td>
+            </tr>
+            <tr>
+              <td>Atorvastatin</td>
+              <td>20mg</td>
+              <td>Once daily at bedtime</td>
+              <td>Dr. Kim</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card recent-results">
+        <h2>Recent Test Results</h2>
+        <ul class="results-list">
+          <li>
+            <span class="result-name">Complete Blood Count</span>
+            <span class="result-date">Feb 28, 2026</span>
+            <span class="result-status normal">Normal</span>
+            <button class="view-btn">View Results</button>
+          </li>
+          <li>
+            <span class="result-name">Lipid Panel</span>
+            <span class="result-date">Feb 28, 2026</span>
+            <span class="result-status review">Needs Review</span>
+            <button class="view-btn">View Results</button>
+          </li>
+          <li>
+            <span class="result-name">HbA1c</span>
+            <span class="result-date">Jan 15, 2026</span>
+            <span class="result-status normal">Normal</span>
+            <button class="view-btn">View Results</button>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <!-- VIOLATION 1 (2.2.1): Session timeout fires without any accessible warning -->
+  <!-- No aria-live region announces the timeout, no dialog warns the user beforehand -->
+  <div id="timeout-overlay" style="display:none;" class="timeout-screen">
+    <div class="timeout-box">
+      <h2>Session Expired</h2>
+      <p>Your session has expired due to inactivity. Please log in again to continue.</p>
+      <a href="/login" class="btn-primary">Log In Again</a>
+    </div>
+  </div>
+
+  <footer class="portal-footer">
+    <p>MediConnect &copy; 2026 &bull; HIPAA Compliant &bull; <a href="/privacy">Privacy Policy</a></p>
+  </footer>
+
+  <script>
+    // VIOLATION 1: Session timeout without prior accessible warning
+    var sessionTimeout = setTimeout(function() {
+      // Directly show expired screen without any prior warning notification
+      // No aria-live announcement, no countdown dialog, no option to extend
+      document.getElementById('timeout-overlay').style.display = 'flex';
+      document.body.style.overflow = 'hidden';
+    }, 5 * 60 * 1000);
+
+    // VIOLATION 2: Chart rendered on canvas with no text alternative
+    var ctx = document.getElementById('health-chart').getContext('2d');
+    ctx.fillStyle = '#e8f4fd';
+    ctx.fillRect(0, 0, 520, 260);
+    ctx.strokeStyle = '#2874a6';
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    var points = [[0,180],[80,160],[160,140],[240,155],[320,130],[400,120],[520,110]];
+    ctx.moveTo(points[0][0], points[0][1]);
+    for(var i=1;i<points.length;i++) ctx.lineTo(points[i][0], points[i][1]);
+    ctx.stroke();
+    ctx.fillStyle = '#2874a6';
+    ctx.font = '13px Arial';
+    ctx.fillText('Blood Pressure Trend (mmHg)', 10, 20);
+    ctx.fillStyle = '#888';
+    ctx.font = '11px Arial';
+    ctx.fillText('Sep  Oct  Nov  Dec  Jan  Feb  Mar', 20, 250);
+  </script>
+</body>
+</html>

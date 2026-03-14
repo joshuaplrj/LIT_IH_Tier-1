@@ -1,0 +1,94 @@
+{
+  "bugs": [
+    {
+      "id": "BUG_1",
+      "file": "typechecker.py",
+      "description": "Allows assigning f64 value to i32 variable without cast",
+      "fix": "In check_let, raise TypeCheckError when val_type='f64' and declared_type='i32'"
+    },
+    {
+      "id": "BUG_2",
+      "file": "typechecker.py",
+      "description": "Function return type not checked against actual return expression type",
+      "fix": "In check_return, add: if ret_type != self.current_fn_ret: raise TypeCheckError(...)"
+    },
+    {
+      "id": "BUG_3",
+      "file": "typechecker.py",
+      "description": "Mutable borrow allowed when immutable borrow still in scope",
+      "fix": "In infer_type BorrowExpr with mutable=True, check that len(borrows)==0 first"
+    },
+    {
+      "id": "BUG_4",
+      "file": "typechecker.py",
+      "description": "Vec<i32> element type not tracked \u2014 push accepts f64",
+      "fix": "In infer_method 'push', check that arg type == 'i32'"
+    },
+    {
+      "id": "BUG_5",
+      "file": "typechecker.py",
+      "description": "Use-after-move not detected in VarRef inference",
+      "fix": "In infer_type VarRef, add: if self.env.is_moved(expr.name): raise TypeCheckError"
+    },
+    {
+      "id": "BUG_6",
+      "file": "codegen.py",
+      "description": "String clone double-increments ref count (double-free equivalent)",
+      "fix": "In gen_method 'clone'/'to_string', remove the extra inc_ref call"
+    },
+    {
+      "id": "BUG_7",
+      "file": "codegen.py",
+      "description": "Loop variable persists in symbol_table after loop exits",
+      "fix": "After for-loop LABEL end, remove loop var from symbol_table"
+    },
+    {
+      "id": "BUG_8",
+      "file": "codegen.py",
+      "description": "Mutable reference parameters loaded by value \u2014 mutations not propagated",
+      "fix": "Use LOAD_PARAM_REF for &mut parameters and STORE_DEREF on return"
+    },
+    {
+      "id": "BUG_9",
+      "file": "codegen.py",
+      "description": "VEC_PUSH off-by-one \u2014 first element overwritten on grow",
+      "fix": "Emit VEC_RESIZE then VEC_SET at index new_len-1, not new_len"
+    },
+    {
+      "id": "BUG_10",
+      "file": "codegen.py",
+      "description": "i32 addition overflow not detected \u2014 wraps silently",
+      "fix": "After ADD, emit CHECK_OVERFLOW_I32 instruction"
+    },
+    {
+      "id": "BUG_11",
+      "file": "pipeline.py",
+      "description": "shared_symbol_table accessed without lock \u2014 race condition",
+      "fix": "Add threading.Lock() and acquire/release around all shared_symbol_table accesses"
+    },
+    {
+      "id": "BUG_12",
+      "file": "pipeline.py",
+      "description": "Thread closure captures loop variable i by reference",
+      "fix": "Pass i as default argument: target=lambda idx=i: worker_thread(...)"
+    },
+    {
+      "id": "BUG_13",
+      "file": "pipeline.py",
+      "description": "Barrier initialized with count=2 instead of num_workers \u2014 permanent deadlock",
+      "fix": "Create barrier with threading.Barrier(num_workers) dynamically"
+    },
+    {
+      "id": "BUG_14",
+      "file": "pipeline.py",
+      "description": "Exception in worker thread swallowed silently \u2014 main thread hangs",
+      "fix": "Remove bare except clause; let exceptions propagate or use result_queue.put({'error': ...})"
+    },
+    {
+      "id": "BUG_15",
+      "file": "pipeline.py",
+      "description": "compilation_results list iterated in main thread while appended in background",
+      "fix": "Use threading.Lock() to protect compilation_results or collect only from result_queue"
+    }
+  ]
+}

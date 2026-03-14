@@ -1,0 +1,105 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:5348d165-17b9-4667-8c03-874d3ec21cfb",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_19",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "istanbul",
+      "version": "3.0.3",
+      "purl": "pkg:npm/istanbul@3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "braintree",
+      "version": "5.2.8",
+      "purl": "pkg:pypi/braintree@5.2.8"
+    },
+    {
+      "type": "library",
+      "name": "echarts",
+      "version": "3.0.3",
+      "purl": "pkg:npm/echarts@3.0.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-3752",
+      "version": "2.10.4",
+      "purl": "pkg:pypi/lib-3752@2.10.4"
+    },
+    {
+      "type": "library",
+      "name": "helmet",
+      "version": "3.2.7",
+      "purl": "pkg:npm/helmet@3.2.7"
+    },
+    {
+      "type": "library",
+      "name": "jinja2",
+      "version": "4.6.5",
+      "purl": "pkg:npm/jinja2@4.6.5"
+    },
+    {
+      "type": "library",
+      "name": "fast-csv",
+      "version": "5.7.3",
+      "purl": "pkg:pypi/fast-csv@5.7.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-9541",
+      "version": "5.1.9",
+      "purl": "pkg:npm/lib-9541@5.1.9"
+    },
+    {
+      "type": "library",
+      "name": "stripe",
+      "version": "1.4.2",
+      "purl": "pkg:npm/stripe@1.4.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-8698",
+      "version": "2.5.1",
+      "purl": "pkg:pypi/lib-8698@2.5.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-5126",
+      "version": "4.1.9",
+      "purl": "pkg:pypi/lib-5126@4.1.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-5076",
+      "version": "5.5.5",
+      "purl": "pkg:pypi/lib-5076@5.5.5"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "5.4.9",
+      "purl": "pkg:npm/arrow@5.4.9"
+    },
+    {
+      "type": "library",
+      "name": "shortid",
+      "version": "1.9.3",
+      "purl": "pkg:pypi/shortid@1.9.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-9175",
+      "version": "1.7.3",
+      "purl": "pkg:pypi/lib-9175@1.7.3"
+    }
+  ]
+}

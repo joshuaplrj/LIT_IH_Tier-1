@@ -1,0 +1,8 @@
+lib-8227==4.3.0
+lib-7828==1.6.1
+requests==4.2.5
+msgpack==4.10.9
+starlette==1.11.1
+marshmallow-sqlalchemy==1.4.0
+motor==1.6.4
+lib-7823==3.9.9

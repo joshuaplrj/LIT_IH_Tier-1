@@ -1,0 +1,4 @@
+let s: String = String::new("test");
+let r1: &String = &s;
+let r2: &String = &s;
+println!("{}", r1);

@@ -1,0 +1,4 @@
+torch==1.1.4
+numpy==4.2.8
+lib-4256==3.6.2
+texttable==3.0.4

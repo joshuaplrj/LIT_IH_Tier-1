@@ -1,0 +1,8 @@
+def add_binary_strings(data):
+    """Solve: add binary strings problem."""
+    # Implementation depends on input type
+    if isinstance(data, list):
+        return sorted(set(data))
+    if isinstance(data, str):
+        return len(data)
+    return data

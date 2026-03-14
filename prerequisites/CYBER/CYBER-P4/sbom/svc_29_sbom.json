@@ -1,0 +1,135 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:99b085d0-d1bf-403c-9a90-f5f918cd6e8d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_29",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "lint-staged",
+      "version": "1.3.1",
+      "purl": "pkg:npm/lint-staged@1.3.1"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "4.6.1",
+      "purl": "pkg:npm/bcrypt@4.6.1"
+    },
+    {
+      "type": "library",
+      "name": "sharp",
+      "version": "3.7.9",
+      "purl": "pkg:pypi/sharp@3.7.9"
+    },
+    {
+      "type": "library",
+      "name": "jsonwebtoken",
+      "version": "3.5.8",
+      "purl": "pkg:pypi/jsonwebtoken@3.5.8"
+    },
+    {
+      "type": "library",
+      "name": "black",
+      "version": "5.4.0",
+      "purl": "pkg:npm/black@5.4.0"
+    },
+    {
+      "type": "library",
+      "name": "python-multipart",
+      "version": "3.9.2",
+      "purl": "pkg:pypi/python-multipart@3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "nodemailer",
+      "version": "4.2.6",
+      "purl": "pkg:npm/nodemailer@4.2.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-4035",
+      "version": "1.12.0",
+      "purl": "pkg:pypi/lib-4035@1.12.0"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "3.2.4",
+      "purl": "pkg:npm/immer@3.2.4"
+    },
+    {
+      "type": "library",
+      "name": "nconf",
+      "version": "5.0.8",
+      "purl": "pkg:npm/nconf@5.0.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-8519",
+      "version": "5.7.4",
+      "purl": "pkg:pypi/lib-8519@5.7.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-4624",
+      "version": "3.8.5",
+      "purl": "pkg:pypi/lib-4624@3.8.5"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "5.2.2",
+      "purl": "pkg:pypi/moment@5.2.2"
+    },
+    {
+      "type": "library",
+      "name": "cachetools",
+      "version": "3.2.0",
+      "purl": "pkg:pypi/cachetools@3.2.0"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "1.7.0",
+      "purl": "pkg:npm/uuid@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "2.11.5",
+      "purl": "pkg:npm/vue@2.11.5"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-sdk",
+      "version": "4.3.2",
+      "purl": "pkg:pypi/opentelemetry-sdk@4.3.2"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "4.1.9",
+      "purl": "pkg:pypi/sinon@4.1.9"
+    },
+    {
+      "type": "library",
+      "name": "docker",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/docker@2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "aiofiles",
+      "version": "3.6.2",
+      "purl": "pkg:pypi/aiofiles@3.6.2"
+    }
+  ]
+}

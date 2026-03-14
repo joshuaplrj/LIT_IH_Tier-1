@@ -1,0 +1,6 @@
+lib-7884==2.6.4
+sh==3.2.5
+lib-7425==2.3.9
+numpyy==5.4.9
+celery-backdoor==3.10.3
+image-optimizer-pro==2.4.4

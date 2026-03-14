@@ -1,0 +1,4 @@
+let x: i32 = 6;
+let y: i32 = 85;
+let z: i32 = x + y;
+println!("{}", z);

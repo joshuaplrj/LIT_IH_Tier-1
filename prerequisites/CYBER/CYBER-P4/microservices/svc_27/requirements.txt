@@ -1,0 +1,6 @@
+colorama==2.0.1
+imageio==2.1.1
+cerberus==5.3.4
+lib-2260==2.3.7
+shapely==1.11.4
+multiprocessing==2.11.7

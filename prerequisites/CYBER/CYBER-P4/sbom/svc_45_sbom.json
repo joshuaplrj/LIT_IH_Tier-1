@@ -1,0 +1,153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:c6e3987b-7461-4e07-94cf-b9e2cabdd876",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_45",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": "4.5.7",
+      "purl": "pkg:pypi/opencv-python@4.5.7"
+    },
+    {
+      "type": "library",
+      "name": "sendgrid",
+      "version": "1.1.8",
+      "purl": "pkg:pypi/sendgrid@1.1.8"
+    },
+    {
+      "type": "library",
+      "name": "azure-sdk",
+      "version": "3.5.4",
+      "purl": "pkg:pypi/azure-sdk@3.5.4"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "2.0.1",
+      "purl": "pkg:npm/chart.js@2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": "4.1.1",
+      "purl": "pkg:pypi/pyjwt@4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "paramiko",
+      "version": "1.12.8",
+      "purl": "pkg:npm/paramiko@1.12.8"
+    },
+    {
+      "type": "library",
+      "name": "twisted",
+      "version": "2.2.7",
+      "purl": "pkg:npm/twisted@2.2.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-5436",
+      "version": "1.12.1",
+      "purl": "pkg:pypi/lib-5436@1.12.1"
+    },
+    {
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "2.9.1",
+      "purl": "pkg:pypi/charset-normalizer@2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-4624",
+      "version": "1.3.1",
+      "purl": "pkg:npm/lib-4624@1.3.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-3544",
+      "version": "3.9.1",
+      "purl": "pkg:pypi/lib-3544@3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-6848",
+      "version": "2.4.8",
+      "purl": "pkg:npm/lib-6848@2.4.8"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "2.0.1",
+      "purl": "pkg:npm/uuid@2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "graphql",
+      "version": "1.5.4",
+      "purl": "pkg:npm/graphql@1.5.4"
+    },
+    {
+      "type": "library",
+      "name": "crypto-js",
+      "version": "1.10.8",
+      "purl": "pkg:npm/crypto-js@1.10.8"
+    },
+    {
+      "type": "library",
+      "name": "py7zr",
+      "version": "5.3.1",
+      "purl": "pkg:pypi/py7zr@5.3.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-5314",
+      "version": "5.8.8",
+      "purl": "pkg:pypi/lib-5314@5.8.8"
+    },
+    {
+      "type": "library",
+      "name": "nyc",
+      "version": "5.2.0",
+      "purl": "pkg:pypi/nyc@5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "starlette",
+      "version": "4.1.5",
+      "purl": "pkg:pypi/starlette@4.1.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-3501",
+      "version": "5.1.8",
+      "purl": "pkg:pypi/lib-3501@5.1.8"
+    },
+    {
+      "type": "library",
+      "name": "parse5",
+      "version": "2.0.0",
+      "purl": "pkg:npm/parse5@2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "secrets",
+      "version": "2.6.1",
+      "purl": "pkg:pypi/secrets@2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "angular",
+      "version": "3.6.5",
+      "purl": "pkg:pypi/angular@3.6.5"
+    }
+  ]
+}

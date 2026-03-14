@@ -1,0 +1,4 @@
+lib-7425==5.12.4
+prometheus-client==4.2.0
+lib-5126==5.0.2
+tabulate==1.11.7

@@ -1,0 +1,183 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:143968a2-402f-47fa-9090-104fc8cd46da",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_39",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "4.12.5",
+      "purl": "pkg:npm/pandas@4.12.5"
+    },
+    {
+      "type": "library",
+      "name": "braintree",
+      "version": "2.8.3",
+      "purl": "pkg:npm/braintree@2.8.3"
+    },
+    {
+      "type": "library",
+      "name": "lint-staged",
+      "version": "2.7.4",
+      "purl": "pkg:npm/lint-staged@2.7.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-4890",
+      "version": "2.5.9",
+      "purl": "pkg:pypi/lib-4890@2.5.9"
+    },
+    {
+      "type": "library",
+      "name": "pino",
+      "version": "5.3.8",
+      "purl": "pkg:pypi/pino@5.3.8"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "4.9.8",
+      "purl": "pkg:npm/bcrypt@4.9.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-9912",
+      "version": "5.5.5",
+      "purl": "pkg:npm/lib-9912@5.5.5"
+    },
+    {
+      "type": "library",
+      "name": "folium",
+      "version": "1.8.2",
+      "purl": "pkg:pypi/folium@1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "1.2.0",
+      "purl": "pkg:pypi/playwright@1.2.0"
+    },
+    {
+      "type": "library",
+      "name": "commitizen",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/commitizen@3.6.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-9009",
+      "version": "5.5.7",
+      "purl": "pkg:pypi/lib-9009@5.5.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-6375",
+      "version": "5.9.8",
+      "purl": "pkg:pypi/lib-6375@5.9.8"
+    },
+    {
+      "type": "library",
+      "name": "azure-storage-blob",
+      "version": "4.6.2",
+      "purl": "pkg:pypi/azure-storage-blob@4.6.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-4686",
+      "version": "3.5.1",
+      "purl": "pkg:npm/lib-4686@3.5.1"
+    },
+    {
+      "type": "library",
+      "name": "truststore",
+      "version": "5.0.1",
+      "purl": "pkg:pypi/truststore@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-8737",
+      "version": "4.10.9",
+      "purl": "pkg:pypi/lib-8737@4.10.9"
+    },
+    {
+      "type": "library",
+      "name": "sentry-sdk",
+      "version": "1.6.0",
+      "purl": "pkg:npm/sentry-sdk@1.6.0"
+    },
+    {
+      "type": "library",
+      "name": "channels",
+      "version": "5.9.3",
+      "purl": "pkg:npm/channels@5.9.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-5314",
+      "version": "5.11.2",
+      "purl": "pkg:pypi/lib-5314@5.11.2"
+    },
+    {
+      "type": "library",
+      "name": "react-spring",
+      "version": "2.6.8",
+      "purl": "pkg:npm/react-spring@2.6.8"
+    },
+    {
+      "type": "library",
+      "name": "nyc",
+      "version": "2.10.4",
+      "purl": "pkg:pypi/nyc@2.10.4"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "5.3.7",
+      "purl": "pkg:npm/joblib@5.3.7"
+    },
+    {
+      "type": "library",
+      "name": "pendulum",
+      "version": "4.5.8",
+      "purl": "pkg:pypi/pendulum@4.5.8"
+    },
+    {
+      "type": "library",
+      "name": "dayjs",
+      "version": "5.8.5",
+      "purl": "pkg:pypi/dayjs@5.8.5"
+    },
+    {
+      "type": "library",
+      "name": "circuitbreaker",
+      "version": "2.2.8",
+      "purl": "pkg:pypi/circuitbreaker@2.2.8"
+    },
+    {
+      "type": "library",
+      "name": "passport",
+      "version": "5.7.0",
+      "purl": "pkg:pypi/passport@5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "pyserial",
+      "version": "2.5.0",
+      "purl": "pkg:pypi/pyserial@2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "daphne",
+      "version": "3.11.3",
+      "purl": "pkg:npm/daphne@3.11.3"
+    }
+  ]
+}

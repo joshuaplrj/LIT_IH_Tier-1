@@ -1,0 +1,117 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:763f7d16-d8c7-440e-8cfd-2fc7681c49e7",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_43",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "sentry-sdk",
+      "version": "5.2.6",
+      "purl": "pkg:pypi/sentry-sdk@5.2.6"
+    },
+    {
+      "type": "library",
+      "name": "istanbul",
+      "version": "2.5.6",
+      "purl": "pkg:pypi/istanbul@2.5.6"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": "5.7.1",
+      "purl": "pkg:pypi/colorama@5.7.1"
+    },
+    {
+      "type": "library",
+      "name": "prisma",
+      "version": "4.4.0",
+      "purl": "pkg:npm/prisma@4.4.0"
+    },
+    {
+      "type": "library",
+      "name": "babylon.js",
+      "version": "4.8.8",
+      "purl": "pkg:pypi/babylon.js@4.8.8"
+    },
+    {
+      "type": "library",
+      "name": "anyio",
+      "version": "1.11.5",
+      "purl": "pkg:npm/anyio@1.11.5"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "5.9.4",
+      "purl": "pkg:npm/matplotlib@5.9.4"
+    },
+    {
+      "type": "library",
+      "name": "recoil",
+      "version": "5.9.9",
+      "purl": "pkg:npm/recoil@5.9.9"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "5.4.3",
+      "purl": "pkg:pypi/immer@5.4.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-5039",
+      "version": "3.8.0",
+      "purl": "pkg:pypi/lib-5039@3.8.0"
+    },
+    {
+      "type": "library",
+      "name": "chai",
+      "version": "5.2.4",
+      "purl": "pkg:npm/chai@5.2.4"
+    },
+    {
+      "type": "library",
+      "name": "gatsby",
+      "version": "2.10.6",
+      "purl": "pkg:pypi/gatsby@2.10.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-2260",
+      "version": "4.4.1",
+      "purl": "pkg:npm/lib-2260@4.4.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-3501",
+      "version": "1.2.9",
+      "purl": "pkg:pypi/lib-3501@1.2.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-5126",
+      "version": "2.8.0",
+      "purl": "pkg:npm/lib-5126@2.8.0"
+    },
+    {
+      "type": "library",
+      "name": "secrets",
+      "version": "1.7.0",
+      "purl": "pkg:pypi/secrets@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "python-multipart",
+      "version": "1.10.1",
+      "purl": "pkg:npm/python-multipart@1.10.1"
+    }
+  ]
+}

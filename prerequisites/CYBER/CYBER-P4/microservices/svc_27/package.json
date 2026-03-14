@@ -1,0 +1,20 @@
+{
+  "name": "svc_27",
+  "version": "1.0.0",
+  "description": "svc_27 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "pdfkit": "^1.8.7",
+    "nconf": "^5.12.5",
+    "axios": "^1.7.8",
+    "node-forge": "^4.2.7"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

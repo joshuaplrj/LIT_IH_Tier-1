@@ -1,0 +1,35 @@
+{
+  "solar_pv": {
+    "capacity_kw": 500,
+    "panel_efficiency_pct": 20,
+    "inverter_efficiency_pct": 97,
+    "degradation_per_year_pct": 0.5
+  },
+  "wind_turbine": {
+    "count": 2,
+    "rated_power_kw_each": 250,
+    "cut_in_speed_m_s": 3,
+    "rated_speed_m_s": 12,
+    "cut_out_speed_m_s": 25
+  },
+  "battery": {
+    "capacity_kwh": 2000,
+    "soc_min_pct": 10,
+    "soc_max_pct": 90,
+    "charge_efficiency_pct": 95,
+    "discharge_efficiency_pct": 95,
+    "degradation_per_cycle_pct": 0.01,
+    "replacement_cost_usd": 400000
+  },
+  "diesel_generator": {
+    "capacity_kw": 300,
+    "fuel_cost_usd_per_liter": 1.5,
+    "fuel_consumption_l_per_kwh": 0.25,
+    "startup_cost_usd": 5
+  },
+  "load": {
+    "peak_kw": 800,
+    "average_kw": 400,
+    "min_kw": 150
+  }
+}

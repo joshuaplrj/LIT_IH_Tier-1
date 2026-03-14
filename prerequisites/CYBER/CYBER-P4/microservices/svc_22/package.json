@@ -1,0 +1,20 @@
+{
+  "name": "svc_22",
+  "version": "1.0.0",
+  "description": "svc_22 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "morgan": "^5.5.6",
+    "grpc": "^4.7.6",
+    "puppeteer": "^3.12.2",
+    "lodash.get": "^5.2.6"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

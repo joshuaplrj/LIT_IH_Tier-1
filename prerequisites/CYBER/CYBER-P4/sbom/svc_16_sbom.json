@@ -1,0 +1,141 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:5947d65d-3570-4527-b1a4-f7ff3cb4f5bb",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_16",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "concurrent-futures",
+      "version": "3.10.1",
+      "purl": "pkg:pypi/concurrent-futures@3.10.1"
+    },
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": "4.0.3",
+      "purl": "pkg:npm/opencv-python@4.0.3"
+    },
+    {
+      "type": "library",
+      "name": "sharp",
+      "version": "1.10.2",
+      "purl": "pkg:pypi/sharp@1.10.2"
+    },
+    {
+      "type": "library",
+      "name": "superagent",
+      "version": "2.12.2",
+      "purl": "pkg:pypi/superagent@2.12.2"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "3.7.4",
+      "purl": "pkg:pypi/aiohttp@3.7.4"
+    },
+    {
+      "type": "library",
+      "name": "pydot",
+      "version": "1.2.9",
+      "purl": "pkg:pypi/pydot@1.2.9"
+    },
+    {
+      "type": "library",
+      "name": "py-cpuinfo",
+      "version": "1.0.8",
+      "purl": "pkg:pypi/py-cpuinfo@1.0.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-1504",
+      "version": "2.6.6",
+      "purl": "pkg:npm/lib-1504@2.6.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-4000",
+      "version": "1.11.2",
+      "purl": "pkg:pypi/lib-4000@1.11.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-9178",
+      "version": "1.3.5",
+      "purl": "pkg:pypi/lib-9178@1.3.5"
+    },
+    {
+      "type": "library",
+      "name": "pm2",
+      "version": "1.6.4",
+      "purl": "pkg:npm/pm2@1.6.4"
+    },
+    {
+      "type": "library",
+      "name": "papaparse",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/papaparse@2.10.1"
+    },
+    {
+      "type": "library",
+      "name": "pytest-asyncio",
+      "version": "1.1.6",
+      "purl": "pkg:pypi/pytest-asyncio@1.1.6"
+    },
+    {
+      "type": "library",
+      "name": "recoil",
+      "version": "3.2.7",
+      "purl": "pkg:npm/recoil@3.2.7"
+    },
+    {
+      "type": "library",
+      "name": "c8",
+      "version": "5.3.9",
+      "purl": "pkg:pypi/c8@5.3.9"
+    },
+    {
+      "type": "library",
+      "name": "minio",
+      "version": "4.8.1",
+      "purl": "pkg:pypi/minio@4.8.1"
+    },
+    {
+      "type": "library",
+      "name": "paypalrestsdk",
+      "version": "4.7.9",
+      "purl": "pkg:pypi/paypalrestsdk@4.7.9"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "5.1.5",
+      "purl": "pkg:pypi/pyyaml@5.1.5"
+    },
+    {
+      "type": "library",
+      "name": "bunyan",
+      "version": "1.12.3",
+      "purl": "pkg:pypi/bunyan@1.12.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-3501",
+      "version": "1.4.2",
+      "purl": "pkg:pypi/lib-3501@1.4.2"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": "1.3.8",
+      "purl": "pkg:npm/pillow@1.3.8"
+    }
+  ]
+}

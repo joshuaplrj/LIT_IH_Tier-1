@@ -1,0 +1,6 @@
+sqlalchemy==2.12.6
+lib-5184==3.9.5
+tabulate==3.6.7
+flasgger==1.8.8
+lib-4256==2.12.7
+lib-7717==4.5.6

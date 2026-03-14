@@ -1,0 +1,3 @@
+pydot==1.11.7
+tensorflow==4.7.5
+diskcache==4.6.2

@@ -1,0 +1,6 @@
+{
+  "last_updated": "2026-03-14T00:00:00Z",
+  "disciplines": ["CSE", "CYBER", "IT", "EEE", "ECE", "MECH", "AIDS", "MBA"],
+  "max_score_per_problem": 100,
+  "teams": {}
+}

@@ -1,0 +1,147 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:865b517d-ec1e-45af-a4ac-26699df82de4",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_32",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "lib-7717",
+      "version": "5.10.7",
+      "purl": "pkg:npm/lib-7717@5.10.7"
+    },
+    {
+      "type": "library",
+      "name": "azure-sdk",
+      "version": "3.7.5",
+      "purl": "pkg:pypi/azure-sdk@3.7.5"
+    },
+    {
+      "type": "library",
+      "name": "sqlalchemy",
+      "version": "3.12.1",
+      "purl": "pkg:pypi/sqlalchemy@3.12.1"
+    },
+    {
+      "type": "library",
+      "name": "python-json-logger",
+      "version": "1.1.3",
+      "purl": "pkg:npm/python-json-logger@1.1.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-5184",
+      "version": "2.4.9",
+      "purl": "pkg:pypi/lib-5184@2.4.9"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "4.1.6",
+      "purl": "pkg:npm/aiohttp@4.1.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-5725",
+      "version": "4.4.8",
+      "purl": "pkg:pypi/lib-5725@4.4.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-2753",
+      "version": "2.2.1",
+      "purl": "pkg:npm/lib-2753@2.2.1"
+    },
+    {
+      "type": "library",
+      "name": "rxjs-compat",
+      "version": "2.12.5",
+      "purl": "pkg:npm/rxjs-compat@2.12.5"
+    },
+    {
+      "type": "library",
+      "name": "hashlib",
+      "version": "5.8.0",
+      "purl": "pkg:npm/hashlib@5.8.0"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "3.9.2",
+      "purl": "pkg:npm/immer@3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "cheerio",
+      "version": "1.5.9",
+      "purl": "pkg:npm/cheerio@1.5.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-4284",
+      "version": "1.7.0",
+      "purl": "pkg:pypi/lib-4284@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "flasgger",
+      "version": "3.7.1",
+      "purl": "pkg:npm/flasgger@3.7.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-6378",
+      "version": "2.9.1",
+      "purl": "pkg:npm/lib-6378@2.9.1"
+    },
+    {
+      "type": "library",
+      "name": "tabulate",
+      "version": "3.5.3",
+      "purl": "pkg:npm/tabulate@3.5.3"
+    },
+    {
+      "type": "library",
+      "name": "tarfile",
+      "version": "2.12.9",
+      "purl": "pkg:pypi/tarfile@2.12.9"
+    },
+    {
+      "type": "library",
+      "name": "botocore",
+      "version": "1.9.9",
+      "purl": "pkg:pypi/botocore@1.9.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-4372",
+      "version": "3.8.0",
+      "purl": "pkg:pypi/lib-4372@3.8.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-4256",
+      "version": "4.12.4",
+      "purl": "pkg:npm/lib-4256@4.12.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-4567",
+      "version": "1.3.7",
+      "purl": "pkg:npm/lib-4567@1.3.7"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": "1.8.3",
+      "purl": "pkg:pypi/pillow@1.8.3"
+    }
+  ]
+}

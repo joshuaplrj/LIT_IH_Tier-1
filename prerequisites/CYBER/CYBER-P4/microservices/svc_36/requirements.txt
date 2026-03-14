@@ -1,0 +1,7 @@
+lib-8737==2.3.8
+secrets==4.4.9
+cryptography==5.5.4
+lxml-stubs==2.11.6
+numpy==1.4.8
+minio==3.4.2
+gitpython==3.1.4

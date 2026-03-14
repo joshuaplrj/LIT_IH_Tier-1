@@ -1,0 +1,129 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:4fb0cd38-1f74-4c29-a3af-b86742580c42",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_41",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "swc",
+      "version": "2.6.7",
+      "purl": "pkg:pypi/swc@2.6.7"
+    },
+    {
+      "type": "library",
+      "name": "concurrent-futures",
+      "version": "2.6.5",
+      "purl": "pkg:pypi/concurrent-futures@2.6.5"
+    },
+    {
+      "type": "library",
+      "name": "passport-jwt",
+      "version": "5.3.7",
+      "purl": "pkg:npm/passport-jwt@5.3.7"
+    },
+    {
+      "type": "library",
+      "name": "compression",
+      "version": "1.1.1",
+      "purl": "pkg:npm/compression@1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "4.6.4",
+      "purl": "pkg:pypi/tailwindcss@4.6.4"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": "5.2.4",
+      "purl": "pkg:pypi/seaborn@5.2.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-5076",
+      "version": "5.5.8",
+      "purl": "pkg:pypi/lib-5076@5.5.8"
+    },
+    {
+      "type": "library",
+      "name": "mocha",
+      "version": "2.4.3",
+      "purl": "pkg:pypi/mocha@2.4.3"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "5.10.4",
+      "purl": "pkg:pypi/arrow@5.10.4"
+    },
+    {
+      "type": "library",
+      "name": "nuxt",
+      "version": "4.10.3",
+      "purl": "pkg:npm/nuxt@4.10.3"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "5.12.0",
+      "purl": "pkg:npm/jest@5.12.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-1802",
+      "version": "1.11.2",
+      "purl": "pkg:npm/lib-1802@1.11.2"
+    },
+    {
+      "type": "library",
+      "name": "pytz",
+      "version": "2.9.5",
+      "purl": "pkg:npm/pytz@2.9.5"
+    },
+    {
+      "type": "library",
+      "name": "kafka-python",
+      "version": "2.9.3",
+      "purl": "pkg:npm/kafka-python@2.9.3"
+    },
+    {
+      "type": "library",
+      "name": "s3transfer",
+      "version": "4.3.5",
+      "purl": "pkg:pypi/s3transfer@4.3.5"
+    },
+    {
+      "type": "library",
+      "name": "nyc",
+      "version": "5.3.4",
+      "purl": "pkg:npm/nyc@5.3.4"
+    },
+    {
+      "type": "library",
+      "name": "uWebSockets.js",
+      "version": "5.2.1",
+      "purl": "pkg:pypi/uWebSockets.js@5.2.1"
+    },
+    {
+      "type": "library",
+      "name": "pinecone-client",
+      "version": "2.2.6",
+      "purl": "pkg:pypi/pinecone-client@2.2.6"
+    },
+    {
+      "type": "library",
+      "name": "sequelize",
+      "version": "2.10.1",
+      "purl": "pkg:pypi/sequelize@2.10.1"
+    }
+  ]
+}

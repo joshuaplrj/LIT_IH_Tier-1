@@ -1,0 +1,20 @@
+{
+  "name": "svc_01",
+  "version": "1.0.0",
+  "description": "svc_01 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "uuid": "^4.4.4",
+    "sequelize": "^1.4.3",
+    "redis": "^5.6.1",
+    "next": "^4.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

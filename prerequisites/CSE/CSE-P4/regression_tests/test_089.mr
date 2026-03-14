@@ -1,0 +1,5 @@
+fn is_positive(x: i32) -> bool {
+    return x > 0;
+}
+let result: bool = is_positive(11);
+println!("{}", result);

@@ -1,0 +1,4 @@
+let x: i32 = 17;
+if x > 0 {
+    println!("{}", x);
+}

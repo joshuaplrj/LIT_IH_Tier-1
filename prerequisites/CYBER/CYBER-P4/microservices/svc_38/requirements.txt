@@ -1,0 +1,7 @@
+certifi==2.1.9
+sh==4.1.0
+lib-4624==3.5.3
+lib-3544==1.12.7
+anyio==5.4.5
+py7zr==2.12.5
+django-cors-headers==1.0.9

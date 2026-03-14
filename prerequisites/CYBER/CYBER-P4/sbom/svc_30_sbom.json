@@ -1,0 +1,141 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:234e6da0-55ab-41c3-881a-fd1a9728069c",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_30",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "passport-jwt",
+      "version": "4.5.4",
+      "purl": "pkg:npm/passport-jwt@4.5.4"
+    },
+    {
+      "type": "library",
+      "name": "azure-sdk",
+      "version": "2.3.9",
+      "purl": "pkg:pypi/azure-sdk@2.3.9"
+    },
+    {
+      "type": "library",
+      "name": "exceljs",
+      "version": "5.5.7",
+      "purl": "pkg:npm/exceljs@5.5.7"
+    },
+    {
+      "type": "library",
+      "name": "dotenv",
+      "version": "4.1.4",
+      "purl": "pkg:npm/dotenv@4.1.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-9009",
+      "version": "2.2.4",
+      "purl": "pkg:pypi/lib-9009@2.2.4"
+    },
+    {
+      "type": "library",
+      "name": "nodemailer",
+      "version": "4.8.4",
+      "purl": "pkg:npm/nodemailer@4.8.4"
+    },
+    {
+      "type": "library",
+      "name": "scrapy",
+      "version": "5.2.3",
+      "purl": "pkg:npm/scrapy@5.2.3"
+    },
+    {
+      "type": "library",
+      "name": "gputil",
+      "version": "4.3.6",
+      "purl": "pkg:npm/gputil@4.3.6"
+    },
+    {
+      "type": "library",
+      "name": "xmlsec",
+      "version": "3.10.6",
+      "purl": "pkg:pypi/xmlsec@3.10.6"
+    },
+    {
+      "type": "library",
+      "name": "pkg-4104",
+      "version": "2.11.8",
+      "purl": "pkg:pypi/pkg-4104@2.11.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-2260",
+      "version": "5.4.7",
+      "purl": "pkg:npm/lib-2260@5.4.7"
+    },
+    {
+      "type": "library",
+      "name": "keyring",
+      "version": "5.11.0",
+      "purl": "pkg:npm/keyring@5.11.0"
+    },
+    {
+      "type": "library",
+      "name": "rich",
+      "version": "3.9.1",
+      "purl": "pkg:npm/rich@3.9.1"
+    },
+    {
+      "type": "library",
+      "name": "sentry-sdk",
+      "version": "2.7.5",
+      "purl": "pkg:npm/sentry-sdk@2.7.5"
+    },
+    {
+      "type": "library",
+      "name": "busboy",
+      "version": "2.12.9",
+      "purl": "pkg:npm/busboy@2.12.9"
+    },
+    {
+      "type": "library",
+      "name": "grpcio",
+      "version": "3.7.7",
+      "purl": "pkg:npm/grpcio@3.7.7"
+    },
+    {
+      "type": "library",
+      "name": "pendulum",
+      "version": "4.0.7",
+      "purl": "pkg:npm/pendulum@4.0.7"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "2.0.8",
+      "purl": "pkg:npm/numpy@2.0.8"
+    },
+    {
+      "type": "library",
+      "name": "winston",
+      "version": "4.10.2",
+      "purl": "pkg:pypi/winston@4.10.2"
+    },
+    {
+      "type": "library",
+      "name": "dayjs",
+      "version": "3.8.1",
+      "purl": "pkg:npm/dayjs@3.8.1"
+    },
+    {
+      "type": "library",
+      "name": "formidable",
+      "version": "5.10.9",
+      "purl": "pkg:npm/formidable@5.10.9"
+    }
+  ]
+}

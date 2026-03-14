@@ -1,0 +1,8 @@
+paramiko==2.4.2
+lib-4624==5.10.8
+twisted==5.9.7
+lib-5314==1.6.4
+opencv-python==3.0.8
+sendgrid==4.2.0
+py7zr==2.9.0
+lib-3501==2.2.1

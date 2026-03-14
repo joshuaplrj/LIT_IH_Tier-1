@@ -1,0 +1,135 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:8bdead3b-af46-4b13-a26a-1d429545f3e9",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_46",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "compression",
+      "version": "1.0.5",
+      "purl": "pkg:pypi/compression@1.0.5"
+    },
+    {
+      "type": "library",
+      "name": "azure-sdk",
+      "version": "4.1.1",
+      "purl": "pkg:pypi/azure-sdk@4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "usb",
+      "version": "5.5.9",
+      "purl": "pkg:pypi/usb@5.5.9"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "1.4.5",
+      "purl": "pkg:pypi/playwright@1.4.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-5076",
+      "version": "3.0.9",
+      "purl": "pkg:pypi/lib-5076@3.0.9"
+    },
+    {
+      "type": "library",
+      "name": "python-multipart",
+      "version": "4.1.8",
+      "purl": "pkg:pypi/python-multipart@4.1.8"
+    },
+    {
+      "type": "library",
+      "name": "commitizen",
+      "version": "4.9.2",
+      "purl": "pkg:pypi/commitizen@4.9.2"
+    },
+    {
+      "type": "library",
+      "name": "supertest",
+      "version": "4.7.5",
+      "purl": "pkg:pypi/supertest@4.7.5"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "1.4.7",
+      "purl": "pkg:npm/immer@1.4.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-8698",
+      "version": "4.3.4",
+      "purl": "pkg:npm/lib-8698@4.3.4"
+    },
+    {
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "1.7.0",
+      "purl": "pkg:pypi/charset-normalizer@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "requests",
+      "version": "5.11.8",
+      "purl": "pkg:npm/requests@5.11.8"
+    },
+    {
+      "type": "library",
+      "name": "terraform",
+      "version": "5.6.7",
+      "purl": "pkg:pypi/terraform@5.6.7"
+    },
+    {
+      "type": "library",
+      "name": "botocore",
+      "version": "3.5.3",
+      "purl": "pkg:pypi/botocore@3.5.3"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "1.1.8",
+      "purl": "pkg:npm/sinon@1.1.8"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "4.7.1",
+      "purl": "pkg:npm/zod@4.7.1"
+    },
+    {
+      "type": "library",
+      "name": "stdnum",
+      "version": "4.5.1",
+      "purl": "pkg:pypi/stdnum@4.5.1"
+    },
+    {
+      "type": "library",
+      "name": "marshmallow",
+      "version": "4.6.1",
+      "purl": "pkg:pypi/marshmallow@4.6.1"
+    },
+    {
+      "type": "library",
+      "name": "boto3",
+      "version": "1.3.2",
+      "purl": "pkg:npm/boto3@1.3.2"
+    },
+    {
+      "type": "library",
+      "name": "msgpack",
+      "version": "5.1.9",
+      "purl": "pkg:pypi/msgpack@5.1.9"
+    }
+  ]
+}

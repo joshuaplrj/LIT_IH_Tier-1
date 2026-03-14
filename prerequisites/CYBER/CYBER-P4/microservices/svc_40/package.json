@@ -1,0 +1,21 @@
+{
+  "name": "svc_40",
+  "version": "1.0.0",
+  "description": "svc_40 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "adm-zip": "^2.7.9",
+    "mocha": "^2.9.4",
+    "dayjs": "^3.1.0",
+    "googleapis": "^3.3.4",
+    "framer-motion": "^2.10.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

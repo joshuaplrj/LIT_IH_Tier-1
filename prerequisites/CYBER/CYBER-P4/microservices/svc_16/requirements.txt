@@ -1,0 +1,5 @@
+py-cpuinfo==4.8.8
+lib-4000==5.5.7
+pytest-asyncio==1.12.8
+lib-3501==4.6.8
+aiohttp==5.6.3

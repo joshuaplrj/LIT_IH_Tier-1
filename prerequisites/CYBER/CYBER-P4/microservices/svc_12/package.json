@@ -1,0 +1,21 @@
+{
+  "name": "svc_12",
+  "version": "1.0.0",
+  "description": "svc_12 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "date-fns": "^3.0.6",
+    "supertest": "^3.2.9",
+    "debug": "^5.3.3",
+    "aws-sdk": "^5.0.0",
+    "lodash.get": "^1.1.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

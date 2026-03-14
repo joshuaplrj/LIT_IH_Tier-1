@@ -1,0 +1,153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:9bbe1df2-6efb-442f-ae68-00ac8539111f",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_47",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "4.6.0",
+      "purl": "pkg:npm/pandas@4.6.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-7717",
+      "version": "1.0.9",
+      "purl": "pkg:npm/lib-7717@1.0.9"
+    },
+    {
+      "type": "library",
+      "name": "bcryptjs",
+      "version": "4.3.8",
+      "purl": "pkg:pypi/bcryptjs@4.3.8"
+    },
+    {
+      "type": "library",
+      "name": "styled-components",
+      "version": "3.0.9",
+      "purl": "pkg:pypi/styled-components@3.0.9"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": "5.1.9",
+      "purl": "pkg:pypi/typer@5.1.9"
+    },
+    {
+      "type": "library",
+      "name": "pexpect",
+      "version": "2.10.1",
+      "purl": "pkg:npm/pexpect@2.10.1"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "1.7.6",
+      "purl": "pkg:pypi/bcrypt@1.7.6"
+    },
+    {
+      "type": "library",
+      "name": "stripe",
+      "version": "3.1.8",
+      "purl": "pkg:pypi/stripe@3.1.8"
+    },
+    {
+      "type": "library",
+      "name": "Pillow",
+      "version": "3.5.5",
+      "purl": "pkg:pypi/Pillow@3.5.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-7296",
+      "version": "4.2.7",
+      "purl": "pkg:pypi/lib-7296@4.2.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-1290",
+      "version": "3.3.7",
+      "purl": "pkg:pypi/lib-1290@3.3.7"
+    },
+    {
+      "type": "library",
+      "name": "helmet",
+      "version": "3.5.2",
+      "purl": "pkg:pypi/helmet@3.5.2"
+    },
+    {
+      "type": "library",
+      "name": "azure-storage-blob",
+      "version": "1.10.3",
+      "purl": "pkg:npm/azure-storage-blob@1.10.3"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "3.8.1",
+      "purl": "pkg:pypi/torch@3.8.1"
+    },
+    {
+      "type": "library",
+      "name": "twisted",
+      "version": "2.2.9",
+      "purl": "pkg:pypi/twisted@2.2.9"
+    },
+    {
+      "type": "library",
+      "name": "loguru",
+      "version": "1.10.0",
+      "purl": "pkg:pypi/loguru@1.10.0"
+    },
+    {
+      "type": "library",
+      "name": "nuxt",
+      "version": "4.5.0",
+      "purl": "pkg:pypi/nuxt@4.5.0"
+    },
+    {
+      "type": "library",
+      "name": "gputil",
+      "version": "5.8.4",
+      "purl": "pkg:npm/gputil@5.8.4"
+    },
+    {
+      "type": "library",
+      "name": "pika",
+      "version": "1.5.6",
+      "purl": "pkg:npm/pika@1.5.6"
+    },
+    {
+      "type": "library",
+      "name": "hypothesis",
+      "version": "2.12.7",
+      "purl": "pkg:pypi/hypothesis@2.12.7"
+    },
+    {
+      "type": "library",
+      "name": "structlog",
+      "version": "4.10.4",
+      "purl": "pkg:pypi/structlog@4.10.4"
+    },
+    {
+      "type": "library",
+      "name": "pendulum",
+      "version": "1.3.5",
+      "purl": "pkg:pypi/pendulum@1.3.5"
+    },
+    {
+      "type": "library",
+      "name": "dynaconf",
+      "version": "1.10.5",
+      "purl": "pkg:npm/dynaconf@1.10.5"
+    }
+  ]
+}

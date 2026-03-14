@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<!-- VIOLATION 2 (3.1.1): Missing lang attribute on <html> element -->
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>City Herald - Breaking News</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="masthead">The City Herald</div>
+    <nav class="main-nav">
+      <a href="/">Home</a>
+      <a href="/world">World</a>
+      <a href="/tech">Technology</a>
+      <a href="/sports">Sports</a>
+      <a href="/opinion">Opinion</a>
+    </nav>
+  </header>
+
+  <!-- VIOLATION 3 (1.4.1): Color used as only means to convey information -->
+  <div class="breaking-banner color-only-error">
+    BREAKING: City council announces emergency infrastructure budget
+  </div>
+
+  <main class="article-container">
+    <article>
+      <!-- VIOLATION 1 (1.3.1 / 2.4.6): Heading hierarchy jumps from h1 to h4 -->
+      <h1 class="article-title">City Council Approves $2.4 Billion Infrastructure Overhaul</h1>
+
+      <div class="article-meta">
+        <span>By Jane Morrison</span>
+        <span>March 14, 2026</span>
+        <span class="category-label">Local Government</span>
+      </div>
+
+      <img src="city-council.jpg" alt="City council chamber during the vote session" class="hero-image">
+
+      <!-- Skips h2, h3 — jumps directly to h4 -->
+      <h4 class="section-heading">Key Highlights of the Budget</h4>
+
+      <p>The city council voted 8-3 in favor of the largest infrastructure investment in the
+      city's history. The plan includes major upgrades to roads, bridges, public transit,
+      and digital infrastructure over the next decade.</p>
+
+      <h4 class="section-heading">Transportation Improvements</h4>
+
+      <p>Mayor David Chen called the vote "a historic moment for our city." The transportation
+      component alone accounts for $1.1 billion, addressing decades of deferred maintenance
+      on the city's aging bridge network.</p>
+
+      <h4 class="section-heading">Public Reaction</h4>
+
+      <p>Residents have had mixed reactions. Supporters argue the investment is long overdue,
+      while critics express concern over the tax implications for small businesses.</p>
+
+      <!-- Color-only error indicator — no icon or text label, just red color -->
+      <div class="comment-section">
+        <h4>Leave a Comment</h4>
+        <form class="comment-form">
+          <div class="field-group">
+            <label for="comment-name">Name</label>
+            <input type="text" id="comment-name" name="name">
+            <!-- Error shown only in color — red text, no icon, no "Error:" prefix -->
+            <span class="color-only-error" id="name-error" hidden>This field is required</span>
+          </div>
+          <div class="field-group">
+            <label for="comment-email">Email</label>
+            <input type="email" id="comment-email" name="email">
+            <span class="color-only-error" id="email-error" hidden>Enter a valid email address</span>
+          </div>
+          <div class="field-group">
+            <label for="comment-text">Comment</label>
+            <textarea id="comment-text" name="comment" rows="4"></textarea>
+          </div>
+          <!-- Subscribe button opens a modal with a keyboard trap -->
+          <button type="button" class="btn-secondary" onclick="openModal()">Subscribe to Newsletter</button>
+          <button type="submit" class="btn-primary">Post Comment</button>
+        </form>
+      </div>
+    </article>
+
+    <aside class="sidebar">
+      <h4>Trending Stories</h4>
+      <ul>
+        <li><a href="/story/1">Tech company announces 500 new jobs</a></li>
+        <li><a href="/story/2">Local school wins national award</a></li>
+        <li><a href="/story/3">Weather alert: Heavy rain expected</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <!-- VIOLATION 4 (2.1.2): Keyboard trap modal — no Escape key handling -->
+  <div id="newsletter-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" style="display:none;">
+    <div class="modal-overlay"></div>
+    <div class="modal-content">
+      <h2 id="modal-title">Subscribe to The City Herald</h2>
+      <p>Get the latest news delivered to your inbox every morning.</p>
+      <div class="field-group">
+        <label for="modal-email">Email Address</label>
+        <input type="email" id="modal-email" name="modal-email">
+      </div>
+      <!-- No close button, no Escape key handler — keyboard trap -->
+      <button type="button" class="btn-primary" onclick="submitSubscription()">Subscribe</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 The City Herald. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function openModal() {
+      var modal = document.getElementById('newsletter-modal');
+      modal.style.display = 'flex';
+      // VIOLATION 4: Focus is set to modal but there is no way to close it with keyboard.
+      // No keydown listener for Escape, no close button — keyboard trap.
+      document.getElementById('modal-email').focus();
+      // Deliberately trap focus inside modal without escape route
+      modal.addEventListener('keydown', function(e) {
+        // Intentionally does NOT handle Escape key to create a keyboard trap
+        if (e.key === 'Tab') {
+          var focusable = modal.querySelectorAll('input, button');
+          var first = focusable[0];
+          var last = focusable[focusable.length - 1];
+          if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+          } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+          }
+        }
+        // Escape key NOT handled — user cannot leave modal with keyboard
+      });
+    }
+    function submitSubscription() {
+      alert('Subscribed!');
+    }
+  </script>
+</body>
+</html>

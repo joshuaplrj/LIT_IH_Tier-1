@@ -1,0 +1,437 @@
+{
+  "compromised_packages": [
+    {
+      "name": "requets",
+      "version": "2.28.2",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "requests",
+      "payload": "HTTP POST credentials to 203.0.113.99/exfil"
+    },
+    {
+      "name": "numpyy",
+      "version": "1.24.1",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "numpy",
+      "payload": "Exfiltrate environment variables on import"
+    },
+    {
+      "name": "numpy-ml",
+      "version": "0.5.0",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "numpy",
+      "payload": "Backdoor: reverse shell on TCP 203.0.113.99:4444"
+    },
+    {
+      "name": "flask-utils",
+      "version": "1.0.3",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "flask",
+      "payload": "Log all HTTP request bodies and POST to 203.0.113.99/log"
+    },
+    {
+      "name": "expres",
+      "version": "4.18.2",
+      "ecosystem": "npm",
+      "type": "typosquat",
+      "mimics": "express",
+      "payload": "Monkey-patch res.json to exfiltrate responses"
+    },
+    {
+      "name": "lod4sh",
+      "version": "4.17.21",
+      "ecosystem": "npm",
+      "type": "typosquat",
+      "mimics": "lodash",
+      "payload": "Override lodash.merge with backdoored version (prototype pollution)"
+    },
+    {
+      "name": "axi0s",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "type": "typosquat",
+      "mimics": "axios",
+      "payload": "Intercept all HTTP requests and copy to 203.0.113.99"
+    },
+    {
+      "name": "djang0",
+      "version": "4.2.7",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "django",
+      "payload": "Replace Django SECRET_KEY with fixed known value"
+    },
+    {
+      "name": "cryptographyy",
+      "version": "41.0.5",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "cryptography",
+      "payload": "Weak RNG: patch os.urandom to use predictable PRNG"
+    },
+    {
+      "name": "psycopg2-binary2",
+      "version": "2.9.7",
+      "ecosystem": "pypi",
+      "type": "typosquat",
+      "mimics": "psycopg2",
+      "payload": "Log all DB queries and credentials to 203.0.113.99/db"
+    },
+    {
+      "name": "internal-auth-lib",
+      "version": "3.1.0",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Exfiltrate sys.path and installed packages"
+    },
+    {
+      "name": "company-config",
+      "version": "2.0.1",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Read /etc/passwd, /etc/shadow and POST to 203.0.113.99"
+    },
+    {
+      "name": "svc-common-utils",
+      "version": "1.5.0",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Cloud metadata SSRF: curl http://169.254.169.254/latest/meta-data/"
+    },
+    {
+      "name": "platform-sdk",
+      "version": "0.9.0",
+      "ecosystem": "npm",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Exfiltrate process.env to 203.0.113.99/env"
+    },
+    {
+      "name": "infra-shared",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Read ~/.aws/credentials and ~/.kube/config"
+    },
+    {
+      "name": "data-pipeline-core",
+      "version": "2.3.0",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Pickle deserialization RCE backdoor in serializer"
+    },
+    {
+      "name": "ml-feature-store",
+      "version": "0.4.2",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Model weight exfiltration to 203.0.113.99/models"
+    },
+    {
+      "name": "event-bus-client",
+      "version": "1.0.5",
+      "ecosystem": "npm",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Duplicate all event messages to attacker endpoint"
+    },
+    {
+      "name": "shared-crypto-utils",
+      "version": "1.2.0",
+      "ecosystem": "pypi",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Replace AES implementation with RSA 512-bit (weak)"
+    },
+    {
+      "name": "service-mesh-helpers",
+      "version": "0.7.1",
+      "ecosystem": "npm",
+      "type": "dependency_confusion",
+      "mimics": "internal package",
+      "payload": "Register rogue service in service mesh"
+    },
+    {
+      "name": "celery-backdoor",
+      "version": "5.3.4",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "celery",
+      "payload": "Execute arbitrary Python from task queue message headers"
+    },
+    {
+      "name": "sqlalchemy-extra",
+      "version": "2.0.23",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "sqlalchemy",
+      "payload": "Log all SQL queries + connection strings to 203.0.113.99"
+    },
+    {
+      "name": "pydantic-extras",
+      "version": "2.5.2",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "pydantic",
+      "payload": "Serialize validated models and exfiltrate via UDP"
+    },
+    {
+      "name": "fastapi-security",
+      "version": "0.104.1",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "fastapi",
+      "payload": "Bypass JWT validation on endpoints tagged 'secure'"
+    },
+    {
+      "name": "httpx-async",
+      "version": "0.25.2",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "httpx",
+      "payload": "MITM: log all HTTP request/response bodies"
+    },
+    {
+      "name": "redis-cluster-py",
+      "version": "4.6.0",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "redis",
+      "payload": "Exfiltrate all Redis GET/SET operations"
+    },
+    {
+      "name": "boto3-enhanced",
+      "version": "1.33.0",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "boto3",
+      "payload": "Copy all S3 PUT operations to attacker bucket"
+    },
+    {
+      "name": "jwt-extended",
+      "version": "4.5.3",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "pyjwt",
+      "payload": "Accept tokens signed with hardcoded attacker key"
+    },
+    {
+      "name": "uvicorn-pro",
+      "version": "0.24.0",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "uvicorn",
+      "payload": "Add hidden /debug endpoint returning system info"
+    },
+    {
+      "name": "grpcio-tools2",
+      "version": "1.59.3",
+      "ecosystem": "pypi",
+      "type": "backdoor",
+      "mimics": "grpcio",
+      "payload": "Intercept gRPC calls and copy metadata to 203.0.113.99"
+    },
+    {
+      "name": "passport-oauth-extra",
+      "version": "0.6.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "passport",
+      "payload": "Store OAuth tokens in attacker-controlled location"
+    },
+    {
+      "name": "mongoose-plugin-audit",
+      "version": "7.4.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "mongoose",
+      "payload": "POST all document writes to 203.0.113.99/mongo"
+    },
+    {
+      "name": "winston-remote",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "winston",
+      "payload": "Forward all log entries to 203.0.113.99/logs"
+    },
+    {
+      "name": "helmet-plus",
+      "version": "7.1.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "helmet",
+      "payload": "Disable CSP headers while appearing to set them"
+    },
+    {
+      "name": "jsonwebtoken-verify",
+      "version": "9.0.2",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "jsonwebtoken",
+      "payload": "Accept 'alg:none' tokens bypassing signature verification"
+    },
+    {
+      "name": "prisma-client-extra",
+      "version": "5.6.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "prisma",
+      "payload": "Log all DB queries to 203.0.113.99/prisma"
+    },
+    {
+      "name": "socket.io-admin",
+      "version": "4.6.2",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "socket.io",
+      "payload": "Add hidden admin namespace with no authentication"
+    },
+    {
+      "name": "bullmq-worker-extra",
+      "version": "5.1.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "bullmq",
+      "payload": "Execute shell commands embedded in job data"
+    },
+    {
+      "name": "axios-oauth-client",
+      "version": "1.6.0",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "axios",
+      "payload": "Exfiltrate OAuth2 access tokens on each request"
+    },
+    {
+      "name": "typeorm-audit-log",
+      "version": "0.3.17",
+      "ecosystem": "npm",
+      "type": "backdoor",
+      "mimics": "typeorm",
+      "payload": "Mirror all entity writes to attacker DB at 203.0.113.99"
+    },
+    {
+      "name": "image-optimizer-pro",
+      "version": "2.1.0",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "pillow",
+      "payload": "Install XMRig miner in postinstall; mine to attacker pool"
+    },
+    {
+      "name": "ml-accelerate",
+      "version": "1.3.0",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "numpy/scipy",
+      "payload": "GPU cryptomining using CUDA when idle cycles detected"
+    },
+    {
+      "name": "data-compress-fast",
+      "version": "0.8.0",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "lz4/zstd",
+      "payload": "CPU miner disguised as compression utility"
+    },
+    {
+      "name": "pdf-render-engine",
+      "version": "3.0.1",
+      "ecosystem": "npm",
+      "type": "cryptominer",
+      "mimics": "pdfkit",
+      "payload": "Browser-based cryptominer injected into rendered PDFs"
+    },
+    {
+      "name": "color-palette-gen",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "type": "cryptominer",
+      "mimics": "color utilities",
+      "payload": "Web worker mining JavaScript injected into package"
+    },
+    {
+      "name": "cache-optimizer",
+      "version": "2.0.5",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "cachetools",
+      "payload": "Uses 'cache warm-up' thread as cover for CPU mining"
+    },
+    {
+      "name": "fast-json-parser",
+      "version": "1.0.6",
+      "ecosystem": "npm",
+      "type": "cryptominer",
+      "mimics": "fast-json-stringify",
+      "payload": "Monero mining in worker thread, throttled to 30% CPU"
+    },
+    {
+      "name": "network-monitor-lite",
+      "version": "0.3.0",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "psutil",
+      "payload": "Uses 'network polling' cover for sustained CPU hashing"
+    },
+    {
+      "name": "font-loader-utils",
+      "version": "1.1.3",
+      "ecosystem": "npm",
+      "type": "cryptominer",
+      "mimics": "webfontloader",
+      "payload": "Loads mining WASM module under guise of font optimization"
+    },
+    {
+      "name": "video-thumbnail-gen",
+      "version": "0.5.0",
+      "ecosystem": "pypi",
+      "type": "cryptominer",
+      "mimics": "opencv-python",
+      "payload": "Frame extraction disguises GPU cryptomining operations"
+    }
+  ],
+  "anomalous_services": [
+    {
+      "service": "svc_03",
+      "compromised_deps": [
+        "requets",
+        "internal-auth-lib"
+      ],
+      "exfil_endpoint": "http://203.0.113.99/exfil",
+      "description": "Service uses one or more compromised packages that perform data exfiltration via HTTP POST to 203.0.113.99 (TEST-NET \u2014 safe)."
+    },
+    {
+      "service": "svc_17",
+      "compromised_deps": [
+        "numpyy",
+        "celery-backdoor",
+        "image-optimizer-pro"
+      ],
+      "exfil_endpoint": "http://203.0.113.99/exfil",
+      "description": "Service uses one or more compromised packages that perform data exfiltration via HTTP POST to 203.0.113.99 (TEST-NET \u2014 safe)."
+    },
+    {
+      "service": "svc_42",
+      "compromised_deps": [
+        "lod4sh",
+        "platform-sdk",
+        "fast-json-parser"
+      ],
+      "exfil_endpoint": "http://203.0.113.99/exfil",
+      "description": "Service uses one or more compromised packages that perform data exfiltration via HTTP POST to 203.0.113.99 (TEST-NET \u2014 safe)."
+    }
+  ],
+  "attack_c2": "203.0.113.99",
+  "notes": "203.0.113.99 is in TEST-NET-3 (RFC 5737) and is NOT a real attacker address. Used for simulation purposes only."
+}

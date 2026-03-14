@@ -1,0 +1,22 @@
+{
+  "name": "svc_17",
+  "version": "1.0.0",
+  "description": "svc_17 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "fast-csv": "^3.12.9",
+    "bullmq": "^2.7.1",
+    "convict": "^3.6.3",
+    "node-tar": "^4.3.4",
+    "sinon": "^5.5.0",
+    "zustand": "^5.2.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

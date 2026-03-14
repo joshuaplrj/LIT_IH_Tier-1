@@ -1,0 +1,135 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:6e999e37-e7b2-468e-8995-7e9f01dd6655",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_07",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "concurrent-futures",
+      "version": "1.9.0",
+      "purl": "pkg:npm/concurrent-futures@1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-5486",
+      "version": "3.9.2",
+      "purl": "pkg:pypi/lib-5486@3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "luxon",
+      "version": "3.2.6",
+      "purl": "pkg:pypi/luxon@3.2.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-2107",
+      "version": "3.10.3",
+      "purl": "pkg:npm/lib-2107@3.10.3"
+    },
+    {
+      "type": "library",
+      "name": "express",
+      "version": "1.11.7",
+      "purl": "pkg:pypi/express@1.11.7"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "5.1.7",
+      "purl": "pkg:npm/immer@5.1.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-4086",
+      "version": "5.11.7",
+      "purl": "pkg:pypi/lib-4086@5.11.7"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "5.7.0",
+      "purl": "pkg:pypi/arrow@5.7.0"
+    },
+    {
+      "type": "library",
+      "name": "gputil",
+      "version": "2.5.7",
+      "purl": "pkg:pypi/gputil@2.5.7"
+    },
+    {
+      "type": "library",
+      "name": "date-fns",
+      "version": "4.0.6",
+      "purl": "pkg:pypi/date-fns@4.0.6"
+    },
+    {
+      "type": "library",
+      "name": "xmlsec",
+      "version": "5.1.6",
+      "purl": "pkg:npm/xmlsec@5.1.6"
+    },
+    {
+      "type": "library",
+      "name": "typeorm",
+      "version": "5.11.4",
+      "purl": "pkg:pypi/typeorm@5.11.4"
+    },
+    {
+      "type": "library",
+      "name": "pkg-4104",
+      "version": "5.10.4",
+      "purl": "pkg:pypi/pkg-4104@5.10.4"
+    },
+    {
+      "type": "library",
+      "name": "asyncpg",
+      "version": "1.3.1",
+      "purl": "pkg:pypi/asyncpg@1.3.1"
+    },
+    {
+      "type": "library",
+      "name": "psycopg2",
+      "version": "2.7.8",
+      "purl": "pkg:pypi/psycopg2@2.7.8"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "4.2.2",
+      "purl": "pkg:npm/sinon@4.2.2"
+    },
+    {
+      "type": "library",
+      "name": "cors",
+      "version": "2.5.2",
+      "purl": "pkg:pypi/cors@2.5.2"
+    },
+    {
+      "type": "library",
+      "name": "ptyprocess",
+      "version": "4.6.7",
+      "purl": "pkg:pypi/ptyprocess@4.6.7"
+    },
+    {
+      "type": "library",
+      "name": "django-cors-headers",
+      "version": "3.4.7",
+      "purl": "pkg:npm/django-cors-headers@3.4.7"
+    },
+    {
+      "type": "library",
+      "name": "msgpack",
+      "version": "4.8.7",
+      "purl": "pkg:pypi/msgpack@4.8.7"
+    }
+  ]
+}

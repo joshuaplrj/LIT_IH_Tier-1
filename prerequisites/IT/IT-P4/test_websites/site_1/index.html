@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopEasy - Premium Wireless Headphones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">ShopEasy</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/products">Products</a>
+      <a href="/cart">Cart (0)</a>
+    </nav>
+  </header>
+
+  <main class="product-page">
+    <div class="product-gallery">
+      <!-- VIOLATION 1 (1.1.1): Missing alt text on product images -->
+      <img src="product.jpg" class="product-img" width="500" height="400">
+      <img src="product-side.jpg" class="product-img-thumb">
+      <img src="product-back.jpg" class="product-img-thumb">
+    </div>
+
+    <div class="product-details">
+      <h1>Premium Wireless Headphones X900</h1>
+
+      <!-- VIOLATION 2 (1.4.3): Low contrast — #999 on white fails 4.5:1 ratio -->
+      <p class="low-contrast-price">Was $299.99</p>
+      <p class="price">$199.99</p>
+      <p class="low-contrast-text">Free delivery on orders over $50. Limited stock available.</p>
+
+      <div class="rating">
+        <span>★★★★☆</span>
+        <span class="review-count low-contrast-text">(1,243 reviews)</span>
+      </div>
+
+      <div class="product-subscribe">
+        <h2>Get notified when back in stock</h2>
+        <!-- VIOLATION 3 (1.3.1 / 4.1.2): Input without associated label -->
+        <input type="email" placeholder="Enter your email" class="email-input">
+        <button type="submit" class="btn-primary">Notify Me</button>
+      </div>
+
+      <div class="actions">
+        <button class="btn-primary btn-large">Add to Cart</button>
+        <!-- VIOLATION 4 (2.4.6 / 2.4.4): Non-descriptive link text -->
+        <a href="/products/headphones-x900-details" class="details-link">click here</a>
+        <a href="/wishlist/add?id=900" class="wishlist-link">click here</a>
+      </div>
+
+      <div class="product-description">
+        <h2>Product Description</h2>
+        <p>Experience crystal-clear audio with our flagship wireless headphones.
+        40-hour battery life, active noise cancellation, and premium comfort.</p>
+      </div>
+    </div>
+
+    <!-- VIOLATION 5 (1.4.2): Auto-playing video without controls -->
+    <div class="product-video-section">
+      <h2>See It In Action</h2>
+      <video src="promo.mp4" autoplay loop class="promo-video">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+
+    <section class="related-products">
+      <h2>Related Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="related1.jpg" class="product-img">
+          <p>Sport Earbuds Z10</p>
+          <p class="price">$89.99</p>
+          <a href="/products/z10">click here</a>
+        </div>
+        <div class="product-card">
+          <img src="related2.jpg" class="product-img">
+          <p>Studio Monitor S5</p>
+          <p class="price">$349.99</p>
+          <a href="/products/s5">click here</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p class="low-contrast-text">&copy; 2024 ShopEasy. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,3 @@
+email-validator==3.2.1
+opentelemetry-api==2.4.4
+flask-sqlalchemy==5.10.8

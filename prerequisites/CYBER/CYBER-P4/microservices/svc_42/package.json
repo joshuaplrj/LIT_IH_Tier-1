@@ -1,0 +1,22 @@
+{
+  "name": "svc_42",
+  "version": "1.0.0",
+  "description": "svc_42 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lod4sh": "^4.17.21",
+    "platform-sdk": "^0.9.0",
+    "fast-json-parser": "^1.0.6",
+    "joi": "^1.9.9",
+    "commitizen": "^5.9.9",
+    "typeorm": "^1.11.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

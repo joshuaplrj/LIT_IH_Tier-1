@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grand Engineering Challenge — Leaderboard</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:        #0d0f14;
+      --surface:   #161a22;
+      --border:    #2a2f3d;
+      --text:      #e2e8f0;
+      --muted:     #64748b;
+      --accent:    #38bdf8;
+      --green:     #22c55e;
+      --yellow:    #eab308;
+      --orange:    #f97316;
+      --red:       #ef4444;
+      --gray:      #475569;
+      --rank-gold:   #fbbf24;
+      --rank-silver: #94a3b8;
+      --rank-bronze: #b45309;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 20px 32px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    header h1 {
+      font-size: 1.25rem;
+      font-weight: bold;
+      letter-spacing: 0.05em;
+      color: var(--accent);
+    }
+
+    header p {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .refresh-badge {
+      font-size: 0.75rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 4px 10px;
+      border-radius: 4px;
+    }
+
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 16px;
+    }
+
+    section + section {
+      margin-top: 48px;
+    }
+
+    h2 {
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      margin-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    /* ---- MAIN TABLE ---- */
+    .leaderboard-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.85rem;
+    }
+
+    .leaderboard-table th {
+      text-align: left;
+      padding: 10px 14px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      font-size: 0.75rem;
+    }
+
+    .leaderboard-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+
+    .leaderboard-table tr:last-child td { border-bottom: none; }
+
+    .leaderboard-table tr:hover td {
+      background: rgba(56, 189, 248, 0.04);
+    }
+
+    .rank {
+      width: 48px;
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .rank-1 { color: var(--rank-gold); }
+    .rank-2 { color: var(--rank-silver); }
+    .rank-3 { color: var(--rank-bronze); }
+
+    .team-name { font-weight: bold; }
+
+    .score-cell {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      min-width: 80px;
+    }
+
+    .solved-cell {
+      text-align: right;
+      color: var(--muted);
+      min-width: 80px;
+    }
+
+    .progress-cell { min-width: 180px; }
+
+    /* ---- PROGRESS BARS ---- */
+    .bar-outer {
+      width: 100%;
+      height: 10px;
+      background: var(--border);
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .bar-inner {
+      height: 100%;
+      border-radius: 5px;
+      transition: width 0.4s ease;
+    }
+
+    .bar-green  { background: var(--green); }
+    .bar-yellow { background: var(--yellow); }
+    .bar-orange { background: var(--orange); }
+    .bar-red    { background: var(--red); }
+    .bar-gray   { background: var(--gray); }
+    .bar-accent { background: var(--accent); }
+
+    /* ---- DISCIPLINE BREAKDOWN ---- */
+    .discipline-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(560px, 1fr));
+      gap: 24px;
+    }
+
+    .discipline-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 16px 20px;
+    }
+
+    .discipline-card h3 {
+      font-size: 0.9rem;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      margin-bottom: 12px;
+    }
+
+    .team-disc-row {
+      display: grid;
+      grid-template-columns: 130px 1fr 48px;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 8px;
+    }
+
+    .team-disc-row:last-child { margin-bottom: 0; }
+
+    .team-disc-name {
+      font-size: 0.78rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--text);
+    }
+
+    .team-disc-score {
+      font-size: 0.78rem;
+      text-align: right;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    /* ---- EMPTY STATE ---- */
+    .empty-state {
+      text-align: center;
+      padding: 64px 24px;
+      color: var(--muted);
+    }
+
+    .empty-state .icon { font-size: 2rem; margin-bottom: 12px; }
+    .empty-state p { font-size: 0.9rem; }
+
+    /* ---- FOOTER ---- */
+    footer {
+      text-align: center;
+      padding: 24px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      margin-top: 48px;
+    }
+
+    #last-updated { color: var(--accent); }
+
+    .loading {
+      text-align: center;
+      padding: 48px;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Grand Engineering Problem Statement Challenge</h1>
+    <p>8 Disciplines &nbsp;|&nbsp; 5 Problems Each &nbsp;|&nbsp; Max 4,000 pts per Team</p>
+  </div>
+  <div class="refresh-badge" id="countdown">Auto-refresh in 30s</div>
+</header>
+
+<main>
+  <div id="app">
+    <div class="loading">Loading leaderboard...</div>
+  </div>
+</main>
+
+<footer>
+  Last updated: <span id="last-updated">—</span>
+</footer>
+
+<script>
+  const REFRESH_INTERVAL = 30000;
+  const DISCIPLINES = ["CSE", "CYBER", "IT", "EEE", "ECE", "MECH", "AIDS", "MBA"];
+  const MAX_PER_PROBLEM = 100;
+  const MAX_PER_DISCIPLINE = 500; // 5 × 100
+  const TOTAL_PROBLEMS = 40;
+
+  let countdown = 30;
+  let data = null;
+
+  // ---------- Utilities ----------
+
+  function scoreColor(score) {
+    if (score === null || score === undefined) return 'gray';
+    if (score >= 90) return 'green';
+    if (score >= 75) return 'yellow';
+    if (score >= 50) return 'orange';
+    return 'red';
+  }
+
+  function disciplineTotal(teamScores, disc) {
+    if (!teamScores || !teamScores[disc]) return null;
+    const vals = Object.values(teamScores[disc]);
+    if (vals.every(v => v === null)) return null;
+    return vals.reduce((sum, v) => sum + (v ?? 0), 0);
+  }
+
+  function formatScore(score) {
+    if (score === null || score === undefined) return '—';
+    return score.toString();
+  }
+
+  function formatTimestamp(ts) {
+    if (!ts) return 'Unknown';
+    try {
+      return new Date(ts).toLocaleString(undefined, {
+        year: 'numeric', month: 'short', day: 'numeric',
+        hour: '2-digit', minute: '2-digit', second: '2-digit'
+      });
+    } catch { return ts; }
+  }
+
+  // ---------- Render ----------
+
+  function renderApp(data) {
+    const app = document.getElementById('app');
+    const teamsObj = data.teams || {};
+    const teams = Object.entries(teamsObj)
+      .map(([name, d]) => ({ name, ...d }))
+      .sort((a, b) => b.total_score - a.total_score || b.problems_solved - a.problems_solved);
+
+    document.getElementById('last-updated').textContent = formatTimestamp(data.last_updated);
+
+    if (teams.length === 0) {
+      app.innerHTML = `
+        <section>
+          <h2>Rankings</h2>
+          <div class="empty-state">
+            <div class="icon">[  ]</div>
+            <p>No submissions yet. Be the first to submit!</p>
+          </div>
+        </section>
+      `;
+      return;
+    }
+
+    // --- Rankings table ---
+    const rows = teams.map((team, idx) => {
+      const rank = idx + 1;
+      const rankClass = rank <= 3 ? `rank-${rank}` : '';
+      const pct = (team.problems_solved / TOTAL_PROBLEMS) * 100;
+      const color = scoreColor(team.total_score / TOTAL_PROBLEMS);
+      return `
+        <tr>
+          <td class="rank ${rankClass}">${rank}</td>
+          <td class="team-name">${escHtml(team.name)}</td>
+          <td class="score-cell">${team.total_score}</td>
+          <td class="solved-cell">${team.problems_solved} / ${TOTAL_PROBLEMS}</td>
+          <td class="progress-cell">
+            <div class="bar-outer" title="${pct.toFixed(1)}% complete">
+              <div class="bar-inner bar-${color}" style="width:${pct.toFixed(2)}%"></div>
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join('');
+
+    const tableHtml = `
+      <section>
+        <h2>Rankings</h2>
+        <table class="leaderboard-table">
+          <thead>
+            <tr>
+              <th class="rank">#</th>
+              <th>Team</th>
+              <th class="score-cell">Total Score</th>
+              <th class="solved-cell">Solved</th>
+              <th class="progress-cell">Progress</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </section>
+    `;
+
+    // --- Discipline breakdown ---
+    const cards = DISCIPLINES.map(disc => {
+      const teamRows = teams.map(team => {
+        const total = disciplineTotal(team.scores, disc);
+        const pct = total === null ? 0 : (total / MAX_PER_DISCIPLINE) * 100;
+        const color = total === null ? 'gray' : scoreColor(total / 5);
+        return `
+          <div class="team-disc-row">
+            <span class="team-disc-name" title="${escHtml(team.name)}">${escHtml(team.name)}</span>
+            <div class="bar-outer" title="${total === null ? 'No submission' : total + ' / 500'}">
+              <div class="bar-inner bar-${color}" style="width:${pct.toFixed(2)}%"></div>
+            </div>
+            <span class="team-disc-score">${total === null ? '—' : total}</span>
+          </div>
+        `;
+      }).join('');
+      return `
+        <div class="discipline-card">
+          <h3>${disc}</h3>
+          ${teams.length === 0 ? '<p style="color:var(--muted);font-size:0.8rem;">No submissions</p>' : teamRows}
+        </div>
+      `;
+    }).join('');
+
+    const breakdownHtml = `
+      <section>
+        <h2>Discipline Breakdown</h2>
+        <div class="discipline-grid">${cards}</div>
+      </section>
+    `;
+
+    app.innerHTML = tableHtml + breakdownHtml;
+  }
+
+  function escHtml(str) {
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  // ---------- Fetch ----------
+
+  async function fetchLeaderboard() {
+    try {
+      const res = await fetch('./leaderboard.json?t=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      data = await res.json();
+      renderApp(data);
+    } catch (err) {
+      document.getElementById('app').innerHTML = `
+        <div class="empty-state">
+          <div class="icon">[!]</div>
+          <p>Failed to load leaderboard.json — ${escHtml(err.message)}</p>
+        </div>
+      `;
+    }
+  }
+
+  // ---------- Countdown ----------
+
+  function startCountdown() {
+    countdown = 30;
+    const el = document.getElementById('countdown');
+    const interval = setInterval(() => {
+      countdown--;
+      el.textContent = `Auto-refresh in ${countdown}s`;
+      if (countdown <= 0) {
+        clearInterval(interval);
+        fetchLeaderboard().then(startCountdown);
+      }
+    }, 1000);
+  }
+
+  // ---------- Init ----------
+
+  fetchLeaderboard().then(startCountdown);
+</script>
+</body>
+</html>

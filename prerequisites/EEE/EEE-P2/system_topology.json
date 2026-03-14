@@ -1,0 +1,92 @@
+{
+  "description": "Simplified 4-bus monitoring subset of IEEE 39-bus New England system",
+  "buses": [
+    {
+      "id": 1,
+      "type": "PQ",
+      "nominal_kv": 345,
+      "zone": 1,
+      "description": "Load bus \u2014 southwestern region"
+    },
+    {
+      "id": 5,
+      "type": "PQ",
+      "nominal_kv": 345,
+      "zone": 1,
+      "description": "Load bus \u2014 central connection"
+    },
+    {
+      "id": 10,
+      "type": "PV",
+      "nominal_kv": 345,
+      "zone": 2,
+      "description": "Generator bus \u2014 northeastern region"
+    },
+    {
+      "id": 30,
+      "type": "Slack",
+      "nominal_kv": 345,
+      "zone": 3,
+      "description": "Reference/slack bus \u2014 main interconnect"
+    }
+  ],
+  "lines": [
+    {
+      "from": 1,
+      "to": 5,
+      "resistance_pu": 0.001,
+      "reactance_pu": 0.011,
+      "susceptance_pu": 0.218,
+      "rating_mva": 600
+    },
+    {
+      "from": 1,
+      "to": 10,
+      "resistance_pu": 0.002,
+      "reactance_pu": 0.02,
+      "susceptance_pu": 0.39,
+      "rating_mva": 500
+    },
+    {
+      "from": 5,
+      "to": 10,
+      "resistance_pu": 0.0008,
+      "reactance_pu": 0.0085,
+      "susceptance_pu": 0.176,
+      "rating_mva": 600
+    },
+    {
+      "from": 5,
+      "to": 30,
+      "resistance_pu": 0.001,
+      "reactance_pu": 0.013,
+      "susceptance_pu": 0.26,
+      "rating_mva": 550
+    },
+    {
+      "from": 10,
+      "to": 30,
+      "resistance_pu": 0.0015,
+      "reactance_pu": 0.018,
+      "susceptance_pu": 0.36,
+      "rating_mva": 600
+    }
+  ],
+  "frequency_hz": 60,
+  "sampling_rate_hz": 20000,
+  "samples_per_file": 667,
+  "pre_fault_samples": 167,
+  "post_fault_samples": 500,
+  "base_mva": 100,
+  "base_kv": 345,
+  "measurement_description": "2 cycles of 3-phase voltage (pu) and current (pu) at all 4 monitored buses. Fault inception always occurs at sample index 167 (end of 1 pre-fault cycle).",
+  "signal_columns_per_bus": [
+    "Va",
+    "Vb",
+    "Vc",
+    "Ia",
+    "Ib",
+    "Ic"
+  ],
+  "column_order": "sample_idx, then for each bus in [1,5,10,30]: Va_<bus>, Vb_<bus>, Vc_<bus>, Ia_<bus>, Ib_<bus>, Ic_<bus>"
+}

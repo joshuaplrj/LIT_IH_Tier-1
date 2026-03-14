@@ -1,0 +1,482 @@
+{
+  "AAPL": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 30.0,
+    "market_cap_bin": "small",
+    "beta": 1.46,
+    "annual_volatility": 0.28
+  },
+  "MSFT": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.052,
+    "annual_volatility": 0.28
+  },
+  "GOOGL": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 300.0,
+    "market_cap_bin": "large",
+    "beta": 0.573,
+    "annual_volatility": 0.28
+  },
+  "AMZN": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 140.0,
+    "market_cap_bin": "large",
+    "beta": 0.617,
+    "annual_volatility": 0.28
+  },
+  "META": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.371,
+    "annual_volatility": 0.28
+  },
+  "NVDA": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 4.0,
+    "market_cap_bin": "small",
+    "beta": 1.256,
+    "annual_volatility": 0.28
+  },
+  "TSLA": {
+    "sector": "Consumer Discretionary",
+    "asset_class": "stock",
+    "start_price": 4.0,
+    "market_cap_bin": "small",
+    "beta": 0.67,
+    "annual_volatility": 0.24
+  },
+  "JPM": {
+    "sector": "Financials",
+    "asset_class": "stock",
+    "start_price": 35.0,
+    "market_cap_bin": "mid",
+    "beta": 1.546,
+    "annual_volatility": 0.22
+  },
+  "JNJ": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 60.0,
+    "market_cap_bin": "large",
+    "beta": 0.893,
+    "annual_volatility": 0.18
+  },
+  "V": {
+    "sector": "Financials",
+    "asset_class": "stock",
+    "start_price": 20.0,
+    "market_cap_bin": "small",
+    "beta": 1.166,
+    "annual_volatility": 0.22
+  },
+  "PG": {
+    "sector": "Consumer Staples",
+    "asset_class": "stock",
+    "start_price": 55.0,
+    "market_cap_bin": "large",
+    "beta": 1.31,
+    "annual_volatility": 0.14
+  },
+  "UNH": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.653,
+    "annual_volatility": 0.18
+  },
+  "HD": {
+    "sector": "Consumer Discretionary",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.275,
+    "annual_volatility": 0.24
+  },
+  "BAC": {
+    "sector": "Financials",
+    "asset_class": "stock",
+    "start_price": 10.0,
+    "market_cap_bin": "small",
+    "beta": 1.097,
+    "annual_volatility": 0.22
+  },
+  "XOM": {
+    "sector": "Energy",
+    "asset_class": "stock",
+    "start_price": 60.0,
+    "market_cap_bin": "large",
+    "beta": 0.622,
+    "annual_volatility": 0.28
+  },
+  "CVX": {
+    "sector": "Energy",
+    "asset_class": "stock",
+    "start_price": 70.0,
+    "market_cap_bin": "large",
+    "beta": 1.297,
+    "annual_volatility": 0.28
+  },
+  "ABBV": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 50.0,
+    "market_cap_bin": "mid",
+    "beta": 1.016,
+    "annual_volatility": 0.18
+  },
+  "PFE": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 15.0,
+    "market_cap_bin": "small",
+    "beta": 1.754,
+    "annual_volatility": 0.18
+  },
+  "MRK": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 30.0,
+    "market_cap_bin": "small",
+    "beta": 1.258,
+    "annual_volatility": 0.18
+  },
+  "KO": {
+    "sector": "Consumer Staples",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.013,
+    "annual_volatility": 0.14
+  },
+  "PEP": {
+    "sector": "Consumer Staples",
+    "asset_class": "stock",
+    "start_price": 55.0,
+    "market_cap_bin": "large",
+    "beta": 0.866,
+    "annual_volatility": 0.14
+  },
+  "WMT": {
+    "sector": "Consumer Staples",
+    "asset_class": "stock",
+    "start_price": 55.0,
+    "market_cap_bin": "large",
+    "beta": 0.752,
+    "annual_volatility": 0.14
+  },
+  "COST": {
+    "sector": "Consumer Staples",
+    "asset_class": "stock",
+    "start_price": 50.0,
+    "market_cap_bin": "mid",
+    "beta": 1.626,
+    "annual_volatility": 0.14
+  },
+  "AVGO": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 10.0,
+    "market_cap_bin": "small",
+    "beta": 0.986,
+    "annual_volatility": 0.28
+  },
+  "LLY": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 35.0,
+    "market_cap_bin": "mid",
+    "beta": 1.016,
+    "annual_volatility": 0.18
+  },
+  "TMO": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 50.0,
+    "market_cap_bin": "mid",
+    "beta": 1.444,
+    "annual_volatility": 0.18
+  },
+  "DHR": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 30.0,
+    "market_cap_bin": "small",
+    "beta": 0.469,
+    "annual_volatility": 0.18
+  },
+  "ABT": {
+    "sector": "Healthcare",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.415,
+    "annual_volatility": 0.18
+  },
+  "MCD": {
+    "sector": "Consumer Discretionary",
+    "asset_class": "stock",
+    "start_price": 60.0,
+    "market_cap_bin": "large",
+    "beta": 1.055,
+    "annual_volatility": 0.24
+  },
+  "NKE": {
+    "sector": "Consumer Discretionary",
+    "asset_class": "stock",
+    "start_price": 20.0,
+    "market_cap_bin": "small",
+    "beta": 1.51,
+    "annual_volatility": 0.24
+  },
+  "DIS": {
+    "sector": "Communication Services",
+    "asset_class": "stock",
+    "start_price": 30.0,
+    "market_cap_bin": "small",
+    "beta": 1.627,
+    "annual_volatility": 0.26
+  },
+  "NFLX": {
+    "sector": "Communication Services",
+    "asset_class": "stock",
+    "start_price": 10.0,
+    "market_cap_bin": "small",
+    "beta": 1.386,
+    "annual_volatility": 0.26
+  },
+  "ADBE": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.04,
+    "annual_volatility": 0.28
+  },
+  "CRM": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 15.0,
+    "market_cap_bin": "small",
+    "beta": 0.584,
+    "annual_volatility": 0.28
+  },
+  "INTC": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 20.0,
+    "market_cap_bin": "small",
+    "beta": 0.526,
+    "annual_volatility": 0.28
+  },
+  "AMD": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 5.0,
+    "market_cap_bin": "small",
+    "beta": 1.738,
+    "annual_volatility": 0.28
+  },
+  "QCOM": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 40.0,
+    "market_cap_bin": "mid",
+    "beta": 0.708,
+    "annual_volatility": 0.28
+  },
+  "TXN": {
+    "sector": "Technology",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.643,
+    "annual_volatility": 0.28
+  },
+  "NEE": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 10.0,
+    "market_cap_bin": "small",
+    "beta": 0.436,
+    "annual_volatility": 0.14
+  },
+  "DUK": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 55.0,
+    "market_cap_bin": "large",
+    "beta": 1.426,
+    "annual_volatility": 0.14
+  },
+  "SO": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.407,
+    "annual_volatility": 0.14
+  },
+  "D": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 40.0,
+    "market_cap_bin": "mid",
+    "beta": 1.779,
+    "annual_volatility": 0.14
+  },
+  "EXC": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 20.0,
+    "market_cap_bin": "small",
+    "beta": 1.558,
+    "annual_volatility": 0.14
+  },
+  "AEP": {
+    "sector": "Utilities",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 0.433,
+    "annual_volatility": 0.14
+  },
+  "WM": {
+    "sector": "Industrials",
+    "asset_class": "stock",
+    "start_price": 25.0,
+    "market_cap_bin": "small",
+    "beta": 1.382,
+    "annual_volatility": 0.2
+  },
+  "RSG": {
+    "sector": "Industrials",
+    "asset_class": "stock",
+    "start_price": 20.0,
+    "market_cap_bin": "small",
+    "beta": 0.778,
+    "annual_volatility": 0.2
+  },
+  "LIN": {
+    "sector": "Materials",
+    "asset_class": "stock",
+    "start_price": 50.0,
+    "market_cap_bin": "mid",
+    "beta": 1.457,
+    "annual_volatility": 0.24
+  },
+  "APD": {
+    "sector": "Materials",
+    "asset_class": "stock",
+    "start_price": 60.0,
+    "market_cap_bin": "large",
+    "beta": 1.669,
+    "annual_volatility": 0.24
+  },
+  "FCX": {
+    "sector": "Materials",
+    "asset_class": "stock",
+    "start_price": 15.0,
+    "market_cap_bin": "small",
+    "beta": 1.069,
+    "annual_volatility": 0.24
+  },
+  "GE": {
+    "sector": "Industrials",
+    "asset_class": "stock",
+    "start_price": 15.0,
+    "market_cap_bin": "small",
+    "beta": 0.932,
+    "annual_volatility": 0.2
+  },
+  "TLT": {
+    "sector": "Fixed Income",
+    "asset_class": "bond_etf",
+    "start_price": 90.0,
+    "market_cap_bin": "mid",
+    "beta": 0.055,
+    "annual_volatility": 0.03
+  },
+  "IEF": {
+    "sector": "Fixed Income",
+    "asset_class": "bond_etf",
+    "start_price": 90.0,
+    "market_cap_bin": "mid",
+    "beta": 0.109,
+    "annual_volatility": 0.03
+  },
+  "SHY": {
+    "sector": "Fixed Income",
+    "asset_class": "bond_etf",
+    "start_price": 85.0,
+    "market_cap_bin": "mid",
+    "beta": 0.258,
+    "annual_volatility": 0.03
+  },
+  "TIP": {
+    "sector": "Fixed Income",
+    "asset_class": "bond_etf",
+    "start_price": 90.0,
+    "market_cap_bin": "mid",
+    "beta": -0.106,
+    "annual_volatility": 0.03
+  },
+  "HYG": {
+    "sector": "Fixed Income",
+    "asset_class": "bond_etf",
+    "start_price": 85.0,
+    "market_cap_bin": "mid",
+    "beta": 0.12,
+    "annual_volatility": 0.03
+  },
+  "GLD": {
+    "sector": "Commodities",
+    "asset_class": "commodity_etf",
+    "start_price": 110.0,
+    "market_cap_bin": "mid",
+    "beta": 0.879,
+    "annual_volatility": 0.15
+  },
+  "SLV": {
+    "sector": "Commodities",
+    "asset_class": "commodity_etf",
+    "start_price": 17.0,
+    "market_cap_bin": "small",
+    "beta": 0.59,
+    "annual_volatility": 0.15
+  },
+  "USO": {
+    "sector": "Commodities",
+    "asset_class": "commodity_etf",
+    "start_price": 35.0,
+    "market_cap_bin": "mid",
+    "beta": 0.411,
+    "annual_volatility": 0.15
+  },
+  "BTC_USD": {
+    "sector": "Cryptocurrency",
+    "asset_class": "crypto",
+    "start_price": 1000.0,
+    "market_cap_bin": "mid",
+    "beta": 0.538,
+    "annual_volatility": 0.05
+  },
+  "ETH_USD": {
+    "sector": "Cryptocurrency",
+    "asset_class": "crypto",
+    "start_price": 10.0,
+    "market_cap_bin": "small",
+    "beta": 0.93,
+    "annual_volatility": 0.05
+  }
+}

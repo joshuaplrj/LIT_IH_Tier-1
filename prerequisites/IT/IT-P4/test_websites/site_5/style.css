@@ -1,0 +1,147 @@
+/* Site 5 — Education platform */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* VIOLATION 4 (2.4.7): Focus indicator removed globally — keyboard users cannot see focus */
+* { outline: none; }
+/* This removes focus outlines from ALL interactive elements — links, buttons, inputs */
+
+body { font-family: 'Inter', Arial, sans-serif; color: #1a1a2e; background: #fff; }
+
+.edu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  border-bottom: 1px solid #e5e7eb;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-logo { height: 36px; }
+.header-logo-link { display: flex; }
+.edu-nav a { color: #374151; text-decoration: none; margin: 0 16px; font-size: 0.95rem; }
+.edu-nav a:hover { color: #4f46e5; }
+.header-actions { display: flex; gap: 12px; }
+
+.btn-primary {
+  background: #4f46e5; color: #fff;
+  border: none; padding: 10px 22px;
+  border-radius: 6px; cursor: pointer;
+  font-size: 0.95rem; font-weight: 500;
+}
+.btn-outline {
+  background: transparent; color: #4f46e5;
+  border: 2px solid #4f46e5; padding: 9px 22px;
+  border-radius: 6px; cursor: pointer;
+  font-size: 0.95rem; font-weight: 500;
+}
+.btn-large { padding: 14px 32px; font-size: 1.05rem; }
+
+/* VIOLATION 1 (2.3.1): Flash animation — flashes at ~5 Hz (200ms cycle = 5 times/sec > 3Hz limit) */
+@keyframes flashSale {
+  0%   { background: #ff3b30; color: #fff; }
+  49%  { background: #ff3b30; color: #fff; }
+  50%  { background: #fff; color: #ff3b30; }
+  99%  { background: #fff; color: #ff3b30; }
+  100% { background: #ff3b30; color: #fff; }
+}
+.flash-banner {
+  text-align: center;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  /* Flashing at 5 Hz — exceeds the 3 Hz threshold (WCAG 2.3.1) */
+  animation: flashSale 0.2s infinite;
+}
+
+/* VIOLATION 3: Hero heading is an image of text */
+.hero-section {
+  text-align: center;
+  padding: 80px 40px 60px;
+  background: linear-gradient(135deg, #ede9fe 0%, #e0e7ff 100%);
+}
+.hero-heading-img {
+  max-width: 700px;
+  width: 80%;
+  /* This renders styled heading text as an image — screen readers
+     get alt="" so the heading is completely invisible to AT users */
+}
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: #4b5563;
+  margin: 20px auto 32px;
+  max-width: 560px;
+}
+.hero-cta { display: flex; gap: 16px; justify-content: center; }
+
+.featured-courses { padding: 48px 40px; }
+.featured-courses h2 { font-size: 1.5rem; margin-bottom: 24px; }
+
+.carousel-wrapper { overflow: hidden; position: relative; }
+.carousel { position: relative; }
+.carousel-track {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.5s ease;
+}
+
+.course-card {
+  min-width: 260px;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.course-card img { width: 100%; height: 150px; object-fit: cover; }
+.course-info { padding: 14px; }
+.course-tag {
+  background: #ede9fe; color: #5b21b6;
+  padding: 2px 8px; border-radius: 12px;
+  font-size: 0.75rem; font-weight: 600;
+}
+.course-info h3 { font-size: 0.95rem; margin: 8px 0 4px; }
+.course-info p { font-size: 0.8rem; color: #6b7280; }
+.course-price { font-size: 1rem; font-weight: 700; color: #4f46e5; }
+
+.carousel-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(255,255,255,0.9); border: 1px solid #e5e7eb;
+  width: 36px; height: 36px; border-radius: 50%;
+  font-size: 1.4rem; cursor: pointer; z-index: 10;
+}
+.prev { left: -18px; }
+.next { right: -18px; }
+/* NOTE: No pause/stop button element in HTML or CSS */
+
+.instructor-message { padding: 40px; background: #f9fafb; }
+.instructor-message h2 { font-size: 1.3rem; margin-bottom: 20px; }
+.audio-player { display: flex; flex-direction: column; gap: 8px; }
+.audio-description { color: #6b7280; font-size: 0.9rem; }
+/* No transcript provided — violation 2 */
+
+.learning-paths { padding: 48px 40px; }
+.learning-paths h2 { font-size: 1.5rem; margin-bottom: 28px; }
+.paths-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.path-card {
+  border: 1px solid #e5e7eb; border-radius: 10px;
+  padding: 24px; text-align: center;
+}
+.path-icon { font-size: 2.5rem; margin-bottom: 12px; }
+.path-card h3 { font-size: 1rem; margin-bottom: 8px; }
+.path-card p { font-size: 0.85rem; color: #6b7280; margin-bottom: 16px; }
+.path-link {
+  display: inline-block;
+  background: #4f46e5; color: #fff;
+  padding: 8px 20px; border-radius: 6px;
+  text-decoration: none; font-size: 0.9rem;
+  /* VIOLATION 4: No :focus style anywhere since outline:none is global */
+}
+
+.edu-footer { background: #1a1a2e; color: #d1d5db; padding: 48px 40px 24px; }
+.footer-content { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 32px; }
+.footer-col h4 { color: #fff; margin-bottom: 14px; font-size: 1rem; }
+.footer-col p { font-size: 0.9rem; line-height: 1.6; }
+.footer-col a { display: block; color: #9ca3af; text-decoration: none; margin-bottom: 8px; font-size: 0.9rem; }
+.footer-bottom { border-top: 1px solid #374151; padding-top: 20px; text-align: center; font-size: 0.85rem; color: #6b7280; }

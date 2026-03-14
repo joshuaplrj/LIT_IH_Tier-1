@@ -1,0 +1,14 @@
+fn sum_vec(v: Vec<i32>) -> i32 {
+    let mut s: i32 = 0;
+    let mut i: i32 = 0;
+    while i < v.len() {
+        s = s + v[i];
+        i = i + 1;
+    }
+    return s;
+}
+let mut v: Vec<i32> = Vec::new();
+v.push(14);
+v.push(6);
+let result: i32 = sum_vec(v);
+println!("{}", result);

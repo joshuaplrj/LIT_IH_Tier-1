@@ -1,0 +1,22 @@
+{
+  "name": "svc_07",
+  "version": "1.0.0",
+  "description": "svc_07 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "pkg-4104": "^5.9.5",
+    "luxon": "^1.8.2",
+    "typeorm": "^4.2.6",
+    "express": "^1.1.7",
+    "immer": "^5.5.9",
+    "date-fns": "^3.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

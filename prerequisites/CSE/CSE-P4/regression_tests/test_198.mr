@@ -1,0 +1,5 @@
+let mut v: Vec<i32> = Vec::new();
+v.push(15);
+v.push(5);
+let n: i32 = v.len();
+println!("{}", n);

@@ -1,0 +1,7 @@
+botocore==1.7.9
+pika==1.5.5
+numpy==4.0.8
+lib-7823==5.9.1
+prettytable==4.8.6
+lib-5217==1.10.5
+lib-4624==3.7.6

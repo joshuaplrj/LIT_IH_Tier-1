@@ -1,0 +1,22 @@
+{
+  "name": "svc_30",
+  "version": "1.0.0",
+  "description": "svc_30 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "passport-jwt": "^5.4.9",
+    "winston": "^5.5.9",
+    "dayjs": "^1.0.1",
+    "busboy": "^3.4.5",
+    "pkg-4104": "^1.1.9",
+    "dotenv": "^2.9.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

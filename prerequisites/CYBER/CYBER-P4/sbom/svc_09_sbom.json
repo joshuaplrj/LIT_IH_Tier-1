@@ -1,0 +1,111 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:becffc39-6abf-45c5-9f4c-fa906fb7b86d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_09",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "mongoose",
+      "version": "3.9.3",
+      "purl": "pkg:npm/mongoose@3.9.3"
+    },
+    {
+      "type": "library",
+      "name": "usb",
+      "version": "2.7.1",
+      "purl": "pkg:npm/usb@2.7.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-6848",
+      "version": "1.9.5",
+      "purl": "pkg:npm/lib-6848@1.9.5"
+    },
+    {
+      "type": "library",
+      "name": "paramiko",
+      "version": "1.0.7",
+      "purl": "pkg:pypi/paramiko@1.0.7"
+    },
+    {
+      "type": "library",
+      "name": "passlib",
+      "version": "4.0.3",
+      "purl": "pkg:pypi/passlib@4.0.3"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "1.7.8",
+      "purl": "pkg:npm/joblib@1.7.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-9541",
+      "version": "2.3.0",
+      "purl": "pkg:npm/lib-9541@2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "framer-motion",
+      "version": "1.6.1",
+      "purl": "pkg:npm/framer-motion@1.6.1"
+    },
+    {
+      "type": "library",
+      "name": "formidable",
+      "version": "3.12.3",
+      "purl": "pkg:pypi/formidable@3.12.3"
+    },
+    {
+      "type": "library",
+      "name": "sequelize",
+      "version": "3.12.4",
+      "purl": "pkg:pypi/sequelize@3.12.4"
+    },
+    {
+      "type": "library",
+      "name": "scrapy",
+      "version": "1.8.0",
+      "purl": "pkg:pypi/scrapy@1.8.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash",
+      "version": "5.11.3",
+      "purl": "pkg:pypi/lodash@5.11.3"
+    },
+    {
+      "type": "library",
+      "name": "trio",
+      "version": "4.7.2",
+      "purl": "pkg:pypi/trio@4.7.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-8246",
+      "version": "2.6.3",
+      "purl": "pkg:pypi/lib-8246@2.6.3"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "5.6.2",
+      "purl": "pkg:pypi/arrow@5.6.2"
+    },
+    {
+      "type": "library",
+      "name": "node-tar",
+      "version": "3.10.1",
+      "purl": "pkg:pypi/node-tar@3.10.1"
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:70708b00-513a-401e-92f5-b029566cd8b4",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_05",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "lib-8782",
+      "version": "2.6.3",
+      "purl": "pkg:pypi/lib-8782@2.6.3"
+    },
+    {
+      "type": "library",
+      "name": "invoke",
+      "version": "2.2.6",
+      "purl": "pkg:pypi/invoke@2.2.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-6636",
+      "version": "1.2.2",
+      "purl": "pkg:npm/lib-6636@1.2.2"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "2.6.1",
+      "purl": "pkg:pypi/aiohttp@2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "redis",
+      "version": "1.8.8",
+      "purl": "pkg:pypi/redis@1.8.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-1490",
+      "version": "2.2.4",
+      "purl": "pkg:npm/lib-1490@2.2.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-1290",
+      "version": "1.11.0",
+      "purl": "pkg:pypi/lib-1290@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "supertest",
+      "version": "3.2.4",
+      "purl": "pkg:pypi/supertest@3.2.4"
+    },
+    {
+      "type": "library",
+      "name": "coverage",
+      "version": "3.1.9",
+      "purl": "pkg:pypi/coverage@3.1.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-7484",
+      "version": "1.10.6",
+      "purl": "pkg:npm/lib-7484@1.10.6"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.6.7",
+      "purl": "pkg:npm/matplotlib@3.6.7"
+    },
+    {
+      "type": "library",
+      "name": "multiprocessing",
+      "version": "1.4.8",
+      "purl": "pkg:npm/multiprocessing@1.4.8"
+    },
+    {
+      "type": "library",
+      "name": "mocha",
+      "version": "1.1.0",
+      "purl": "pkg:npm/mocha@1.1.0"
+    },
+    {
+      "type": "library",
+      "name": "environs",
+      "version": "3.11.9",
+      "purl": "pkg:npm/environs@3.11.9"
+    },
+    {
+      "type": "library",
+      "name": "pytest-asyncio",
+      "version": "5.5.5",
+      "purl": "pkg:pypi/pytest-asyncio@5.5.5"
+    },
+    {
+      "type": "library",
+      "name": "phonenumbers",
+      "version": "4.2.2",
+      "purl": "pkg:npm/phonenumbers@4.2.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-8188",
+      "version": "5.4.5",
+      "purl": "pkg:npm/lib-8188@5.4.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-7318",
+      "version": "1.7.9",
+      "purl": "pkg:pypi/lib-7318@1.7.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-1353",
+      "version": "5.0.5",
+      "purl": "pkg:pypi/lib-1353@5.0.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-7007",
+      "version": "4.8.1",
+      "purl": "pkg:pypi/lib-7007@4.8.1"
+    },
+    {
+      "type": "library",
+      "name": "jinja2",
+      "version": "3.1.6",
+      "purl": "pkg:npm/jinja2@3.1.6"
+    },
+    {
+      "type": "library",
+      "name": "urllib3",
+      "version": "5.0.1",
+      "purl": "pkg:pypi/urllib3@5.0.1"
+    },
+    {
+      "type": "library",
+      "name": "forever",
+      "version": "5.10.8",
+      "purl": "pkg:pypi/forever@5.10.8"
+    }
+  ]
+}

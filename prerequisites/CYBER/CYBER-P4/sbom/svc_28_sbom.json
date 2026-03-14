@@ -1,0 +1,111 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:a139fd3c-d17b-481b-b794-b41c4a5294bf",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_28",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "stdnum",
+      "version": "1.4.9",
+      "purl": "pkg:pypi/stdnum@1.4.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-3933",
+      "version": "1.3.2",
+      "purl": "pkg:pypi/lib-3933@1.3.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-7007",
+      "version": "1.11.8",
+      "purl": "pkg:pypi/lib-7007@1.11.8"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "1.5.4",
+      "purl": "pkg:pypi/puppeteer@1.5.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-6378",
+      "version": "2.3.9",
+      "purl": "pkg:pypi/lib-6378@2.3.9"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": "2.1.6",
+      "purl": "pkg:pypi/pyjwt@2.1.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-5217",
+      "version": "5.3.8",
+      "purl": "pkg:pypi/lib-5217@5.3.8"
+    },
+    {
+      "type": "library",
+      "name": "starlette",
+      "version": "1.2.1",
+      "purl": "pkg:npm/starlette@1.2.1"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "5.9.4",
+      "purl": "pkg:npm/uuid@5.9.4"
+    },
+    {
+      "type": "library",
+      "name": "pexpect",
+      "version": "2.12.7",
+      "purl": "pkg:pypi/pexpect@2.12.7"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "3.10.4",
+      "purl": "pkg:npm/pydantic@3.10.4"
+    },
+    {
+      "type": "library",
+      "name": "jsonwebtoken",
+      "version": "2.2.6",
+      "purl": "pkg:pypi/jsonwebtoken@2.2.6"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "1.5.8",
+      "purl": "pkg:npm/pytest@1.5.8"
+    },
+    {
+      "type": "library",
+      "name": "django-cors-headers",
+      "version": "1.7.2",
+      "purl": "pkg:pypi/django-cors-headers@1.7.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-5342",
+      "version": "2.8.1",
+      "purl": "pkg:npm/lib-5342@2.8.1"
+    },
+    {
+      "type": "library",
+      "name": "charset-normalizer",
+      "version": "5.6.2",
+      "purl": "pkg:npm/charset-normalizer@5.6.2"
+    }
+  ]
+}

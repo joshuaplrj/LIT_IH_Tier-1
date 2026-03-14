@@ -1,0 +1,21 @@
+{
+  "name": "svc_13",
+  "version": "1.0.0",
+  "description": "svc_13 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "prisma": "^5.8.6",
+    "immutable": "^2.0.3",
+    "typescript": "^2.8.2",
+    "shortid": "^3.12.4",
+    "recoil": "^3.6.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

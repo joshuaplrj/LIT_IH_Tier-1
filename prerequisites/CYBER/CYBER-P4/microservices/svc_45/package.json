@@ -1,0 +1,19 @@
+{
+  "name": "svc_45",
+  "version": "1.0.0",
+  "description": "svc_45 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "uuid": "^1.8.5",
+    "graphql": "^4.3.8",
+    "parse5": "^4.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

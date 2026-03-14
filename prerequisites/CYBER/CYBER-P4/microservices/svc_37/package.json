@@ -1,0 +1,22 @@
+{
+  "name": "svc_37",
+  "version": "1.0.0",
+  "description": "svc_37 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "docker": "^2.2.4",
+    "typeorm": "^2.5.4",
+    "xlsx": "^2.9.9",
+    "passport": "^4.7.7",
+    "react": "^5.10.6",
+    "pdfkit": "^1.1.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

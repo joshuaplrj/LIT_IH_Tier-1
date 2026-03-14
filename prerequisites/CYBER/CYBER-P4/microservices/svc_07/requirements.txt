@@ -1,0 +1,7 @@
+psycopg2==3.2.0
+xmlsec==3.5.3
+asyncpg==3.11.2
+msgpack==5.10.5
+gputil==2.9.8
+lib-4086==1.0.8
+concurrent-futures==2.4.4

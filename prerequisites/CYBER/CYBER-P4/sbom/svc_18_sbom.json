@@ -1,0 +1,129 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:873bfe18-cd1b-4994-9043-f72c3a703b95",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_18",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "proxyquire",
+      "version": "3.3.2",
+      "purl": "pkg:npm/proxyquire@3.3.2"
+    },
+    {
+      "type": "library",
+      "name": "node-forge",
+      "version": "5.8.9",
+      "purl": "pkg:pypi/node-forge@5.8.9"
+    },
+    {
+      "type": "library",
+      "name": "compression",
+      "version": "5.3.3",
+      "purl": "pkg:pypi/compression@5.3.3"
+    },
+    {
+      "type": "library",
+      "name": "watchdog",
+      "version": "1.10.2",
+      "purl": "pkg:pypi/watchdog@1.10.2"
+    },
+    {
+      "type": "library",
+      "name": "passlib",
+      "version": "2.7.0",
+      "purl": "pkg:pypi/passlib@2.7.0"
+    },
+    {
+      "type": "library",
+      "name": "termcolor",
+      "version": "1.10.8",
+      "purl": "pkg:npm/termcolor@1.10.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-3933",
+      "version": "1.9.9",
+      "purl": "pkg:npm/lib-3933@1.9.9"
+    },
+    {
+      "type": "library",
+      "name": "nodemailer",
+      "version": "1.4.2",
+      "purl": "pkg:pypi/nodemailer@1.4.2"
+    },
+    {
+      "type": "library",
+      "name": "flask-sqlalchemy",
+      "version": "3.10.9",
+      "purl": "pkg:npm/flask-sqlalchemy@3.10.9"
+    },
+    {
+      "type": "library",
+      "name": "tenacity",
+      "version": "4.11.1",
+      "purl": "pkg:pypi/tenacity@4.11.1"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "4.0.9",
+      "purl": "pkg:npm/cryptography@4.0.9"
+    },
+    {
+      "type": "library",
+      "name": "apollo-client",
+      "version": "2.2.3",
+      "purl": "pkg:pypi/apollo-client@2.2.3"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": "2.11.6",
+      "purl": "pkg:pypi/click@2.11.6"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "1.4.4",
+      "purl": "pkg:npm/react@1.4.4"
+    },
+    {
+      "type": "library",
+      "name": "tabulate",
+      "version": "1.10.1",
+      "purl": "pkg:pypi/tabulate@1.10.1"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "2.11.3",
+      "purl": "pkg:pypi/rollup@2.11.3"
+    },
+    {
+      "type": "library",
+      "name": "fast-csv",
+      "version": "1.11.4",
+      "purl": "pkg:pypi/fast-csv@1.11.4"
+    },
+    {
+      "type": "library",
+      "name": "mypy",
+      "version": "2.3.6",
+      "purl": "pkg:pypi/mypy@2.3.6"
+    },
+    {
+      "type": "library",
+      "name": "forever",
+      "version": "1.1.9",
+      "purl": "pkg:npm/forever@1.1.9"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2cfdf620-0efe-4bd6-9683-667c8ce020f0",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_40",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "4.12.4",
+      "purl": "pkg:pypi/cryptography@4.12.4"
+    },
+    {
+      "type": "library",
+      "name": "braintree",
+      "version": "3.9.4",
+      "purl": "pkg:pypi/braintree@3.9.4"
+    },
+    {
+      "type": "library",
+      "name": "email-validator",
+      "version": "5.3.9",
+      "purl": "pkg:npm/email-validator@5.3.9"
+    },
+    {
+      "type": "library",
+      "name": "adm-zip",
+      "version": "5.0.8",
+      "purl": "pkg:pypi/adm-zip@5.0.8"
+    },
+    {
+      "type": "library",
+      "name": "docker",
+      "version": "4.9.5",
+      "purl": "pkg:pypi/docker@4.9.5"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-api",
+      "version": "3.10.4",
+      "purl": "pkg:npm/opentelemetry-api@3.10.4"
+    },
+    {
+      "type": "library",
+      "name": "flask-sqlalchemy",
+      "version": "3.6.8",
+      "purl": "pkg:npm/flask-sqlalchemy@3.6.8"
+    },
+    {
+      "type": "library",
+      "name": "framer-motion",
+      "version": "4.4.0",
+      "purl": "pkg:pypi/framer-motion@4.4.0"
+    },
+    {
+      "type": "library",
+      "name": "dayjs",
+      "version": "5.12.1",
+      "purl": "pkg:npm/dayjs@5.12.1"
+    },
+    {
+      "type": "library",
+      "name": "sequelize",
+      "version": "4.0.3",
+      "purl": "pkg:npm/sequelize@4.0.3"
+    },
+    {
+      "type": "library",
+      "name": "mocha",
+      "version": "2.12.6",
+      "purl": "pkg:npm/mocha@2.12.6"
+    },
+    {
+      "type": "library",
+      "name": "googleapis",
+      "version": "1.5.6",
+      "purl": "pkg:pypi/googleapis@1.5.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-9175",
+      "version": "5.3.9",
+      "purl": "pkg:pypi/lib-9175@5.3.9"
+    }
+  ]
+}

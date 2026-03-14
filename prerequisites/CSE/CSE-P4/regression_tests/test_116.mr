@@ -1,0 +1,3 @@
+let x: String = String::new("hello");
+let y: &String = &x;
+println!("{}", y);

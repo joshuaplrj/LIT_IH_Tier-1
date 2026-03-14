@@ -1,0 +1,19 @@
+{
+  "name": "svc_02",
+  "version": "1.0.0",
+  "description": "svc_02 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "shortid": "^4.12.1",
+    "yup": "^2.11.9",
+    "chart.js": "^2.10.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

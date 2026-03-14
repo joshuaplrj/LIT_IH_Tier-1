@@ -1,0 +1,21 @@
+{
+  "name": "svc_34",
+  "version": "1.0.0",
+  "description": "svc_34 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "grpc": "^4.3.1",
+    "three": "^3.5.4",
+    "rxjs-compat": "^3.5.5",
+    "moment": "^1.7.3",
+    "graphql": "^5.6.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

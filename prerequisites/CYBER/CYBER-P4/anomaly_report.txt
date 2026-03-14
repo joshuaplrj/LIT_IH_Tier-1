@@ -1,0 +1,60 @@
+SUPPLY CHAIN SECURITY ANOMALY REPORT
+=====================================
+Date: 2024-01-15 03:42:17 UTC
+Reported by: Automated SIEM (Rule: OUTBOUND_SUSPICIOUS_POST)
+
+SUMMARY
+-------
+Our network monitoring systems have flagged unusual outbound HTTP POST requests
+originating from within the production Kubernetes cluster. The traffic is directed
+to 203.0.113.99 and contains structured data that does not match any known
+legitimate service integration.
+
+OBSERVED INDICATORS
+-------------------
+1. Destination IP: 203.0.113.99
+   - Not present in any approved egress whitelist
+   - First seen: 2024-01-14 22:10:04 UTC
+   - Request frequency: variable (1–10 req/min per source pod)
+
+2. Request Pattern:
+   - Method: HTTP POST
+   - Paths observed: /exfil, /log, /env, /db, /mongo, /logs
+   - Content-Type: application/json
+   - Payload structure suggests structured data export (credentials, env vars, DB queries)
+
+3. Source Pods / Services:
+   - Multiple microservices appear to be the origin
+   - Exact services not yet identified — requires dependency analysis
+
+4. Timeline:
+   - 2024-01-14 22:10 UTC: First POST to 203.0.113.99/exfil
+   - 2024-01-14 22:15 UTC: POST to 203.0.113.99/log observed
+   - 2024-01-14 23:00 UTC: Sustained traffic from 3 distinct service IPs
+   - 2024-01-15 03:30 UTC: Automated rule triggered, incident opened
+
+HYPOTHESIS
+----------
+A software supply chain attack may have introduced malicious packages into
+one or more microservices' dependency trees. The malicious code activates
+on service startup and begins exfiltrating sensitive data.
+
+REQUESTED ACTIONS
+-----------------
+1. Identify which microservices are making connections to 203.0.113.99
+2. Determine which dependency packages contain malicious code
+3. Classify each malicious package by attack type:
+   - Typosquatting (look-alike package names)
+   - Dependency confusion (internal package names on public registries)
+   - Backdoored packages (legitimate packages with injected code)
+   - Cryptominer injections (packages with mining code in install hooks)
+4. Provide a remediation plan with affected service list and replacement packages
+
+ARTEFACTS
+---------
+- dependency_graph.json: Full dependency graph for all 50 microservices (500 packages)
+- microservices/: Source code and dependency manifests for each service
+- sbom/: Software Bill of Materials (CycloneDX 1.4 format) for each service
+
+PRIORITY: CRITICAL
+ESCALATION: CISO + DevSecOps Lead notified

@@ -1,0 +1,43 @@
+{
+  "table_name": "patient_records",
+  "num_records": 100000,
+  "columns": [
+    {
+      "name": "id",
+      "type": "INTEGER",
+      "description": "Unique patient ID (1 to 100000)",
+      "nullable": false
+    },
+    {
+      "name": "patient_name",
+      "type": "VARCHAR",
+      "description": "Full name (First Last)",
+      "nullable": false
+    },
+    {
+      "name": "age",
+      "type": "INTEGER",
+      "description": "Patient age (18\u201390)",
+      "nullable": false
+    },
+    {
+      "name": "diagnosis_code",
+      "type": "VARCHAR",
+      "description": "ICD code (e.g. ICD-A23)",
+      "nullable": false
+    },
+    {
+      "name": "treatment_cost",
+      "type": "FLOAT",
+      "description": "Treatment cost in USD (100\u201350000)",
+      "nullable": false
+    }
+  ],
+  "seed": 42,
+  "expected_queries": [
+    "SELECT * FROM patient_records WHERE age > 65",
+    "SELECT AVG(treatment_cost) FROM patient_records WHERE diagnosis_code LIKE 'ICD-C%'",
+    "SELECT patient_name, treatment_cost FROM patient_records ORDER BY treatment_cost DESC LIMIT 10",
+    "SELECT diagnosis_code, COUNT(*) FROM patient_records GROUP BY diagnosis_code"
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:c982821f-a83e-4282-b284-40f3c4d270aa",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_06",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "passport-local",
+      "version": "5.10.6",
+      "purl": "pkg:npm/passport-local@5.10.6"
+    },
+    {
+      "type": "library",
+      "name": "next",
+      "version": "5.12.9",
+      "purl": "pkg:npm/next@5.12.9"
+    },
+    {
+      "type": "library",
+      "name": "protobufjs",
+      "version": "3.1.3",
+      "purl": "pkg:pypi/protobufjs@3.1.3"
+    },
+    {
+      "type": "library",
+      "name": "pexpect",
+      "version": "1.12.8",
+      "purl": "pkg:npm/pexpect@1.12.8"
+    },
+    {
+      "type": "library",
+      "name": "morgan",
+      "version": "2.2.2",
+      "purl": "pkg:npm/morgan@2.2.2"
+    },
+    {
+      "type": "library",
+      "name": "pyopenssl",
+      "version": "1.7.0",
+      "purl": "pkg:pypi/pyopenssl@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "black",
+      "version": "4.10.2",
+      "purl": "pkg:pypi/black@4.10.2"
+    },
+    {
+      "type": "library",
+      "name": "imageio",
+      "version": "3.8.4",
+      "purl": "pkg:npm/imageio@3.8.4"
+    },
+    {
+      "type": "library",
+      "name": "nuxt",
+      "version": "2.7.1",
+      "purl": "pkg:pypi/nuxt@2.7.1"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "5.6.6",
+      "purl": "pkg:pypi/scipy@5.6.6"
+    },
+    {
+      "type": "library",
+      "name": "hypothesis",
+      "version": "4.6.6",
+      "purl": "pkg:npm/hypothesis@4.6.6"
+    },
+    {
+      "type": "library",
+      "name": "yup",
+      "version": "2.3.4",
+      "purl": "pkg:pypi/yup@2.3.4"
+    },
+    {
+      "type": "library",
+      "name": "parcel",
+      "version": "4.5.3",
+      "purl": "pkg:npm/parcel@4.5.3"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "3.10.5",
+      "purl": "pkg:pypi/moment@3.10.5"
+    },
+    {
+      "type": "library",
+      "name": "lxml",
+      "version": "3.12.1",
+      "purl": "pkg:npm/lxml@3.12.1"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-sdk",
+      "version": "3.5.2",
+      "purl": "pkg:pypi/opentelemetry-sdk@3.5.2"
+    },
+    {
+      "type": "library",
+      "name": "shapely",
+      "version": "3.7.5",
+      "purl": "pkg:npm/shapely@3.7.5"
+    },
+    {
+      "type": "library",
+      "name": "mongoose",
+      "version": "3.9.2",
+      "purl": "pkg:pypi/mongoose@3.9.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-4256",
+      "version": "4.8.5",
+      "purl": "pkg:pypi/lib-4256@4.8.5"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "4.7.4",
+      "purl": "pkg:pypi/prettier@4.7.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-9325",
+      "version": "4.0.3",
+      "purl": "pkg:pypi/lib-9325@4.0.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-3238",
+      "version": "2.9.7",
+      "purl": "pkg:pypi/lib-3238@2.9.7"
+    },
+    {
+      "type": "library",
+      "name": "imaplib",
+      "version": "5.0.4",
+      "purl": "pkg:pypi/imaplib@5.0.4"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:32e256c1-f924-4cfd-8f52-b95175d4d35d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_02",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "emotion",
+      "version": "2.4.5",
+      "purl": "pkg:npm/emotion@2.4.5"
+    },
+    {
+      "type": "library",
+      "name": "invoke",
+      "version": "5.4.1",
+      "purl": "pkg:pypi/invoke@5.4.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-6518",
+      "version": "5.11.9",
+      "purl": "pkg:pypi/lib-6518@5.11.9"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "5.4.9",
+      "purl": "pkg:pypi/chart.js@5.4.9"
+    },
+    {
+      "type": "library",
+      "name": "bcrypt",
+      "version": "4.1.4",
+      "purl": "pkg:pypi/bcrypt@4.1.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-5184",
+      "version": "1.0.1",
+      "purl": "pkg:pypi/lib-5184@1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "elasticsearch",
+      "version": "2.0.5",
+      "purl": "pkg:pypi/elasticsearch@2.0.5"
+    },
+    {
+      "type": "library",
+      "name": "shortid",
+      "version": "3.9.4",
+      "purl": "pkg:pypi/shortid@3.9.4"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": "1.9.5",
+      "purl": "pkg:pypi/colorama@1.9.5"
+    },
+    {
+      "type": "library",
+      "name": "python-dotenv",
+      "version": "2.9.0",
+      "purl": "pkg:pypi/python-dotenv@2.9.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-4000",
+      "version": "2.10.0",
+      "purl": "pkg:pypi/lib-4000@2.10.0"
+    },
+    {
+      "type": "library",
+      "name": "needle",
+      "version": "1.5.1",
+      "purl": "pkg:pypi/needle@1.5.1"
+    },
+    {
+      "type": "library",
+      "name": "papaparse",
+      "version": "2.6.7",
+      "purl": "pkg:pypi/papaparse@2.6.7"
+    },
+    {
+      "type": "library",
+      "name": "yup",
+      "version": "4.7.7",
+      "purl": "pkg:npm/yup@4.7.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-5217",
+      "version": "5.9.7",
+      "purl": "pkg:npm/lib-5217@5.9.7"
+    },
+    {
+      "type": "library",
+      "name": "retry",
+      "version": "3.5.9",
+      "purl": "pkg:npm/retry@3.5.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-7318",
+      "version": "1.9.2",
+      "purl": "pkg:pypi/lib-7318@1.9.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-6853",
+      "version": "2.2.3",
+      "purl": "pkg:npm/lib-6853@2.2.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-9541",
+      "version": "4.11.1",
+      "purl": "pkg:pypi/lib-9541@4.11.1"
+    },
+    {
+      "type": "library",
+      "name": "kubernetes",
+      "version": "3.6.7",
+      "purl": "pkg:pypi/kubernetes@3.6.7"
+    },
+    {
+      "type": "library",
+      "name": "ptyprocess",
+      "version": "5.3.8",
+      "purl": "pkg:pypi/ptyprocess@5.3.8"
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": "4.5.9",
+      "purl": "pkg:pypi/certifi@4.5.9"
+    }
+  ]
+}

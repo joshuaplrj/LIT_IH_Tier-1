@@ -1,0 +1,124 @@
+/* Site 3 — Government form */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body { font-family: 'Segoe UI', Arial, sans-serif; color: #1a1a1a; background: #f4f6f9; }
+
+.gov-header {
+  background: #003366;
+  color: #fff;
+  padding: 16px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gov-logo { display: flex; align-items: center; gap: 16px; }
+.gov-logo img { width: 60px; height: 60px; }
+.gov-logo h1 { font-size: 1.4rem; }
+.gov-logo p { font-size: 0.85rem; color: #aac4e0; }
+.gov-header nav a { color: #aac4e0; text-decoration: none; margin-left: 20px; font-size: 0.95rem; }
+
+.form-container {
+  max-width: 860px;
+  margin: 32px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-container h2 { font-size: 1.6rem; color: #003366; margin-bottom: 8px; }
+
+/* VIOLATION 1: Table without headers — no <th> elements */
+.fee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 32px;
+}
+.fee-table tr { border-bottom: 1px solid #ddd; }
+.fee-table td { padding: 10px 14px; font-size: 0.95rem; }
+.fee-table tr:first-child td { background: #003366; color: #fff; font-weight: bold; }
+/* Note: first row uses <td> not <th> — this is the violation */
+
+fieldset {
+  border: 1px solid #d0d8e4;
+  border-radius: 4px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+legend {
+  font-weight: bold;
+  color: #003366;
+  font-size: 1.1rem;
+  padding: 0 8px;
+}
+
+.form-group { margin-bottom: 20px; }
+.form-group label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+  /* VIOLATION 2: No asterisk (*) or "(required)" text next to required fields */
+}
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #aab;
+  border-radius: 4px;
+  font-size: 1rem;
+  background: #fafbfc;
+}
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #003366;
+  outline: 2px solid #6699cc;
+}
+
+/* VIOLATION 3: Error displayed in red color only — no icon, no "Error:" text, no role="alert" */
+.color-error { color: #cc0000; font-size: 0.85rem; margin-top: 4px; display: block; }
+
+/* VIOLATION 4: Custom checkbox — div styled as checkbox but no ARIA role */
+.custom-checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  padding: 4px;
+  /* No role="checkbox" and no aria-checked attribute in HTML */
+}
+.check-indicator {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #003366;
+  border-radius: 3px;
+  flex-shrink: 0;
+  margin-top: 2px;
+  background: #fff;
+}
+.custom-checkbox.checked .check-indicator {
+  background: #003366;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='white' d='M13.7 4.3l-8 8-3.4-3.4 1.4-1.4 2 2 6.6-6.6z'/%3E%3C/svg%3E");
+}
+/* VIOLATION 5: PDF link with no file type indication */
+.doc-link { color: #003366; }
+
+.form-actions { display: flex; justify-content: flex-end; gap: 16px; margin-top: 16px; }
+
+.btn-primary {
+  background: #003366; color: #fff;
+  border: none; padding: 12px 28px;
+  border-radius: 4px; cursor: pointer; font-size: 1rem;
+}
+.btn-secondary {
+  background: #e8edf3; color: #003366;
+  border: 1px solid #003366; padding: 12px 28px;
+  border-radius: 4px; cursor: pointer; font-size: 1rem;
+}
+
+.gov-footer {
+  background: #003366; color: #aac4e0;
+  text-align: center; padding: 24px;
+  margin-top: 0; font-size: 0.9rem; line-height: 1.8;
+}

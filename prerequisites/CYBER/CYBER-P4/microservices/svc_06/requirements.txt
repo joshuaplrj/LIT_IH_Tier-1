@@ -1,0 +1,6 @@
+opentelemetry-sdk==5.11.6
+imageio==5.1.7
+lib-9325==3.9.3
+black==5.9.2
+shapely==3.0.7
+scipy==4.12.1

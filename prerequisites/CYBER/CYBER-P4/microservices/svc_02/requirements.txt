@@ -1,0 +1,5 @@
+certifi==5.5.7
+lib-6853==5.1.1
+lib-4000==5.8.2
+elasticsearch==1.5.8
+retry==3.9.4

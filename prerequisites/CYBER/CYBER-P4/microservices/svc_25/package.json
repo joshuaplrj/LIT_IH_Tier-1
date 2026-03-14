@@ -1,0 +1,22 @@
+{
+  "name": "svc_25",
+  "version": "1.0.0",
+  "description": "svc_25 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jimp": "^1.3.9",
+    "prettier": "^1.10.6",
+    "mocha": "^2.5.7",
+    "angular": "^5.9.0",
+    "braintree": "^4.10.9",
+    "exceljs": "^5.9.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

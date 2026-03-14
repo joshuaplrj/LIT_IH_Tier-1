@@ -1,0 +1,159 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:afa56ea7-5d6d-42fc-acf5-c0686d3eab8c",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_36",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "tailwindcss",
+      "version": "5.9.3",
+      "purl": "pkg:pypi/tailwindcss@5.9.3"
+    },
+    {
+      "type": "library",
+      "name": "nodemon",
+      "version": "1.11.7",
+      "purl": "pkg:pypi/nodemon@1.11.7"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": "1.9.0",
+      "purl": "pkg:pypi/seaborn@1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "shortid",
+      "version": "4.9.5",
+      "purl": "pkg:pypi/shortid@4.9.5"
+    },
+    {
+      "type": "library",
+      "name": "lxml-stubs",
+      "version": "1.4.6",
+      "purl": "pkg:npm/lxml-stubs@1.4.6"
+    },
+    {
+      "type": "library",
+      "name": "speakeasy",
+      "version": "5.4.1",
+      "purl": "pkg:pypi/speakeasy@5.4.1"
+    },
+    {
+      "type": "library",
+      "name": "mailchimp-marketing",
+      "version": "2.11.6",
+      "purl": "pkg:pypi/mailchimp-marketing@2.11.6"
+    },
+    {
+      "type": "library",
+      "name": "aiomysql",
+      "version": "1.3.7",
+      "purl": "pkg:pypi/aiomysql@1.3.7"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "2.10.3",
+      "purl": "pkg:npm/cryptography@2.10.3"
+    },
+    {
+      "type": "library",
+      "name": "papaparse",
+      "version": "4.10.5",
+      "purl": "pkg:npm/papaparse@4.10.5"
+    },
+    {
+      "type": "library",
+      "name": "beautifulsoup4",
+      "version": "3.11.5",
+      "purl": "pkg:pypi/beautifulsoup4@3.11.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-4284",
+      "version": "3.11.8",
+      "purl": "pkg:npm/lib-4284@3.11.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-8737",
+      "version": "3.7.5",
+      "purl": "pkg:pypi/lib-8737@3.7.5"
+    },
+    {
+      "type": "library",
+      "name": "minio",
+      "version": "2.10.4",
+      "purl": "pkg:npm/minio@2.10.4"
+    },
+    {
+      "type": "library",
+      "name": "google-cloud-pubsub",
+      "version": "5.0.0",
+      "purl": "pkg:npm/google-cloud-pubsub@5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-6853",
+      "version": "1.8.2",
+      "purl": "pkg:pypi/lib-6853@1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "paypalrestsdk",
+      "version": "4.4.1",
+      "purl": "pkg:npm/paypalrestsdk@4.4.1"
+    },
+    {
+      "type": "library",
+      "name": "react-spring",
+      "version": "5.0.7",
+      "purl": "pkg:npm/react-spring@5.0.7"
+    },
+    {
+      "type": "library",
+      "name": "docker",
+      "version": "2.8.8",
+      "purl": "pkg:pypi/docker@2.8.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-4858",
+      "version": "3.10.1",
+      "purl": "pkg:pypi/lib-4858@3.10.1"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "3.8.9",
+      "purl": "pkg:pypi/numpy@3.8.9"
+    },
+    {
+      "type": "library",
+      "name": "forever",
+      "version": "4.11.4",
+      "purl": "pkg:npm/forever@4.11.4"
+    },
+    {
+      "type": "library",
+      "name": "gitpython",
+      "version": "2.6.8",
+      "purl": "pkg:npm/gitpython@2.6.8"
+    },
+    {
+      "type": "library",
+      "name": "secrets",
+      "version": "2.2.3",
+      "purl": "pkg:npm/secrets@2.2.3"
+    }
+  ]
+}

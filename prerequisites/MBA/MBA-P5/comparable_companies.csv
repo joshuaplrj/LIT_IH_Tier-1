@@ -1,0 +1,11 @@
+company_name,ticker,description,revenue_usd_m,revenue_growth_pct,gross_margin_pct,ebitda_margin_pct,ev_usd_m,ev_revenue_multiple,ev_ebitda_multiple,ndr_pct,market_cap_usd_m
+Snowflake,SNOW,Cloud data platform and analytics,2800,38,67,-15,50000,17.9,N/M,130,43000
+Databricks,N/A (Private),Unified data analytics and AI platform,1500,50,72,-10,28000,18.7,N/M,140,28000
+Palantir,PLTR,AI-powered data analytics for enterprise and government,2300,17,80,10,45000,19.6,196,115,40000
+Tableau,Acquired by Salesforce,Business intelligence and data visualisation,1320,10,75,15,15700,11.9,105,120,
+Qlik,N/A (Private),Data integration and analytics platform,900,12,70,18,3000,3.3,18,110,3000
+ThoughtSpot,N/A (Private),AI-powered search and analytics,160,40,68,-35,4500,28.1,N/M,135,4500
+Looker,Acquired by Google,Business intelligence and data exploration platform,390,45,71,-20,2600,6.7,N/M,125,
+Domo,DOMO,Cloud business intelligence platform,335,8,65,-8,700,2.1,N/M,110,620
+MicroStrategy,MSTR,Enterprise analytics and business intelligence,490,5,77,12,3500,7.1,59,105,3200
+Sisense,N/A (Private),Embedded analytics and business intelligence,200,20,70,-12,1200,6.0,N/M,118,1200

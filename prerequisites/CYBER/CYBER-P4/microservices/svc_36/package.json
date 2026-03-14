@@ -1,0 +1,22 @@
+{
+  "name": "svc_36",
+  "version": "1.0.0",
+  "description": "svc_36 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "shortid": "^4.2.2",
+    "papaparse": "^3.2.9",
+    "tailwindcss": "^1.6.4",
+    "forever": "^4.4.3",
+    "react-spring": "^4.4.0",
+    "speakeasy": "^1.8.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

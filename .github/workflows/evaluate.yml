@@ -1,0 +1,273 @@
+name: Evaluate Submissions
+
+on:
+  push:
+    paths:
+      - 'submissions/**'
+  pull_request:
+    paths:
+      - 'submissions/**'
+
+jobs:
+  # ------------------------------------------------------------------ #
+  # JOB 1: Detect which submission folders changed                       #
+  # ------------------------------------------------------------------ #
+  detect-submissions:
+    name: Detect Changed Submissions
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.build-matrix.outputs.matrix }}
+      has-changes: ${{ steps.build-matrix.outputs.has-changes }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine changed submission folders
+        id: build-matrix
+        run: |
+          # Get list of changed files compared to the base
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            BASE="${{ github.event.pull_request.base.sha }}"
+            HEAD="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE="${{ github.event.before }}"
+            HEAD="${{ github.sha }}"
+          fi
+
+          # Fall back to HEAD~1 if before SHA is unavailable (e.g. first push)
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE="HEAD~1"
+          fi
+
+          echo "Comparing $BASE..$HEAD"
+
+          CHANGED=$(git diff --name-only "$BASE" "$HEAD" 2>/dev/null \
+            || git diff --name-only HEAD~1 HEAD)
+
+          echo "Changed files:"
+          echo "$CHANGED"
+
+          # Parse paths of the form: submissions/<team>/<DISCIPLINE>/P<N>/<file>
+          MATRIX_ITEMS="[]"
+          declare -A SEEN
+
+          while IFS= read -r filepath; do
+            if [[ "$filepath" =~ ^submissions/([^/]+)/([^/]+)/(P[1-5])/ ]]; then
+              TEAM="${BASH_REMATCH[1]}"
+              DISC="${BASH_REMATCH[2]}"
+              PROB="${BASH_REMATCH[3]}"
+              KEY="${TEAM}|${DISC}|${PROB}"
+
+              # Skip if we already recorded this combination
+              if [[ -n "${SEEN[$KEY]}" ]]; then
+                continue
+              fi
+              SEEN[$KEY]=1
+
+              # Validate discipline
+              if [[ ! "$DISC" =~ ^(CSE|CYBER|IT|EEE|ECE|MECH|AIDS|MBA)$ ]]; then
+                echo "Skipping unknown discipline: $DISC"
+                continue
+              fi
+
+              # Only include if the submission folder actually has files
+              SUB_DIR="submissions/${TEAM}/${DISC}/${PROB}"
+              if [ ! -d "$SUB_DIR" ]; then
+                echo "Skipping $SUB_DIR — directory does not exist"
+                continue
+              fi
+              FILE_COUNT=$(find "$SUB_DIR" -maxdepth 1 -type f | wc -l)
+              if [ "$FILE_COUNT" -eq 0 ]; then
+                echo "Skipping $SUB_DIR — no files in submission folder"
+                continue
+              fi
+
+              ITEM="{\"team\":\"${TEAM}\",\"discipline\":\"${DISC}\",\"problem\":\"${PROB}\"}"
+              if [ "$MATRIX_ITEMS" = "[]" ]; then
+                MATRIX_ITEMS="[${ITEM}]"
+              else
+                MATRIX_ITEMS="${MATRIX_ITEMS%]},$ITEM]"
+              fi
+            fi
+          done <<< "$CHANGED"
+
+          echo "matrix={\"include\":${MATRIX_ITEMS}}" >> "$GITHUB_OUTPUT"
+
+          if [ "$MATRIX_ITEMS" = "[]" ]; then
+            echo "has-changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has-changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+          echo "Final matrix: {\"include\":${MATRIX_ITEMS}}"
+
+  # ------------------------------------------------------------------ #
+  # JOB 2: Evaluate each changed submission                              #
+  # ------------------------------------------------------------------ #
+  evaluate:
+    name: Evaluate ${{ matrix.team }} / ${{ matrix.discipline }} / ${{ matrix.problem }}
+    needs: detect-submissions
+    if: needs.detect-submissions.outputs.has-changes == 'true'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.detect-submissions.outputs.matrix) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy scipy pandas scikit-learn
+
+      - name: Run evaluator
+        id: run-eval
+        run: |
+          EVAL_SCRIPT="problems/${{ matrix.discipline }}/${{ matrix.problem }}/evaluate.py"
+          SUB_DIR="submissions/${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
+
+          echo "Evaluator : $EVAL_SCRIPT"
+          echo "Submission: $SUB_DIR"
+
+          if [ ! -f "$EVAL_SCRIPT" ]; then
+            echo "ERROR: evaluate.py not found at $EVAL_SCRIPT"
+            echo "score=0" >> "$GITHUB_OUTPUT"
+            echo "eval_error=Evaluator script not found: $EVAL_SCRIPT" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Run evaluator; capture output; handle non-zero exit gracefully
+          set +e
+          OUTPUT=$(python "$EVAL_SCRIPT" --submission "$SUB_DIR" 2>&1)
+          EXIT_CODE=$?
+          set -e
+
+          echo "--- Evaluator output ---"
+          echo "$OUTPUT"
+          echo "--- End evaluator output ---"
+
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "WARNING: evaluate.py exited with code $EXIT_CODE — scoring as 0"
+            echo "score=0" >> "$GITHUB_OUTPUT"
+            echo "eval_error=Evaluator exited with code $EXIT_CODE" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Extract the last valid JSON object from stdout that contains "total"
+          SCORE=$(echo "$OUTPUT" \
+            | python3 -c "
+import sys, json
+score = 0
+for line in sys.stdin:
+    line = line.strip()
+    try:
+        obj = json.loads(line)
+        if 'total' in obj:
+            score = int(obj['total'])
+    except Exception:
+        pass
+# Clamp to [0, 100]
+score = max(0, min(100, score))
+print(score)
+" 2>/dev/null || echo "0")
+
+          echo "Parsed score: $SCORE"
+          echo "score=$SCORE" >> "$GITHUB_OUTPUT"
+          echo "eval_error=" >> "$GITHUB_OUTPUT"
+
+      - name: Upload score artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: score-${{ matrix.team }}-${{ matrix.discipline }}-${{ matrix.problem }}
+          path: /dev/null        # placeholder — actual data passed via output
+          if-no-files-found: ignore
+
+      - name: Write score to file
+        run: |
+          mkdir -p /tmp/scores
+          echo "${{ steps.run-eval.outputs.score }}" > \
+            "/tmp/scores/${{ matrix.team }}__${{ matrix.discipline }}__${{ matrix.problem }}.txt"
+          echo "Recorded score ${{ steps.run-eval.outputs.score }} for \
+${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
+
+      - name: Upload score file artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: score-${{ matrix.team }}-${{ matrix.discipline }}-${{ matrix.problem }}
+          path: /tmp/scores/
+          overwrite: true
+
+  # ------------------------------------------------------------------ #
+  # JOB 3: Update leaderboard.json with all new scores                  #
+  # ------------------------------------------------------------------ #
+  update-leaderboard:
+    name: Update Leaderboard
+    needs: [detect-submissions, evaluate]
+    if: |
+      always() &&
+      needs.detect-submissions.outputs.has-changes == 'true' &&
+      needs.evaluate.result != 'skipped'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use a token that allows pushing back to the repo
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Download all score artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: /tmp/all-scores/
+          pattern: score-*
+
+      - name: Apply scores to leaderboard.json
+        run: |
+          # Find all score txt files and apply them
+          find /tmp/all-scores -name "*.txt" | while read -r score_file; do
+            BASENAME=$(basename "$score_file" .txt)
+            # Format: <team>__<discipline>__<problem>
+            TEAM=$(echo "$BASENAME" | cut -d'_' -f1)
+            DISC=$(echo "$BASENAME" | awk -F'__' '{print $2}')
+            PROB=$(echo "$BASENAME" | awk -F'__' '{print $3}')
+            SCORE=$(cat "$score_file" | tr -d '[:space:]')
+
+            echo "Applying: team=$TEAM disc=$DISC prob=$PROB score=$SCORE"
+
+            python .github/workflows/update_leaderboard.py \
+              --team "$TEAM" \
+              --discipline "$DISC" \
+              --problem "$PROB" \
+              --score "$SCORE"
+          done
+
+      - name: Commit and push leaderboard update
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add leaderboard/leaderboard.json
+
+          # Only commit if there are actual changes
+          if git diff --cached --quiet; then
+            echo "No changes to leaderboard.json — skipping commit"
+          else
+            git commit -m "leaderboard: auto-update scores [skip ci]"
+            git push origin HEAD
+            echo "Leaderboard pushed successfully"
+          fi

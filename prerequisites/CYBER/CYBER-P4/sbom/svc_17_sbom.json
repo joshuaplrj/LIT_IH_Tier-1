@@ -1,0 +1,171 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:3d80bca7-fa0d-40f2-996b-4f4309a5037d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_17",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "werkzeug",
+      "version": "5.10.9",
+      "purl": "pkg:pypi/werkzeug@5.10.9"
+    },
+    {
+      "type": "library",
+      "name": "sh",
+      "version": "3.7.3",
+      "purl": "pkg:npm/sh@3.7.3"
+    },
+    {
+      "type": "library",
+      "name": "zustand",
+      "version": "4.8.1",
+      "purl": "pkg:pypi/zustand@4.8.1"
+    },
+    {
+      "type": "library",
+      "name": "watchdog",
+      "version": "2.4.6",
+      "purl": "pkg:npm/watchdog@2.4.6"
+    },
+    {
+      "type": "library",
+      "name": "numpyy",
+      "version": "5.3.7",
+      "purl": "pkg:npm/numpyy@5.3.7"
+    },
+    {
+      "type": "library",
+      "name": "ujson",
+      "version": "3.0.2",
+      "purl": "pkg:pypi/ujson@3.0.2"
+    },
+    {
+      "type": "library",
+      "name": "py-cpuinfo",
+      "version": "4.0.7",
+      "purl": "pkg:pypi/py-cpuinfo@4.0.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-8053",
+      "version": "2.10.9",
+      "purl": "pkg:npm/lib-8053@2.10.9"
+    },
+    {
+      "type": "library",
+      "name": "convict",
+      "version": "1.7.0",
+      "purl": "pkg:npm/convict@1.7.0"
+    },
+    {
+      "type": "library",
+      "name": "image-optimizer-pro",
+      "version": "1.6.4",
+      "purl": "pkg:pypi/image-optimizer-pro@1.6.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-7884",
+      "version": "4.3.1",
+      "purl": "pkg:npm/lib-7884@4.3.1"
+    },
+    {
+      "type": "library",
+      "name": "pkg-1958",
+      "version": "1.9.0",
+      "purl": "pkg:npm/pkg-1958@1.9.0"
+    },
+    {
+      "type": "library",
+      "name": "ftplib",
+      "version": "3.12.3",
+      "purl": "pkg:pypi/ftplib@3.12.3"
+    },
+    {
+      "type": "library",
+      "name": "asyncpg",
+      "version": "4.5.9",
+      "purl": "pkg:npm/asyncpg@4.5.9"
+    },
+    {
+      "type": "library",
+      "name": "vite",
+      "version": "4.5.5",
+      "purl": "pkg:pypi/vite@4.5.5"
+    },
+    {
+      "type": "library",
+      "name": "node-tar",
+      "version": "1.5.9",
+      "purl": "pkg:pypi/node-tar@1.5.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-7425",
+      "version": "5.6.7",
+      "purl": "pkg:npm/lib-7425@5.6.7"
+    },
+    {
+      "type": "library",
+      "name": "celery-backdoor",
+      "version": "4.5.5",
+      "purl": "pkg:npm/celery-backdoor@4.5.5"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "5.7.6",
+      "purl": "pkg:pypi/puppeteer@5.7.6"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "3.4.9",
+      "purl": "pkg:pypi/sinon@3.4.9"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": "4.11.2",
+      "purl": "pkg:pypi/psutil@4.11.2"
+    },
+    {
+      "type": "library",
+      "name": "fast-csv",
+      "version": "2.0.0",
+      "purl": "pkg:npm/fast-csv@2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "bullmq",
+      "version": "2.12.9",
+      "purl": "pkg:npm/bullmq@2.12.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-9541",
+      "version": "3.3.1",
+      "purl": "pkg:npm/lib-9541@3.3.1"
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "1.8.7",
+      "purl": "pkg:pypi/joblib@1.8.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-7823",
+      "version": "1.3.3",
+      "purl": "pkg:pypi/lib-7823@1.3.3"
+    }
+  ]
+}

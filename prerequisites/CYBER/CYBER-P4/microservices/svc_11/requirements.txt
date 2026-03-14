@@ -1,0 +1,6 @@
+lib-4256==1.12.1
+jinja2==3.9.5
+pyopenssl==4.3.7
+secrets==1.10.4
+lib-6755==5.12.7
+uvicorn==3.11.8

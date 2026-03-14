@@ -1,0 +1,129 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:2deb43a0-90de-422d-b447-da48cdd039f0",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_01",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": "2.6.4",
+      "purl": "pkg:npm/opencv-python@2.6.4"
+    },
+    {
+      "type": "library",
+      "name": "passport-jwt",
+      "version": "2.7.3",
+      "purl": "pkg:pypi/passport-jwt@2.7.3"
+    },
+    {
+      "type": "library",
+      "name": "next",
+      "version": "3.4.3",
+      "purl": "pkg:npm/next@3.4.3"
+    },
+    {
+      "type": "library",
+      "name": "usb",
+      "version": "3.3.5",
+      "purl": "pkg:npm/usb@3.3.5"
+    },
+    {
+      "type": "library",
+      "name": "typer",
+      "version": "1.12.2",
+      "purl": "pkg:pypi/typer@1.12.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-9912",
+      "version": "4.11.9",
+      "purl": "pkg:npm/lib-9912@4.11.9"
+    },
+    {
+      "type": "library",
+      "name": "stripe",
+      "version": "1.12.7",
+      "purl": "pkg:npm/stripe@1.12.7"
+    },
+    {
+      "type": "library",
+      "name": "redis",
+      "version": "4.6.2",
+      "purl": "pkg:pypi/redis@4.6.2"
+    },
+    {
+      "type": "library",
+      "name": "zipfile",
+      "version": "4.6.3",
+      "purl": "pkg:npm/zipfile@4.6.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-9009",
+      "version": "1.1.1",
+      "purl": "pkg:pypi/lib-9009@1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "twisted",
+      "version": "1.6.1",
+      "purl": "pkg:pypi/twisted@1.6.1"
+    },
+    {
+      "type": "library",
+      "name": "loguru",
+      "version": "1.11.0",
+      "purl": "pkg:pypi/loguru@1.11.0"
+    },
+    {
+      "type": "library",
+      "name": "gputil",
+      "version": "1.12.6",
+      "purl": "pkg:pypi/gputil@1.12.6"
+    },
+    {
+      "type": "library",
+      "name": "curio",
+      "version": "1.4.1",
+      "purl": "pkg:pypi/curio@1.4.1"
+    },
+    {
+      "type": "library",
+      "name": "moment",
+      "version": "4.10.3",
+      "purl": "pkg:npm/moment@4.10.3"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "2.1.4",
+      "purl": "pkg:pypi/uuid@2.1.4"
+    },
+    {
+      "type": "library",
+      "name": "busboy",
+      "version": "2.5.1",
+      "purl": "pkg:npm/busboy@2.5.1"
+    },
+    {
+      "type": "library",
+      "name": "uWebSockets.js",
+      "version": "1.10.1",
+      "purl": "pkg:npm/uWebSockets.js@1.10.1"
+    },
+    {
+      "type": "library",
+      "name": "sequelize",
+      "version": "3.8.3",
+      "purl": "pkg:pypi/sequelize@3.8.3"
+    }
+  ]
+}

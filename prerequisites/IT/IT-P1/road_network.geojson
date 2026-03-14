@@ -1,0 +1,1275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.953582
+          ],
+          [
+            77.6203732,
+            12.953582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_001",
+        "name": "East-West Blvd 1",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9580865
+          ],
+          [
+            77.6203732,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_002",
+        "name": "East-West Blvd 2",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.962591
+          ],
+          [
+            77.6203732,
+            12.962591
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_003",
+        "name": "East-West Blvd 3",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9670955
+          ],
+          [
+            77.6203732,
+            12.9670955
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_004",
+        "name": "East-West Blvd 4",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9716
+          ],
+          [
+            77.6203732,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_005",
+        "name": "East-West Blvd 5",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9761045
+          ],
+          [
+            77.6203732,
+            12.9761045
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_006",
+        "name": "East-West Blvd 6",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.980609
+          ],
+          [
+            77.6203732,
+            12.980609
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_007",
+        "name": "East-West Blvd 7",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9851135
+          ],
+          [
+            77.6203732,
+            12.9851135
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_008",
+        "name": "East-West Blvd 8",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.989618
+          ],
+          [
+            77.6203732,
+            12.989618
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_009",
+        "name": "East-West Blvd 9",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5688268,
+            12.9941225
+          ],
+          [
+            77.6203732,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_010",
+        "name": "East-West Blvd 10",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9490775
+          ],
+          [
+            77.5739814,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_011",
+        "name": "North-South Ave 1",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5791361,
+            12.9490775
+          ],
+          [
+            77.5791361,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_012",
+        "name": "North-South Ave 2",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5842907,
+            12.9490775
+          ],
+          [
+            77.5842907,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_013",
+        "name": "North-South Ave 3",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5894454,
+            12.9490775
+          ],
+          [
+            77.5894454,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_014",
+        "name": "North-South Ave 4",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5946,
+            12.9490775
+          ],
+          [
+            77.5946,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_015",
+        "name": "North-South Ave 5",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5997546,
+            12.9490775
+          ],
+          [
+            77.5997546,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_016",
+        "name": "North-South Ave 6",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6049093,
+            12.9490775
+          ],
+          [
+            77.6049093,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_017",
+        "name": "North-South Ave 7",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9490775
+          ],
+          [
+            77.6100639,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_018",
+        "name": "North-South Ave 8",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6152186,
+            12.9490775
+          ],
+          [
+            77.6152186,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_019",
+        "name": "North-South Ave 9",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6203732,
+            12.9490775
+          ],
+          [
+            77.6203732,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_020",
+        "name": "North-South Ave 10",
+        "road_type": "primary",
+        "speed_limit": 60,
+        "lanes": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9851135
+          ],
+          [
+            77.5890227,
+            12.9802937
+          ],
+          [
+            77.6049093,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_021",
+        "name": "Secondary Rd 1",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.980609
+          ],
+          [
+            77.5792907,
+            12.9696631
+          ],
+          [
+            77.5842907,
+            12.953582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_022",
+        "name": "Secondary Rd 2",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9851135
+          ],
+          [
+            77.6070021,
+            12.9713297
+          ],
+          [
+            77.5997546,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_023",
+        "name": "Secondary Rd 3",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5997546,
+            12.9670955
+          ],
+          [
+            77.5911773,
+            12.9813838
+          ],
+          [
+            77.5791361,
+            12.9941225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_024",
+        "name": "Secondary Rd 4",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5946,
+            12.989618
+          ],
+          [
+            77.596868,
+            12.9791315
+          ],
+          [
+            77.5997546,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_025",
+        "name": "Secondary Rd 5",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9761045
+          ],
+          [
+            77.5968062,
+            12.966609
+          ],
+          [
+            77.6152186,
+            12.953582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_026",
+        "name": "Secondary Rd 6",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5842907,
+            12.980609
+          ],
+          [
+            77.5829505,
+            12.9820685
+          ],
+          [
+            77.5791361,
+            12.9851135
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_027",
+        "name": "Secondary Rd 7",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9941225
+          ],
+          [
+            77.5853835,
+            12.9933748
+          ],
+          [
+            77.5946,
+            12.989618
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_028",
+        "name": "Secondary Rd 8",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9580865
+          ],
+          [
+            77.599734,
+            12.9623748
+          ],
+          [
+            77.5894454,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_029",
+        "name": "Secondary Rd 9",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5997546,
+            12.9580865
+          ],
+          [
+            77.6075175,
+            12.9706631
+          ],
+          [
+            77.6100639,
+            12.980609
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_030",
+        "name": "Secondary Rd 10",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5894454,
+            12.9941225
+          ],
+          [
+            77.5945278,
+            12.9799063
+          ],
+          [
+            77.5946,
+            12.9670955
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_031",
+        "name": "Secondary Rd 11",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9716
+          ],
+          [
+            77.5917856,
+            12.9628342
+          ],
+          [
+            77.6100639,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_032",
+        "name": "Secondary Rd 12",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6049093,
+            12.9716
+          ],
+          [
+            77.5975691,
+            12.9680054
+          ],
+          [
+            77.5894454,
+            12.962591
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_033",
+        "name": "Secondary Rd 13",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6203732,
+            12.9716
+          ],
+          [
+            77.6005485,
+            12.9816901
+          ],
+          [
+            77.5791361,
+            12.989618
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_034",
+        "name": "Secondary Rd 14",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9670955
+          ],
+          [
+            77.5916206,
+            12.9799964
+          ],
+          [
+            77.6100639,
+            12.989618
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_035",
+        "name": "Secondary Rd 15",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6152186,
+            12.9670955
+          ],
+          [
+            77.6136,
+            12.9658252
+          ],
+          [
+            77.6152186,
+            12.962591
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_036",
+        "name": "Secondary Rd 16",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6049093,
+            12.9580865
+          ],
+          [
+            77.6119402,
+            12.9554198
+          ],
+          [
+            77.6152186,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_037",
+        "name": "Secondary Rd 17",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9851135
+          ],
+          [
+            77.6098784,
+            12.9839694
+          ],
+          [
+            77.6100639,
+            12.980609
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_038",
+        "name": "Secondary Rd 18",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5842907,
+            12.9851135
+          ],
+          [
+            77.5920536,
+            12.9787261
+          ],
+          [
+            77.5997546,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_039",
+        "name": "Secondary Rd 19",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.9580865
+          ],
+          [
+            77.5787546,
+            12.9589964
+          ],
+          [
+            77.5842907,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_040",
+        "name": "Secondary Rd 20",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6049093,
+            12.9716
+          ],
+          [
+            77.6074557,
+            12.9752757
+          ],
+          [
+            77.6152186,
+            12.9761045
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_041",
+        "name": "Secondary Rd 21",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5997546,
+            12.980609
+          ],
+          [
+            77.5972186,
+            12.9786721
+          ],
+          [
+            77.5997546,
+            12.9761045
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_042",
+        "name": "Secondary Rd 22",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9670955
+          ],
+          [
+            77.6065381,
+            12.9599964
+          ],
+          [
+            77.6049093,
+            12.953582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_043",
+        "name": "Secondary Rd 23",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6203732,
+            12.962591
+          ],
+          [
+            77.6053732,
+            12.9690054
+          ],
+          [
+            77.5842907,
+            12.9716
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_044",
+        "name": "Secondary Rd 24",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5739814,
+            12.962591
+          ],
+          [
+            77.5967959,
+            12.9568973
+          ],
+          [
+            77.6152186,
+            12.953582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_045",
+        "name": "Secondary Rd 25",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6203732,
+            12.962591
+          ],
+          [
+            77.605167,
+            12.9719063
+          ],
+          [
+            77.5946,
+            12.980609
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_046",
+        "name": "Secondary Rd 26",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5997546,
+            12.9851135
+          ],
+          [
+            77.6094969,
+            12.9823477
+          ],
+          [
+            77.6203732,
+            12.980609
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_047",
+        "name": "Secondary Rd 27",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5946,
+            12.989618
+          ],
+          [
+            77.5909918,
+            12.9712667
+          ],
+          [
+            77.5894454,
+            12.9580865
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_048",
+        "name": "Secondary Rd 28",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.5791361,
+            12.953582
+          ],
+          [
+            77.5958165,
+            12.9691405
+          ],
+          [
+            77.6100639,
+            12.9851135
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_049",
+        "name": "Secondary Rd 29",
+        "road_type": "secondary",
+        "speed_limit": 30,
+        "lanes": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.6100639,
+            12.9580865
+          ],
+          [
+            77.6179196,
+            12.9652126
+          ],
+          [
+            77.6203732,
+            12.9761045
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road_050",
+        "name": "Secondary Rd 30",
+        "road_type": "residential",
+        "speed_limit": 50,
+        "lanes": 2
+      }
+    }
+  ]
+}

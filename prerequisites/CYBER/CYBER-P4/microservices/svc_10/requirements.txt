@@ -1,0 +1,3 @@
+psycopg2==3.4.5
+fastapi==5.12.3
+click==2.11.3

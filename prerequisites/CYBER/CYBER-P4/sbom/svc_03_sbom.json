@@ -1,0 +1,129 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ceef820b-954a-4c76-bac4-9916f57bdfa2",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_03",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "invoke",
+      "version": "1.6.8",
+      "purl": "pkg:npm/invoke@1.6.8"
+    },
+    {
+      "type": "library",
+      "name": "internal-auth-lib",
+      "version": "4.2.6",
+      "purl": "pkg:pypi/internal-auth-lib@4.2.6"
+    },
+    {
+      "type": "library",
+      "name": "schedule",
+      "version": "5.11.5",
+      "purl": "pkg:npm/schedule@5.11.5"
+    },
+    {
+      "type": "library",
+      "name": "python-json-logger",
+      "version": "3.1.5",
+      "purl": "pkg:pypi/python-json-logger@3.1.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-7484",
+      "version": "2.10.0",
+      "purl": "pkg:npm/lib-7484@2.10.0"
+    },
+    {
+      "type": "library",
+      "name": "pylint",
+      "version": "2.4.2",
+      "purl": "pkg:pypi/pylint@2.4.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-8519",
+      "version": "1.9.4",
+      "purl": "pkg:pypi/lib-8519@1.9.4"
+    },
+    {
+      "type": "library",
+      "name": "pkg-1958",
+      "version": "3.5.9",
+      "purl": "pkg:npm/pkg-1958@3.5.9"
+    },
+    {
+      "type": "library",
+      "name": "curio",
+      "version": "3.11.2",
+      "purl": "pkg:pypi/curio@3.11.2"
+    },
+    {
+      "type": "library",
+      "name": "echarts",
+      "version": "3.10.3",
+      "purl": "pkg:pypi/echarts@3.10.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-4624",
+      "version": "1.4.9",
+      "purl": "pkg:npm/lib-4624@1.4.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-3140",
+      "version": "5.2.7",
+      "purl": "pkg:npm/lib-3140@5.2.7"
+    },
+    {
+      "type": "library",
+      "name": "requets",
+      "version": "4.2.9",
+      "purl": "pkg:pypi/requets@4.2.9"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "1.3.4",
+      "purl": "pkg:npm/rollup@1.3.4"
+    },
+    {
+      "type": "library",
+      "name": "sinon",
+      "version": "3.11.0",
+      "purl": "pkg:pypi/sinon@3.11.0"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": "5.12.3",
+      "purl": "pkg:pypi/fastapi@5.12.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-1513",
+      "version": "3.4.5",
+      "purl": "pkg:pypi/lib-1513@3.4.5"
+    },
+    {
+      "type": "library",
+      "name": "itsdangerous",
+      "version": "1.5.7",
+      "purl": "pkg:pypi/itsdangerous@1.5.7"
+    },
+    {
+      "type": "library",
+      "name": "faker",
+      "version": "3.1.7",
+      "purl": "pkg:npm/faker@3.1.7"
+    }
+  ]
+}

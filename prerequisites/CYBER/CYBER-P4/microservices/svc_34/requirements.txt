@@ -1,0 +1,5 @@
+keyring==1.10.6
+pillow==3.7.3
+cerberus==2.4.7
+isort==5.12.6
+lib-7828==2.0.8

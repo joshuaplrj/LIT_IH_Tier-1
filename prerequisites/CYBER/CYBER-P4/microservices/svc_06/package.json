@@ -1,0 +1,22 @@
+{
+  "name": "svc_06",
+  "version": "1.0.0",
+  "description": "svc_06 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "yup": "^5.6.4",
+    "parcel": "^5.2.2",
+    "passport-local": "^3.0.8",
+    "nuxt": "^4.9.9",
+    "prettier": "^3.4.8",
+    "protobufjs": "^1.7.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

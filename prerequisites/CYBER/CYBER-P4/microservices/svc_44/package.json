@@ -1,0 +1,20 @@
+{
+  "name": "svc_44",
+  "version": "1.0.0",
+  "description": "svc_44 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "esbuild": "^1.11.7",
+    "chart.js": "^3.12.7",
+    "commitizen": "^5.0.0",
+    "mailgun-js": "^4.4.8"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

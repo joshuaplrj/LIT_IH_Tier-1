@@ -1,0 +1,93 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:5471b6ae-4631-48d7-859f-c6772a125e76",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_10",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "braintree",
+      "version": "2.0.9",
+      "purl": "pkg:npm/braintree@2.0.9"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "2.5.7",
+      "purl": "pkg:pypi/typescript@2.5.7"
+    },
+    {
+      "type": "library",
+      "name": "grpc",
+      "version": "5.3.1",
+      "purl": "pkg:npm/grpc@5.3.1"
+    },
+    {
+      "type": "library",
+      "name": "psycopg2",
+      "version": "1.12.6",
+      "purl": "pkg:npm/psycopg2@1.12.6"
+    },
+    {
+      "type": "library",
+      "name": "paypal",
+      "version": "4.2.0",
+      "purl": "pkg:pypi/paypal@4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": "4.2.0",
+      "purl": "pkg:npm/fastapi@4.2.0"
+    },
+    {
+      "type": "library",
+      "name": "graphql",
+      "version": "2.4.4",
+      "purl": "pkg:pypi/graphql@2.4.4"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "4.12.0",
+      "purl": "pkg:pypi/vue@4.12.0"
+    },
+    {
+      "type": "library",
+      "name": "click",
+      "version": "5.2.9",
+      "purl": "pkg:pypi/click@5.2.9"
+    },
+    {
+      "type": "library",
+      "name": "texttable",
+      "version": "3.3.0",
+      "purl": "pkg:pypi/texttable@3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "keyring",
+      "version": "4.7.0",
+      "purl": "pkg:pypi/keyring@4.7.0"
+    },
+    {
+      "type": "library",
+      "name": "lxml",
+      "version": "4.1.6",
+      "purl": "pkg:pypi/lxml@4.1.6"
+    },
+    {
+      "type": "library",
+      "name": "blessed",
+      "version": "5.2.3",
+      "purl": "pkg:pypi/blessed@5.2.3"
+    }
+  ]
+}

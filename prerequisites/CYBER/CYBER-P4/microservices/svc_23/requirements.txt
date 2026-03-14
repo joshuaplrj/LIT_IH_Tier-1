@@ -1,0 +1,4 @@
+apispec==4.7.4
+terraform==2.10.0
+phonenumbers==2.0.5
+lib-6755==2.7.6

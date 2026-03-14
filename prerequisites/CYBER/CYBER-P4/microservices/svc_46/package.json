@@ -1,0 +1,21 @@
+{
+  "name": "svc_46",
+  "version": "1.0.0",
+  "description": "svc_46 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "compression": "^1.2.0",
+    "supertest": "^1.3.9",
+    "azure-sdk": "^4.7.8",
+    "zod": "^5.3.9",
+    "sinon": "^3.3.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

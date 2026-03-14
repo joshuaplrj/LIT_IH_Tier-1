@@ -1,0 +1,141 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:ef918bbe-2818-4c3d-8d23-79117aa8efcc",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_12",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "braintree",
+      "version": "2.6.8",
+      "purl": "pkg:npm/braintree@2.6.8"
+    },
+    {
+      "type": "library",
+      "name": "imagemin",
+      "version": "2.0.1",
+      "purl": "pkg:npm/imagemin@2.0.1"
+    },
+    {
+      "type": "library",
+      "name": "schedule",
+      "version": "5.7.3",
+      "purl": "pkg:npm/schedule@5.7.3"
+    },
+    {
+      "type": "library",
+      "name": "marshmallow-sqlalchemy",
+      "version": "3.3.4",
+      "purl": "pkg:pypi/marshmallow-sqlalchemy@3.3.4"
+    },
+    {
+      "type": "library",
+      "name": "lxml-stubs",
+      "version": "1.10.5",
+      "purl": "pkg:npm/lxml-stubs@1.10.5"
+    },
+    {
+      "type": "library",
+      "name": "supertest",
+      "version": "5.2.0",
+      "purl": "pkg:pypi/supertest@5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "aws-sdk",
+      "version": "1.0.0",
+      "purl": "pkg:pypi/aws-sdk@1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "debug",
+      "version": "4.12.6",
+      "purl": "pkg:pypi/debug@4.12.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-2503",
+      "version": "2.2.5",
+      "purl": "pkg:pypi/lib-2503@2.2.5"
+    },
+    {
+      "type": "library",
+      "name": "tenacity",
+      "version": "2.9.8",
+      "purl": "pkg:npm/tenacity@2.9.8"
+    },
+    {
+      "type": "library",
+      "name": "date-fns",
+      "version": "2.11.8",
+      "purl": "pkg:pypi/date-fns@2.11.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-8466",
+      "version": "1.9.2",
+      "purl": "pkg:npm/lib-8466@1.9.2"
+    },
+    {
+      "type": "library",
+      "name": "ioredis",
+      "version": "4.11.6",
+      "purl": "pkg:npm/ioredis@4.11.6"
+    },
+    {
+      "type": "library",
+      "name": "phonenumbers",
+      "version": "5.8.3",
+      "purl": "pkg:npm/phonenumbers@5.8.3"
+    },
+    {
+      "type": "library",
+      "name": "molotov",
+      "version": "3.3.5",
+      "purl": "pkg:pypi/molotov@3.3.5"
+    },
+    {
+      "type": "library",
+      "name": "lodash.get",
+      "version": "5.0.7",
+      "purl": "pkg:npm/lodash.get@5.0.7"
+    },
+    {
+      "type": "library",
+      "name": "grpcio",
+      "version": "4.5.1",
+      "purl": "pkg:pypi/grpcio@4.5.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-4567",
+      "version": "3.1.8",
+      "purl": "pkg:npm/lib-4567@3.1.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-3501",
+      "version": "1.2.6",
+      "purl": "pkg:pypi/lib-3501@1.2.6"
+    },
+    {
+      "type": "library",
+      "name": "pyserial",
+      "version": "4.10.3",
+      "purl": "pkg:npm/pyserial@4.10.3"
+    },
+    {
+      "type": "library",
+      "name": "boto3",
+      "version": "4.0.5",
+      "purl": "pkg:pypi/boto3@4.0.5"
+    }
+  ]
+}

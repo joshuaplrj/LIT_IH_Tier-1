@@ -1,0 +1,2 @@
+let mut s: String = String::new("world");
+println!("{}", s);

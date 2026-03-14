@@ -1,0 +1,6 @@
+flasgger==1.6.1
+lib-7717==1.1.5
+factory-boy==5.1.4
+sentry-sdk==3.3.2
+lib-8466==2.10.8
+retry==3.2.9

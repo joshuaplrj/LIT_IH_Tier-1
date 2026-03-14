@@ -1,0 +1,4 @@
+flow_id,channel_type,encoded_message,start_packet,end_packet
+COVERT_TIMING_001,timing,EXFIL:ACCT_DATA_2024Q4,6560,7145
+COVERT_SIZE_001,size,EXFIL:CREDS_HASH,9672,9799
+DOH_TUNNEL_001,dns_tunnel,DNS tunneling via 203.0.113.53,0,9999

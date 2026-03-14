@@ -1,0 +1,8 @@
+structlog==3.7.6
+dynaconf==3.4.5
+azure-storage-blob==5.0.6
+typer==3.5.8
+pika==3.9.3
+twisted==4.10.5
+loguru==4.10.6
+pexpect==4.1.2

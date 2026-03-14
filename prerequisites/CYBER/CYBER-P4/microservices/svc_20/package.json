@@ -1,0 +1,22 @@
+{
+  "name": "svc_20",
+  "version": "1.0.0",
+  "description": "svc_20 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "vite": "^2.8.2",
+    "swc": "^3.0.4",
+    "pkg-1958": "^4.4.2",
+    "convict": "^5.9.5",
+    "nuxt": "^4.10.2",
+    "node-forge": "^5.0.9"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

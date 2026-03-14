@@ -1,0 +1,51 @@
+event_id,event_date,event_type,affected_supplier_ids,affected_regions,impact_severity,duration_weeks,cost_impact_usd_million,recovery_status
+EVT-001,2020-01-20,pandemic,supplier_200;supplier_480;supplier_304;supplier_241,China;Global,Critical,104,12000,Ongoing
+EVT-002,2020-03-15,logistics_disruption,supplier_278,Global,High,12,2500,Recovered
+EVT-003,2020-08-10,factory_fire,supplier_380;supplier_097;supplier_152;supplier_289;supplier_204;supplier_388;supplier_458;supplier_278;supplier_488;supplier_262,China,Medium,6,180,Recovered
+EVT-004,2021-03-23,logistics_disruption,supplier_098;supplier_104;supplier_275;supplier_080;supplier_151;supplier_435,Global;Suez Canal,High,2,9600,Recovered
+EVT-005,2021-06-01,tariff_change,supplier_413;supplier_033;supplier_268,USA;China,Medium,52,800,Ongoing
+EVT-006,2021-07-14,flood,supplier_075;supplier_014;supplier_065,Germany;Europe,Medium,8,650,Recovered
+EVT-007,2021-08-05,semiconductor_shortage,supplier_487;supplier_163,Global,Critical,78,5000,Partially Recovered
+EVT-008,2021-10-01,port_congestion,supplier_064;supplier_160;supplier_287;supplier_446;supplier_195;supplier_002;supplier_161;supplier_252;supplier_357;supplier_157,USA,High,16,1200,Recovered
+EVT-009,2022-02-24,tariff_change,supplier_332;supplier_174;supplier_264;supplier_080,Russia;Europe,High,52,3000,Ongoing
+EVT-010,2022-03-01,logistics_disruption,supplier_436,Russia;Global,Medium,26,900,Recovered
+EVT-011,2022-04-01,pandemic,supplier_153;supplier_048;supplier_290,China;Shanghai,High,12,4500,Recovered
+EVT-012,2022-07-01,earthquake,supplier_031;supplier_009;supplier_383;supplier_278;supplier_232;supplier_061;supplier_184;supplier_476,Philippines,Medium,4,150,Recovered
+EVT-013,2022-09-15,cyberattack,supplier_257;supplier_095;supplier_487;supplier_193,Global,Medium,3,450,Recovered
+EVT-014,2022-11-01,quality_recall,supplier_461;supplier_321,Global,Medium,8,600,Recovered
+EVT-015,2023-01-10,tariff_change,supplier_306;supplier_045;supplier_072,USA;Taiwan,Low,52,300,Ongoing
+EVT-016,2023-03-20,flood,supplier_119,Malaysia,Medium,6,280,Recovered
+EVT-017,2023-05-01,supplier_bankruptcy,supplier_341;supplier_333,Global,High,4,750,Recovered
+EVT-018,2023-07-15,earthquake,supplier_425,Japan,Medium,3,420,Recovered
+EVT-019,2023-09-01,port_congestion,supplier_495;supplier_436;supplier_230,China,Low,8,380,Recovered
+EVT-020,2023-10-01,tariff_change,supplier_449;supplier_156;supplier_010;supplier_197;supplier_042;supplier_211;supplier_307;supplier_388,USA;China,Medium,52,550,Ongoing
+EVT-021,2023-12-01,logistics_disruption,supplier_253;supplier_471;supplier_186;supplier_185;supplier_014;supplier_180;supplier_318,Red Sea;Global,High,26,1800,Ongoing
+EVT-022,2024-01-15,factory_fire,supplier_351;supplier_106;supplier_388;supplier_342;supplier_273;supplier_383;supplier_221;supplier_434;supplier_428;supplier_418,South Korea,Medium,6,320,Recovered
+EVT-023,2024-02-01,cyberattack,supplier_143;supplier_431;supplier_197;supplier_469;supplier_046;supplier_264;supplier_427;supplier_082,Taiwan,High,2,900,Recovered
+EVT-024,2024-03-01,tariff_change,supplier_138;supplier_259;supplier_471,EU;China,Medium,52,420,Ongoing
+EVT-025,2024-04-15,earthquake,supplier_311;supplier_187;supplier_327,Taiwan,Critical,8,2100,Partially Recovered
+EVT-026,2024-05-01,flood,supplier_437;supplier_189,UAE;Global,Low,2,180,Recovered
+EVT-027,2020-06-01,logistics_disruption,supplier_447;supplier_174;supplier_472;supplier_197;supplier_304;supplier_452;supplier_159,Brazil,Low,4,90,Recovered
+EVT-028,2021-02-10,factory_fire,supplier_288;supplier_422;supplier_217,Japan,Medium,5,250,Recovered
+EVT-029,2022-06-01,port_congestion,supplier_296;supplier_200;supplier_116;supplier_129,China;Shanghai,High,8,1100,Recovered
+EVT-030,2023-06-01,supplier_bankruptcy,supplier_131;supplier_351;supplier_381;supplier_006;supplier_418;supplier_255,Vietnam,Low,3,120,Recovered
+EVT-031,2020-09-01,quality_recall,supplier_313;supplier_220;supplier_464,China;Global,Medium,6,380,Recovered
+EVT-032,2021-04-01,tariff_change,supplier_317;supplier_296;supplier_124;supplier_319;supplier_144;supplier_130;supplier_140,USA;EU,Low,26,200,Recovered
+EVT-033,2022-01-20,cyberattack,supplier_159;supplier_302;supplier_062;supplier_360,Global,Medium,2,350,Recovered
+EVT-034,2023-02-06,earthquake,supplier_279,Turkey;Syria,High,12,800,Recovered
+EVT-035,2024-06-01,logistics_disruption,supplier_011;supplier_155;supplier_018;supplier_231;supplier_201;supplier_113;supplier_294,Panama Canal,Medium,16,950,Ongoing
+EVT-036,2020-05-01,pandemic,supplier_460;supplier_347;supplier_333;supplier_258;supplier_343;supplier_180;supplier_398;supplier_500,India,High,16,600,Recovered
+EVT-037,2021-09-15,flood,supplier_404,China;Henan,Medium,6,430,Recovered
+EVT-038,2022-08-01,tariff_change,supplier_019;supplier_497;supplier_456,USA,Medium,52,670,Ongoing
+EVT-039,2023-04-01,factory_fire,supplier_424,Mexico,Low,4,140,Recovered
+EVT-040,2024-02-20,port_congestion,supplier_048;supplier_396,USA;East Coast,Medium,8,520,Ongoing
+EVT-041,2020-11-01,supplier_bankruptcy,supplier_171;supplier_334,USA,Low,4,160,Recovered
+EVT-042,2021-12-01,logistics_disruption,supplier_040;supplier_484;supplier_005;supplier_205,Global,Medium,12,750,Recovered
+EVT-043,2022-04-15,quality_recall,supplier_166;supplier_397;supplier_415;supplier_393;supplier_478;supplier_364;supplier_403;supplier_366;supplier_210;supplier_174,Global,Medium,5,290,Recovered
+EVT-044,2023-08-01,cyberattack,supplier_361,USA,Medium,3,410,Recovered
+EVT-045,2024-01-01,tariff_change,supplier_306,USA;Mexico,Low,52,230,Ongoing
+EVT-046,2020-04-01,logistics_disruption,supplier_380;supplier_060;supplier_370;supplier_193;supplier_477;supplier_187,Global,High,8,1900,Recovered
+EVT-047,2021-05-10,earthquake,supplier_241;supplier_299;supplier_181;supplier_288;supplier_262;supplier_364;supplier_093;supplier_134;supplier_243,Indonesia,Low,3,95,Recovered
+EVT-048,2022-12-01,flood,supplier_227;supplier_051;supplier_430,Australia,Low,4,110,Recovered
+EVT-049,2023-11-01,supplier_bankruptcy,supplier_417;supplier_223,Europe,Medium,6,340,Recovered
+EVT-050,2024-03-15,quality_recall,supplier_303;supplier_079,Global,Low,4,190,Recovered

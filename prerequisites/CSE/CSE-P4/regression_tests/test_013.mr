@@ -1,0 +1,3 @@
+let mut x: i32 = 92;
+x = x + 84;
+println!("{}", x);

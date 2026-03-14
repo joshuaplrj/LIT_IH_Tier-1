@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnSphere - Online Learning Platform</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="edu-header">
+    <a href="/" class="header-logo-link">
+      <img src="learnsphere-logo.png" alt="LearnSphere" class="header-logo">
+    </a>
+    <nav class="edu-nav">
+      <a href="/courses">Courses</a>
+      <a href="/paths">Learning Paths</a>
+      <a href="/community">Community</a>
+      <a href="/dashboard">My Dashboard</a>
+    </nav>
+    <div class="header-actions">
+      <button class="btn-outline">Log In</button>
+      <button class="btn-primary">Sign Up Free</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- VIOLATION 1 (2.3.1): Flashing element that flashes more than 3 times per second -->
+    <div class="flash-banner" role="banner">
+      <span class="flash-text">FLASH SALE — 70% OFF ALL COURSES THIS WEEKEND ONLY</span>
+    </div>
+
+    <!-- VIOLATION 3 (1.1.1): Image of text used as heading instead of real HTML text -->
+    <section class="hero-section">
+      <!-- Heading is rendered as an image, not accessible text -->
+      <img src="hero-heading.png" class="hero-heading-img" alt="">
+      <!-- alt="" means screen readers skip it entirely — heading content lost -->
+      <p class="hero-subtitle">Master in-demand skills with expert-led courses. Join 2 million learners worldwide.</p>
+      <div class="hero-cta">
+        <button class="btn-primary btn-large">Explore Courses</button>
+        <button class="btn-outline btn-large">Watch Demo</button>
+      </div>
+    </section>
+
+    <!-- VIOLATION 5 (2.2.2): Carousel without pause / stop / hide controls -->
+    <section class="featured-courses">
+      <h2>Featured Courses</h2>
+      <div class="carousel-wrapper">
+        <div class="carousel" id="course-carousel">
+          <div class="carousel-track" id="carousel-track">
+            <div class="course-card">
+              <img src="course-python.jpg" alt="Python for Data Science course thumbnail">
+              <div class="course-info">
+                <span class="course-tag">Data Science</span>
+                <h3>Python for Data Science</h3>
+                <p>4.8 &#9733; &bull; 42,000 students</p>
+                <span class="course-price">$49.99</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="course-ux.jpg" alt="UX Design Fundamentals course thumbnail">
+              <div class="course-info">
+                <span class="course-tag">Design</span>
+                <h3>UX Design Fundamentals</h3>
+                <p>4.7 &#9733; &bull; 28,000 students</p>
+                <span class="course-price">$39.99</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="course-react.jpg" alt="React Development Bootcamp course thumbnail">
+              <div class="course-info">
+                <span class="course-tag">Web Dev</span>
+                <h3>React Development Bootcamp</h3>
+                <p>4.9 &#9733; &bull; 61,000 students</p>
+                <span class="course-price">$59.99</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="course-ml.jpg" alt="Machine Learning A-Z course thumbnail">
+              <div class="course-info">
+                <span class="course-tag">AI &amp; ML</span>
+                <h3>Machine Learning A-Z</h3>
+                <p>4.6 &#9733; &bull; 55,000 students</p>
+                <span class="course-price">$69.99</span>
+              </div>
+            </div>
+            <div class="course-card">
+              <img src="course-pm.jpg" alt="Product Management Masterclass course thumbnail">
+              <div class="course-info">
+                <span class="course-tag">Business</span>
+                <h3>Product Management Masterclass</h3>
+                <p>4.7 &#9733; &bull; 19,000 students</p>
+                <span class="course-price">$44.99</span>
+              </div>
+            </div>
+          </div>
+          <!-- VIOLATION 5: No pause/stop button for the auto-advancing carousel -->
+          <button class="carousel-btn prev" onclick="prevSlide()">&#8249;</button>
+          <button class="carousel-btn next" onclick="nextSlide()">&#8250;</button>
+          <!-- Missing: pause/stop button for users who need to stop motion -->
+        </div>
+      </div>
+    </section>
+
+    <!-- VIOLATION 2 (1.2.1): Audio content without a transcript -->
+    <section class="instructor-message">
+      <h2>A Message From Our Lead Instructor</h2>
+      <div class="audio-player">
+        <!-- Audio provided but no transcript, no captions equivalent for audio-only content -->
+        <audio controls src="instructor-welcome.mp3">
+          Your browser does not support the audio element.
+        </audio>
+        <!-- No transcript link, no collapsible transcript, no text equivalent -->
+        <p class="audio-description">Listen to Dr. Chen's welcome message (2:34)</p>
+      </div>
+    </section>
+
+    <section class="learning-paths">
+      <h2>Popular Learning Paths</h2>
+      <div class="paths-grid">
+        <div class="path-card">
+          <div class="path-icon">&#128187;</div>
+          <h3>Full-Stack Developer</h3>
+          <p>12 courses &bull; 6 months</p>
+          <!-- VIOLATION 4: focus not visible — outline:none is global in CSS -->
+          <a href="/paths/full-stack" class="path-link">Start Path</a>
+        </div>
+        <div class="path-card">
+          <div class="path-icon">&#128202;</div>
+          <h3>Data Analyst</h3>
+          <p>8 courses &bull; 4 months</p>
+          <a href="/paths/data-analyst" class="path-link">Start Path</a>
+        </div>
+        <div class="path-card">
+          <div class="path-icon">&#129504;</div>
+          <h3>Machine Learning Engineer</h3>
+          <p>15 courses &bull; 9 months</p>
+          <a href="/paths/ml-engineer" class="path-link">Start Path</a>
+        </div>
+        <div class="path-card">
+          <div class="path-icon">&#127774;</div>
+          <h3>UX/UI Designer</h3>
+          <p>10 courses &bull; 5 months</p>
+          <a href="/paths/ux-ui" class="path-link">Start Path</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="edu-footer">
+    <div class="footer-content">
+      <div class="footer-col">
+        <h4>LearnSphere</h4>
+        <p>Empowering learners worldwide with quality education.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Courses</h4>
+        <a href="/courses/tech">Technology</a>
+        <a href="/courses/design">Design</a>
+        <a href="/courses/business">Business</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="/about">About Us</a>
+        <a href="/careers">Careers</a>
+        <a href="/press">Press</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 LearnSphere Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // VIOLATION 5: Auto-advancing carousel with no pause control
+    var currentSlide = 0;
+    var totalSlides = 5;
+    var carouselInterval = setInterval(function() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      document.getElementById('carousel-track').style.transform =
+        'translateX(-' + (currentSlide * 280) + 'px)';
+    }, 2000);
+    // No pause/stop mechanism provided to users
+
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+      document.getElementById('carousel-track').style.transform =
+        'translateX(-' + (currentSlide * 280) + 'px)';
+    }
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % totalSlides;
+      document.getElementById('carousel-track').style.transform =
+        'translateX(-' + (currentSlide * 280) + 'px)';
+    }
+  </script>
+</body>
+</html>

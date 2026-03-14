@@ -1,0 +1,3 @@
+let x: String = String::new("abc");
+let r: &String = &x;
+println!("{}", r);

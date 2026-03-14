@@ -1,0 +1,8 @@
+lib-8466==4.1.4
+braintree==4.4.7
+lib-7425==1.6.5
+environs==5.3.5
+lib-4372==1.1.0
+google-cloud-storage==3.0.0
+lib-3501==1.5.6
+igraph==4.4.5

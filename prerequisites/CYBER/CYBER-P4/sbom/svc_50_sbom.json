@@ -1,0 +1,129 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:6379799c-207c-4289-bee2-af12ff38c2d0",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_50",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "swc",
+      "version": "3.7.1",
+      "purl": "pkg:npm/swc@3.7.1"
+    },
+    {
+      "type": "library",
+      "name": "opencv-python",
+      "version": "4.8.6",
+      "purl": "pkg:npm/opencv-python@4.8.6"
+    },
+    {
+      "type": "library",
+      "name": "sendgrid",
+      "version": "4.10.0",
+      "purl": "pkg:npm/sendgrid@4.10.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-5184",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/lib-5184@2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "elasticsearch",
+      "version": "1.2.6",
+      "purl": "pkg:npm/elasticsearch@1.2.6"
+    },
+    {
+      "type": "library",
+      "name": "gunicorn",
+      "version": "1.11.8",
+      "purl": "pkg:pypi/gunicorn@1.11.8"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": "2.10.2",
+      "purl": "pkg:pypi/colorama@2.10.2"
+    },
+    {
+      "type": "library",
+      "name": "immer",
+      "version": "2.12.2",
+      "purl": "pkg:pypi/immer@2.12.2"
+    },
+    {
+      "type": "library",
+      "name": "bull",
+      "version": "5.1.8",
+      "purl": "pkg:npm/bull@5.1.8"
+    },
+    {
+      "type": "library",
+      "name": "gputil",
+      "version": "4.5.5",
+      "purl": "pkg:npm/gputil@4.5.5"
+    },
+    {
+      "type": "library",
+      "name": "cheerio",
+      "version": "3.7.4",
+      "purl": "pkg:npm/cheerio@3.7.4"
+    },
+    {
+      "type": "library",
+      "name": "keyring",
+      "version": "1.6.9",
+      "purl": "pkg:pypi/keyring@1.6.9"
+    },
+    {
+      "type": "library",
+      "name": "opentelemetry-sdk",
+      "version": "4.11.6",
+      "purl": "pkg:npm/opentelemetry-sdk@4.11.6"
+    },
+    {
+      "type": "library",
+      "name": "mongoose",
+      "version": "4.6.5",
+      "purl": "pkg:npm/mongoose@4.6.5"
+    },
+    {
+      "type": "library",
+      "name": "fastapi",
+      "version": "2.7.5",
+      "purl": "pkg:pypi/fastapi@2.7.5"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "5.2.5",
+      "purl": "pkg:npm/pyyaml@5.2.5"
+    },
+    {
+      "type": "library",
+      "name": "bullmq",
+      "version": "5.8.0",
+      "purl": "pkg:npm/bullmq@5.8.0"
+    },
+    {
+      "type": "library",
+      "name": "lodash.merge",
+      "version": "4.5.1",
+      "purl": "pkg:npm/lodash.merge@4.5.1"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "2.2.0",
+      "purl": "pkg:pypi/esbuild@2.2.0"
+    }
+  ]
+}

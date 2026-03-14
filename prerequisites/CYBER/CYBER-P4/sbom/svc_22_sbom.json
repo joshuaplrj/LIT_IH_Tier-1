@@ -1,0 +1,171 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:9495c456-1e21-4032-9f31-a3bc6424583e",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_22",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "istanbul",
+      "version": "1.2.8",
+      "purl": "pkg:npm/istanbul@1.2.8"
+    },
+    {
+      "type": "library",
+      "name": "swc",
+      "version": "3.6.9",
+      "purl": "pkg:pypi/swc@3.6.9"
+    },
+    {
+      "type": "library",
+      "name": "grpc",
+      "version": "3.11.2",
+      "purl": "pkg:npm/grpc@3.11.2"
+    },
+    {
+      "type": "library",
+      "name": "sh",
+      "version": "3.10.4",
+      "purl": "pkg:npm/sh@3.10.4"
+    },
+    {
+      "type": "library",
+      "name": "watchdog",
+      "version": "2.10.3",
+      "purl": "pkg:pypi/watchdog@2.10.3"
+    },
+    {
+      "type": "library",
+      "name": "lodash.clonedeep",
+      "version": "4.1.0",
+      "purl": "pkg:pypi/lodash.clonedeep@4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "dulwich",
+      "version": "1.6.6",
+      "purl": "pkg:pypi/dulwich@1.6.6"
+    },
+    {
+      "type": "library",
+      "name": "morgan",
+      "version": "1.6.9",
+      "purl": "pkg:pypi/morgan@1.6.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-5879",
+      "version": "4.3.6",
+      "purl": "pkg:pypi/lib-5879@4.3.6"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "3.4.1",
+      "purl": "pkg:pypi/playwright@3.4.1"
+    },
+    {
+      "type": "library",
+      "name": "shortid",
+      "version": "3.6.5",
+      "purl": "pkg:pypi/shortid@3.6.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-3933",
+      "version": "2.7.1",
+      "purl": "pkg:pypi/lib-3933@2.7.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-8053",
+      "version": "4.1.8",
+      "purl": "pkg:pypi/lib-8053@4.1.8"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "4.10.0",
+      "purl": "pkg:pypi/arrow@4.10.0"
+    },
+    {
+      "type": "library",
+      "name": "lib-9429",
+      "version": "2.7.0",
+      "purl": "pkg:pypi/lib-9429@2.7.0"
+    },
+    {
+      "type": "library",
+      "name": "truststore",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/truststore@2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "hypothesis",
+      "version": "4.7.4",
+      "purl": "pkg:pypi/hypothesis@4.7.4"
+    },
+    {
+      "type": "library",
+      "name": "cryptography",
+      "version": "4.1.9",
+      "purl": "pkg:pypi/cryptography@4.1.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-7828",
+      "version": "1.5.5",
+      "purl": "pkg:pypi/lib-7828@1.5.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-4624",
+      "version": "2.12.6",
+      "purl": "pkg:pypi/lib-4624@2.12.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-8229",
+      "version": "5.10.2",
+      "purl": "pkg:npm/lib-8229@5.10.2"
+    },
+    {
+      "type": "library",
+      "name": "asyncpg",
+      "version": "2.6.4",
+      "purl": "pkg:npm/asyncpg@2.6.4"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "4.10.7",
+      "purl": "pkg:pypi/puppeteer@4.10.7"
+    },
+    {
+      "type": "library",
+      "name": "lodash.get",
+      "version": "4.12.5",
+      "purl": "pkg:pypi/lodash.get@4.12.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-1513",
+      "version": "2.1.4",
+      "purl": "pkg:npm/lib-1513@2.1.4"
+    },
+    {
+      "type": "library",
+      "name": "cors",
+      "version": "3.1.0",
+      "purl": "pkg:pypi/cors@3.1.0"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+jinja2==5.12.4
+matplotlib==4.3.5
+lib-6636==4.2.8
+phonenumbers==1.0.5
+lib-8782==5.2.5
+invoke==1.1.3

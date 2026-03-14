@@ -1,0 +1,20 @@
+{
+  "name": "svc_15",
+  "version": "1.0.0",
+  "description": "svc_15 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "typescript": "^1.4.4",
+    "zod": "^5.11.9",
+    "openpgp": "^4.7.8",
+    "config": "^1.12.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:19308a33-9e7e-4ca0-9b4b-7cfe2ae541be",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_27",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "axios",
+      "version": "1.9.1",
+      "purl": "pkg:pypi/axios@1.9.1"
+    },
+    {
+      "type": "library",
+      "name": "node-forge",
+      "version": "2.4.8",
+      "purl": "pkg:pypi/node-forge@2.4.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-4185",
+      "version": "1.9.6",
+      "purl": "pkg:pypi/lib-4185@1.9.6"
+    },
+    {
+      "type": "library",
+      "name": "lodash.clonedeep",
+      "version": "4.10.0",
+      "purl": "pkg:pypi/lodash.clonedeep@4.10.0"
+    },
+    {
+      "type": "library",
+      "name": "cerberus",
+      "version": "5.3.6",
+      "purl": "pkg:npm/cerberus@5.3.6"
+    },
+    {
+      "type": "library",
+      "name": "gunicorn",
+      "version": "3.10.1",
+      "purl": "pkg:pypi/gunicorn@3.10.1"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": "4.11.7",
+      "purl": "pkg:pypi/colorama@4.11.7"
+    },
+    {
+      "type": "library",
+      "name": "subprocess32",
+      "version": "2.12.4",
+      "purl": "pkg:pypi/subprocess32@2.12.4"
+    },
+    {
+      "type": "library",
+      "name": "nats-py",
+      "version": "5.10.3",
+      "purl": "pkg:pypi/nats-py@5.10.3"
+    },
+    {
+      "type": "library",
+      "name": "imageio",
+      "version": "4.5.5",
+      "purl": "pkg:pypi/imageio@4.5.5"
+    },
+    {
+      "type": "library",
+      "name": "multiprocessing",
+      "version": "1.8.2",
+      "purl": "pkg:pypi/multiprocessing@1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "nconf",
+      "version": "3.0.6",
+      "purl": "pkg:npm/nconf@3.0.6"
+    },
+    {
+      "type": "library",
+      "name": "pdfkit",
+      "version": "3.1.2",
+      "purl": "pkg:npm/pdfkit@3.1.2"
+    },
+    {
+      "type": "library",
+      "name": "lib-2260",
+      "version": "5.9.9",
+      "purl": "pkg:pypi/lib-2260@5.9.9"
+    },
+    {
+      "type": "library",
+      "name": "shapely",
+      "version": "4.7.9",
+      "purl": "pkg:pypi/shapely@4.7.9"
+    },
+    {
+      "type": "library",
+      "name": "psycopg2",
+      "version": "3.0.1",
+      "purl": "pkg:pypi/psycopg2@3.0.1"
+    },
+    {
+      "type": "library",
+      "name": "grpcio",
+      "version": "1.9.8",
+      "purl": "pkg:pypi/grpcio@1.9.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-4858",
+      "version": "1.5.8",
+      "purl": "pkg:npm/lib-4858@1.5.8"
+    },
+    {
+      "type": "library",
+      "name": "kubernetes",
+      "version": "3.1.7",
+      "purl": "pkg:pypi/kubernetes@3.1.7"
+    },
+    {
+      "type": "library",
+      "name": "boto3",
+      "version": "2.2.2",
+      "purl": "pkg:pypi/boto3@2.2.2"
+    }
+  ]
+}

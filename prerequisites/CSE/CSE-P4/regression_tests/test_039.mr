@@ -1,0 +1,5 @@
+let a: i32 = 49;
+let b: i32 = 36;
+let c: i32 = a + b;
+let d: i32 = c * 2;
+println!("{}", d);

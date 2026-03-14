@@ -1,0 +1,22 @@
+{
+  "name": "svc_29",
+  "version": "1.0.0",
+  "description": "svc_29 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^2.2.4",
+    "lint-staged": "^4.3.3",
+    "uuid": "^2.10.9",
+    "bcrypt": "^5.7.0",
+    "nodemailer": "^2.1.7",
+    "vue": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

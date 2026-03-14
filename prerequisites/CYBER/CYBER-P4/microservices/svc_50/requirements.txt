@@ -1,0 +1,3 @@
+opencv-python==1.5.2
+gunicorn==5.2.5
+colorama==2.11.8

@@ -1,0 +1,123 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:e1e50fc3-a87f-46d7-92ef-6c9fdba8234f",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_44",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "lib-3752",
+      "version": "1.6.6",
+      "purl": "pkg:pypi/lib-3752@1.6.6"
+    },
+    {
+      "type": "library",
+      "name": "lib-4624",
+      "version": "3.3.0",
+      "purl": "pkg:pypi/lib-4624@3.3.0"
+    },
+    {
+      "type": "library",
+      "name": "opensearch-py",
+      "version": "1.8.4",
+      "purl": "pkg:pypi/opensearch-py@1.8.4"
+    },
+    {
+      "type": "library",
+      "name": "simplejson",
+      "version": "3.6.4",
+      "purl": "pkg:pypi/simplejson@3.6.4"
+    },
+    {
+      "type": "library",
+      "name": "mailgun-js",
+      "version": "2.2.4",
+      "purl": "pkg:pypi/mailgun-js@2.2.4"
+    },
+    {
+      "type": "library",
+      "name": "convict",
+      "version": "1.3.4",
+      "purl": "pkg:pypi/convict@1.3.4"
+    },
+    {
+      "type": "library",
+      "name": "smtplib",
+      "version": "5.12.2",
+      "purl": "pkg:pypi/smtplib@5.12.2"
+    },
+    {
+      "type": "library",
+      "name": "aiofiles",
+      "version": "1.0.4",
+      "purl": "pkg:pypi/aiofiles@1.0.4"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "4.12.8",
+      "purl": "pkg:npm/chart.js@4.12.8"
+    },
+    {
+      "type": "library",
+      "name": "terraform",
+      "version": "2.9.3",
+      "purl": "pkg:npm/terraform@2.9.3"
+    },
+    {
+      "type": "library",
+      "name": "geopandas",
+      "version": "5.5.9",
+      "purl": "pkg:npm/geopandas@5.5.9"
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "3.12.4",
+      "purl": "pkg:pypi/torch@3.12.4"
+    },
+    {
+      "type": "library",
+      "name": "bandit",
+      "version": "2.0.8",
+      "purl": "pkg:pypi/bandit@2.0.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-4686",
+      "version": "3.11.9",
+      "purl": "pkg:pypi/lib-4686@3.11.9"
+    },
+    {
+      "type": "library",
+      "name": "esbuild",
+      "version": "5.12.4",
+      "purl": "pkg:pypi/esbuild@5.12.4"
+    },
+    {
+      "type": "library",
+      "name": "psycopg2",
+      "version": "3.9.4",
+      "purl": "pkg:npm/psycopg2@3.9.4"
+    },
+    {
+      "type": "library",
+      "name": "locust",
+      "version": "3.11.8",
+      "purl": "pkg:pypi/locust@3.11.8"
+    },
+    {
+      "type": "library",
+      "name": "commitizen",
+      "version": "4.8.4",
+      "purl": "pkg:pypi/commitizen@4.8.4"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+faker==1.11.3
+lib-9175==1.2.9
+structlog==5.8.6
+ujson==1.0.8

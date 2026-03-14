@@ -1,0 +1,6868 @@
+{
+  "packages": [
+    {
+      "name": "requests",
+      "version": "3.11.9",
+      "ecosystem": "pypi",
+      "description": "Python package requests"
+    },
+    {
+      "name": "numpy",
+      "version": "5.11.2",
+      "ecosystem": "pypi",
+      "description": "Python package numpy"
+    },
+    {
+      "name": "flask",
+      "version": "2.5.3",
+      "ecosystem": "pypi",
+      "description": "Python package flask"
+    },
+    {
+      "name": "django",
+      "version": "4.4.3",
+      "ecosystem": "pypi",
+      "description": "Python package django"
+    },
+    {
+      "name": "fastapi",
+      "version": "1.1.3",
+      "ecosystem": "pypi",
+      "description": "Python package fastapi"
+    },
+    {
+      "name": "aiohttp",
+      "version": "2.9.9",
+      "ecosystem": "pypi",
+      "description": "Python package aiohttp"
+    },
+    {
+      "name": "sqlalchemy",
+      "version": "1.5.9",
+      "ecosystem": "pypi",
+      "description": "Python package sqlalchemy"
+    },
+    {
+      "name": "alembic",
+      "version": "4.8.6",
+      "ecosystem": "pypi",
+      "description": "Python package alembic"
+    },
+    {
+      "name": "celery",
+      "version": "1.4.4",
+      "ecosystem": "pypi",
+      "description": "Python package celery"
+    },
+    {
+      "name": "redis",
+      "version": "1.9.0",
+      "ecosystem": "pypi",
+      "description": "Python package redis"
+    },
+    {
+      "name": "pymongo",
+      "version": "1.2.1",
+      "ecosystem": "pypi",
+      "description": "Python package pymongo"
+    },
+    {
+      "name": "psycopg2",
+      "version": "2.7.4",
+      "ecosystem": "pypi",
+      "description": "Python package psycopg2"
+    },
+    {
+      "name": "boto3",
+      "version": "1.1.5",
+      "ecosystem": "pypi",
+      "description": "Python package boto3"
+    },
+    {
+      "name": "botocore",
+      "version": "4.2.0",
+      "ecosystem": "pypi",
+      "description": "Python package botocore"
+    },
+    {
+      "name": "paramiko",
+      "version": "2.7.3",
+      "ecosystem": "pypi",
+      "description": "Python package paramiko"
+    },
+    {
+      "name": "cryptography",
+      "version": "5.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package cryptography"
+    },
+    {
+      "name": "pyjwt",
+      "version": "2.7.4",
+      "ecosystem": "pypi",
+      "description": "Python package pyjwt"
+    },
+    {
+      "name": "bcrypt",
+      "version": "3.3.9",
+      "ecosystem": "pypi",
+      "description": "Python package bcrypt"
+    },
+    {
+      "name": "pydantic",
+      "version": "5.4.5",
+      "ecosystem": "pypi",
+      "description": "Python package pydantic"
+    },
+    {
+      "name": "marshmallow",
+      "version": "2.3.9",
+      "ecosystem": "pypi",
+      "description": "Python package marshmallow"
+    },
+    {
+      "name": "click",
+      "version": "4.4.6",
+      "ecosystem": "pypi",
+      "description": "Python package click"
+    },
+    {
+      "name": "typer",
+      "version": "1.0.0",
+      "ecosystem": "pypi",
+      "description": "Python package typer"
+    },
+    {
+      "name": "rich",
+      "version": "3.6.0",
+      "ecosystem": "pypi",
+      "description": "Python package rich"
+    },
+    {
+      "name": "loguru",
+      "version": "4.2.2",
+      "ecosystem": "pypi",
+      "description": "Python package loguru"
+    },
+    {
+      "name": "httpx",
+      "version": "5.3.2",
+      "ecosystem": "pypi",
+      "description": "Python package httpx"
+    },
+    {
+      "name": "httpcore",
+      "version": "4.11.1",
+      "ecosystem": "pypi",
+      "description": "Python package httpcore"
+    },
+    {
+      "name": "urllib3",
+      "version": "5.7.9",
+      "ecosystem": "pypi",
+      "description": "Python package urllib3"
+    },
+    {
+      "name": "certifi",
+      "version": "4.6.9",
+      "ecosystem": "pypi",
+      "description": "Python package certifi"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "2.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package charset-normalizer"
+    },
+    {
+      "name": "pillow",
+      "version": "5.10.0",
+      "ecosystem": "pypi",
+      "description": "Python package pillow"
+    },
+    {
+      "name": "scipy",
+      "version": "4.4.7",
+      "ecosystem": "pypi",
+      "description": "Python package scipy"
+    },
+    {
+      "name": "pandas",
+      "version": "3.1.1",
+      "ecosystem": "pypi",
+      "description": "Python package pandas"
+    },
+    {
+      "name": "matplotlib",
+      "version": "1.10.0",
+      "ecosystem": "pypi",
+      "description": "Python package matplotlib"
+    },
+    {
+      "name": "seaborn",
+      "version": "4.7.6",
+      "ecosystem": "pypi",
+      "description": "Python package seaborn"
+    },
+    {
+      "name": "scikit-learn",
+      "version": "5.2.5",
+      "ecosystem": "pypi",
+      "description": "Python package scikit-learn"
+    },
+    {
+      "name": "tensorflow",
+      "version": "5.12.0",
+      "ecosystem": "pypi",
+      "description": "Python package tensorflow"
+    },
+    {
+      "name": "torch",
+      "version": "5.10.3",
+      "ecosystem": "pypi",
+      "description": "Python package torch"
+    },
+    {
+      "name": "transformers",
+      "version": "5.6.4",
+      "ecosystem": "pypi",
+      "description": "Python package transformers"
+    },
+    {
+      "name": "huggingface-hub",
+      "version": "3.6.7",
+      "ecosystem": "pypi",
+      "description": "Python package huggingface-hub"
+    },
+    {
+      "name": "pytest",
+      "version": "1.2.5",
+      "ecosystem": "pypi",
+      "description": "Python package pytest"
+    },
+    {
+      "name": "pytest-asyncio",
+      "version": "3.1.9",
+      "ecosystem": "pypi",
+      "description": "Python package pytest-asyncio"
+    },
+    {
+      "name": "pytest-cov",
+      "version": "4.11.4",
+      "ecosystem": "pypi",
+      "description": "Python package pytest-cov"
+    },
+    {
+      "name": "coverage",
+      "version": "2.11.4",
+      "ecosystem": "pypi",
+      "description": "Python package coverage"
+    },
+    {
+      "name": "mypy",
+      "version": "1.4.3",
+      "ecosystem": "pypi",
+      "description": "Python package mypy"
+    },
+    {
+      "name": "black",
+      "version": "1.1.4",
+      "ecosystem": "pypi",
+      "description": "Python package black"
+    },
+    {
+      "name": "flake8",
+      "version": "1.2.4",
+      "ecosystem": "pypi",
+      "description": "Python package flake8"
+    },
+    {
+      "name": "isort",
+      "version": "2.11.8",
+      "ecosystem": "pypi",
+      "description": "Python package isort"
+    },
+    {
+      "name": "pylint",
+      "version": "4.2.9",
+      "ecosystem": "pypi",
+      "description": "Python package pylint"
+    },
+    {
+      "name": "bandit",
+      "version": "5.8.2",
+      "ecosystem": "pypi",
+      "description": "Python package bandit"
+    },
+    {
+      "name": "uvicorn",
+      "version": "3.4.2",
+      "ecosystem": "pypi",
+      "description": "Python package uvicorn"
+    },
+    {
+      "name": "gunicorn",
+      "version": "5.0.6",
+      "ecosystem": "pypi",
+      "description": "Python package gunicorn"
+    },
+    {
+      "name": "starlette",
+      "version": "4.9.3",
+      "ecosystem": "pypi",
+      "description": "Python package starlette"
+    },
+    {
+      "name": "werkzeug",
+      "version": "4.3.2",
+      "ecosystem": "pypi",
+      "description": "Python package werkzeug"
+    },
+    {
+      "name": "jinja2",
+      "version": "2.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package jinja2"
+    },
+    {
+      "name": "toml",
+      "version": "1.5.5",
+      "ecosystem": "pypi",
+      "description": "Python package toml"
+    },
+    {
+      "name": "pyyaml",
+      "version": "5.0.4",
+      "ecosystem": "pypi",
+      "description": "Python package pyyaml"
+    },
+    {
+      "name": "python-dotenv",
+      "version": "4.9.8",
+      "ecosystem": "pypi",
+      "description": "Python package python-dotenv"
+    },
+    {
+      "name": "environs",
+      "version": "3.8.2",
+      "ecosystem": "pypi",
+      "description": "Python package environs"
+    },
+    {
+      "name": "dynaconf",
+      "version": "3.4.6",
+      "ecosystem": "pypi",
+      "description": "Python package dynaconf"
+    },
+    {
+      "name": "grpcio",
+      "version": "2.12.8",
+      "ecosystem": "pypi",
+      "description": "Python package grpcio"
+    },
+    {
+      "name": "protobuf",
+      "version": "5.8.2",
+      "ecosystem": "pypi",
+      "description": "Python package protobuf"
+    },
+    {
+      "name": "kafka-python",
+      "version": "3.1.7",
+      "ecosystem": "pypi",
+      "description": "Python package kafka-python"
+    },
+    {
+      "name": "pika",
+      "version": "5.9.7",
+      "ecosystem": "pypi",
+      "description": "Python package pika"
+    },
+    {
+      "name": "nats-py",
+      "version": "1.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package nats-py"
+    },
+    {
+      "name": "prometheus-client",
+      "version": "1.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package prometheus-client"
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.0.8",
+      "ecosystem": "pypi",
+      "description": "Python package opentelemetry-api"
+    },
+    {
+      "name": "opentelemetry-sdk",
+      "version": "2.8.3",
+      "ecosystem": "pypi",
+      "description": "Python package opentelemetry-sdk"
+    },
+    {
+      "name": "sentry-sdk",
+      "version": "2.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package sentry-sdk"
+    },
+    {
+      "name": "datadog",
+      "version": "5.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package datadog"
+    },
+    {
+      "name": "structlog",
+      "version": "5.1.0",
+      "ecosystem": "pypi",
+      "description": "Python package structlog"
+    },
+    {
+      "name": "python-json-logger",
+      "version": "2.9.8",
+      "ecosystem": "pypi",
+      "description": "Python package python-json-logger"
+    },
+    {
+      "name": "arrow",
+      "version": "1.10.0",
+      "ecosystem": "pypi",
+      "description": "Python package arrow"
+    },
+    {
+      "name": "pendulum",
+      "version": "1.4.6",
+      "ecosystem": "pypi",
+      "description": "Python package pendulum"
+    },
+    {
+      "name": "pytz",
+      "version": "4.4.6",
+      "ecosystem": "pypi",
+      "description": "Python package pytz"
+    },
+    {
+      "name": "dateutil",
+      "version": "2.5.7",
+      "ecosystem": "pypi",
+      "description": "Python package dateutil"
+    },
+    {
+      "name": "passlib",
+      "version": "1.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package passlib"
+    },
+    {
+      "name": "itsdangerous",
+      "version": "3.4.9",
+      "ecosystem": "pypi",
+      "description": "Python package itsdangerous"
+    },
+    {
+      "name": "secrets-manager",
+      "version": "3.5.9",
+      "ecosystem": "pypi",
+      "description": "Python package secrets-manager"
+    },
+    {
+      "name": "keyring",
+      "version": "3.8.8",
+      "ecosystem": "pypi",
+      "description": "Python package keyring"
+    },
+    {
+      "name": "fabric",
+      "version": "5.3.6",
+      "ecosystem": "pypi",
+      "description": "Python package fabric"
+    },
+    {
+      "name": "invoke",
+      "version": "5.6.1",
+      "ecosystem": "pypi",
+      "description": "Python package invoke"
+    },
+    {
+      "name": "sh",
+      "version": "4.3.5",
+      "ecosystem": "pypi",
+      "description": "Python package sh"
+    },
+    {
+      "name": "subprocess32",
+      "version": "3.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package subprocess32"
+    },
+    {
+      "name": "tenacity",
+      "version": "5.4.0",
+      "ecosystem": "pypi",
+      "description": "Python package tenacity"
+    },
+    {
+      "name": "backoff",
+      "version": "4.9.0",
+      "ecosystem": "pypi",
+      "description": "Python package backoff"
+    },
+    {
+      "name": "retry",
+      "version": "5.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package retry"
+    },
+    {
+      "name": "circuitbreaker",
+      "version": "1.5.9",
+      "ecosystem": "pypi",
+      "description": "Python package circuitbreaker"
+    },
+    {
+      "name": "cachetools",
+      "version": "5.10.6",
+      "ecosystem": "pypi",
+      "description": "Python package cachetools"
+    },
+    {
+      "name": "diskcache",
+      "version": "4.4.3",
+      "ecosystem": "pypi",
+      "description": "Python package diskcache"
+    },
+    {
+      "name": "dogpile.cache",
+      "version": "1.3.1",
+      "ecosystem": "pypi",
+      "description": "Python package dogpile.cache"
+    },
+    {
+      "name": "elasticsearch",
+      "version": "2.8.8",
+      "ecosystem": "pypi",
+      "description": "Python package elasticsearch"
+    },
+    {
+      "name": "opensearch-py",
+      "version": "4.3.4",
+      "ecosystem": "pypi",
+      "description": "Python package opensearch-py"
+    },
+    {
+      "name": "pinecone-client",
+      "version": "4.3.1",
+      "ecosystem": "pypi",
+      "description": "Python package pinecone-client"
+    },
+    {
+      "name": "stripe",
+      "version": "3.1.5",
+      "ecosystem": "pypi",
+      "description": "Python package stripe"
+    },
+    {
+      "name": "twilio",
+      "version": "5.3.6",
+      "ecosystem": "pypi",
+      "description": "Python package twilio"
+    },
+    {
+      "name": "sendgrid",
+      "version": "2.6.7",
+      "ecosystem": "pypi",
+      "description": "Python package sendgrid"
+    },
+    {
+      "name": "mailchimp-marketing",
+      "version": "3.6.1",
+      "ecosystem": "pypi",
+      "description": "Python package mailchimp-marketing"
+    },
+    {
+      "name": "google-cloud-storage",
+      "version": "1.5.6",
+      "ecosystem": "pypi",
+      "description": "Python package google-cloud-storage"
+    },
+    {
+      "name": "google-cloud-pubsub",
+      "version": "4.4.6",
+      "ecosystem": "pypi",
+      "description": "Python package google-cloud-pubsub"
+    },
+    {
+      "name": "azure-storage-blob",
+      "version": "4.7.5",
+      "ecosystem": "pypi",
+      "description": "Python package azure-storage-blob"
+    },
+    {
+      "name": "minio",
+      "version": "1.6.1",
+      "ecosystem": "pypi",
+      "description": "Python package minio"
+    },
+    {
+      "name": "s3transfer",
+      "version": "3.12.8",
+      "ecosystem": "pypi",
+      "description": "Python package s3transfer"
+    },
+    {
+      "name": "networkx",
+      "version": "4.6.9",
+      "ecosystem": "pypi",
+      "description": "Python package networkx"
+    },
+    {
+      "name": "igraph",
+      "version": "4.9.1",
+      "ecosystem": "pypi",
+      "description": "Python package igraph"
+    },
+    {
+      "name": "pydot",
+      "version": "1.12.5",
+      "ecosystem": "pypi",
+      "description": "Python package pydot"
+    },
+    {
+      "name": "lxml",
+      "version": "3.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package lxml"
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "5.4.2",
+      "ecosystem": "pypi",
+      "description": "Python package beautifulsoup4"
+    },
+    {
+      "name": "scrapy",
+      "version": "5.12.5",
+      "ecosystem": "pypi",
+      "description": "Python package scrapy"
+    },
+    {
+      "name": "playwright",
+      "version": "1.1.7",
+      "ecosystem": "pypi",
+      "description": "Python package playwright"
+    },
+    {
+      "name": "docker",
+      "version": "2.4.1",
+      "ecosystem": "pypi",
+      "description": "Python package docker"
+    },
+    {
+      "name": "kubernetes",
+      "version": "3.4.7",
+      "ecosystem": "pypi",
+      "description": "Python package kubernetes"
+    },
+    {
+      "name": "ansible",
+      "version": "4.6.0",
+      "ecosystem": "pypi",
+      "description": "Python package ansible"
+    },
+    {
+      "name": "terraform",
+      "version": "4.0.0",
+      "ecosystem": "pypi",
+      "description": "Python package terraform"
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.10.7",
+      "ecosystem": "pypi",
+      "description": "Python package jsonschema"
+    },
+    {
+      "name": "cerberus",
+      "version": "2.11.5",
+      "ecosystem": "pypi",
+      "description": "Python package cerberus"
+    },
+    {
+      "name": "voluptuous",
+      "version": "2.12.4",
+      "ecosystem": "pypi",
+      "description": "Python package voluptuous"
+    },
+    {
+      "name": "asyncpg",
+      "version": "1.2.6",
+      "ecosystem": "pypi",
+      "description": "Python package asyncpg"
+    },
+    {
+      "name": "aiomysql",
+      "version": "4.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package aiomysql"
+    },
+    {
+      "name": "aiosqlite",
+      "version": "1.10.7",
+      "ecosystem": "pypi",
+      "description": "Python package aiosqlite"
+    },
+    {
+      "name": "motor",
+      "version": "4.9.1",
+      "ecosystem": "pypi",
+      "description": "Python package motor"
+    },
+    {
+      "name": "channels",
+      "version": "2.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package channels"
+    },
+    {
+      "name": "daphne",
+      "version": "3.0.4",
+      "ecosystem": "pypi",
+      "description": "Python package daphne"
+    },
+    {
+      "name": "twisted",
+      "version": "1.10.4",
+      "ecosystem": "pypi",
+      "description": "Python package twisted"
+    },
+    {
+      "name": "pyserial",
+      "version": "1.11.6",
+      "ecosystem": "pypi",
+      "description": "Python package pyserial"
+    },
+    {
+      "name": "usb",
+      "version": "1.4.7",
+      "ecosystem": "pypi",
+      "description": "Python package usb"
+    },
+    {
+      "name": "hid",
+      "version": "2.0.1",
+      "ecosystem": "pypi",
+      "description": "Python package hid"
+    },
+    {
+      "name": "ftplib",
+      "version": "5.9.4",
+      "ecosystem": "pypi",
+      "description": "Python package ftplib"
+    },
+    {
+      "name": "smtplib",
+      "version": "5.8.4",
+      "ecosystem": "pypi",
+      "description": "Python package smtplib"
+    },
+    {
+      "name": "imaplib",
+      "version": "5.10.3",
+      "ecosystem": "pypi",
+      "description": "Python package imaplib"
+    },
+    {
+      "name": "zipfile",
+      "version": "1.5.5",
+      "ecosystem": "pypi",
+      "description": "Python package zipfile"
+    },
+    {
+      "name": "tarfile",
+      "version": "3.2.0",
+      "ecosystem": "pypi",
+      "description": "Python package tarfile"
+    },
+    {
+      "name": "py7zr",
+      "version": "4.11.7",
+      "ecosystem": "pypi",
+      "description": "Python package py7zr"
+    },
+    {
+      "name": "hashlib",
+      "version": "1.7.1",
+      "ecosystem": "pypi",
+      "description": "Python package hashlib"
+    },
+    {
+      "name": "hmac",
+      "version": "2.10.1",
+      "ecosystem": "pypi",
+      "description": "Python package hmac"
+    },
+    {
+      "name": "secrets",
+      "version": "5.0.4",
+      "ecosystem": "pypi",
+      "description": "Python package secrets"
+    },
+    {
+      "name": "multiprocessing",
+      "version": "3.9.1",
+      "ecosystem": "pypi",
+      "description": "Python package multiprocessing"
+    },
+    {
+      "name": "concurrent-futures",
+      "version": "4.1.7",
+      "ecosystem": "pypi",
+      "description": "Python package concurrent-futures"
+    },
+    {
+      "name": "joblib",
+      "version": "4.11.7",
+      "ecosystem": "pypi",
+      "description": "Python package joblib"
+    },
+    {
+      "name": "pexpect",
+      "version": "5.3.6",
+      "ecosystem": "pypi",
+      "description": "Python package pexpect"
+    },
+    {
+      "name": "ptyprocess",
+      "version": "1.11.8",
+      "ecosystem": "pypi",
+      "description": "Python package ptyprocess"
+    },
+    {
+      "name": "Pillow",
+      "version": "5.8.5",
+      "ecosystem": "pypi",
+      "description": "Python package Pillow"
+    },
+    {
+      "name": "imageio",
+      "version": "2.3.4",
+      "ecosystem": "pypi",
+      "description": "Python package imageio"
+    },
+    {
+      "name": "opencv-python",
+      "version": "1.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package opencv-python"
+    },
+    {
+      "name": "shapely",
+      "version": "4.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package shapely"
+    },
+    {
+      "name": "geopandas",
+      "version": "4.4.8",
+      "ecosystem": "pypi",
+      "description": "Python package geopandas"
+    },
+    {
+      "name": "folium",
+      "version": "1.11.8",
+      "ecosystem": "pypi",
+      "description": "Python package folium"
+    },
+    {
+      "name": "flask-sqlalchemy",
+      "version": "1.9.5",
+      "ecosystem": "pypi",
+      "description": "Python package flask-sqlalchemy"
+    },
+    {
+      "name": "flask-migrate",
+      "version": "5.9.8",
+      "ecosystem": "pypi",
+      "description": "Python package flask-migrate"
+    },
+    {
+      "name": "flask-login",
+      "version": "2.8.5",
+      "ecosystem": "pypi",
+      "description": "Python package flask-login"
+    },
+    {
+      "name": "django-rest-framework",
+      "version": "3.4.0",
+      "ecosystem": "pypi",
+      "description": "Python package django-rest-framework"
+    },
+    {
+      "name": "django-cors-headers",
+      "version": "3.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package django-cors-headers"
+    },
+    {
+      "name": "django-filter",
+      "version": "2.2.6",
+      "ecosystem": "pypi",
+      "description": "Python package django-filter"
+    },
+    {
+      "name": "marshmallow-sqlalchemy",
+      "version": "1.6.7",
+      "ecosystem": "pypi",
+      "description": "Python package marshmallow-sqlalchemy"
+    },
+    {
+      "name": "apispec",
+      "version": "2.12.6",
+      "ecosystem": "pypi",
+      "description": "Python package apispec"
+    },
+    {
+      "name": "flasgger",
+      "version": "1.4.1",
+      "ecosystem": "pypi",
+      "description": "Python package flasgger"
+    },
+    {
+      "name": "python-multipart",
+      "version": "4.12.1",
+      "ecosystem": "pypi",
+      "description": "Python package python-multipart"
+    },
+    {
+      "name": "aiofiles",
+      "version": "3.7.6",
+      "ecosystem": "pypi",
+      "description": "Python package aiofiles"
+    },
+    {
+      "name": "anyio",
+      "version": "2.10.2",
+      "ecosystem": "pypi",
+      "description": "Python package anyio"
+    },
+    {
+      "name": "trio",
+      "version": "4.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package trio"
+    },
+    {
+      "name": "curio",
+      "version": "4.10.3",
+      "ecosystem": "pypi",
+      "description": "Python package curio"
+    },
+    {
+      "name": "gevent",
+      "version": "2.12.4",
+      "ecosystem": "pypi",
+      "description": "Python package gevent"
+    },
+    {
+      "name": "pyzmq",
+      "version": "5.10.9",
+      "ecosystem": "pypi",
+      "description": "Python package pyzmq"
+    },
+    {
+      "name": "msgpack",
+      "version": "5.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package msgpack"
+    },
+    {
+      "name": "cbor2",
+      "version": "1.11.5",
+      "ecosystem": "pypi",
+      "description": "Python package cbor2"
+    },
+    {
+      "name": "arrow",
+      "version": "4.1.3",
+      "ecosystem": "pypi",
+      "description": "Python package arrow"
+    },
+    {
+      "name": "orjson",
+      "version": "2.11.3",
+      "ecosystem": "pypi",
+      "description": "Python package orjson"
+    },
+    {
+      "name": "ujson",
+      "version": "2.4.8",
+      "ecosystem": "pypi",
+      "description": "Python package ujson"
+    },
+    {
+      "name": "simplejson",
+      "version": "2.1.0",
+      "ecosystem": "pypi",
+      "description": "Python package simplejson"
+    },
+    {
+      "name": "tabulate",
+      "version": "1.2.9",
+      "ecosystem": "pypi",
+      "description": "Python package tabulate"
+    },
+    {
+      "name": "prettytable",
+      "version": "3.2.0",
+      "ecosystem": "pypi",
+      "description": "Python package prettytable"
+    },
+    {
+      "name": "texttable",
+      "version": "5.2.2",
+      "ecosystem": "pypi",
+      "description": "Python package texttable"
+    },
+    {
+      "name": "colorama",
+      "version": "2.2.8",
+      "ecosystem": "pypi",
+      "description": "Python package colorama"
+    },
+    {
+      "name": "termcolor",
+      "version": "5.12.5",
+      "ecosystem": "pypi",
+      "description": "Python package termcolor"
+    },
+    {
+      "name": "blessed",
+      "version": "4.12.4",
+      "ecosystem": "pypi",
+      "description": "Python package blessed"
+    },
+    {
+      "name": "psutil",
+      "version": "1.12.0",
+      "ecosystem": "pypi",
+      "description": "Python package psutil"
+    },
+    {
+      "name": "py-cpuinfo",
+      "version": "1.5.4",
+      "ecosystem": "pypi",
+      "description": "Python package py-cpuinfo"
+    },
+    {
+      "name": "gputil",
+      "version": "1.8.2",
+      "ecosystem": "pypi",
+      "description": "Python package gputil"
+    },
+    {
+      "name": "watchdog",
+      "version": "5.12.5",
+      "ecosystem": "pypi",
+      "description": "Python package watchdog"
+    },
+    {
+      "name": "schedule",
+      "version": "2.3.3",
+      "ecosystem": "pypi",
+      "description": "Python package schedule"
+    },
+    {
+      "name": "apscheduler",
+      "version": "1.0.6",
+      "ecosystem": "pypi",
+      "description": "Python package apscheduler"
+    },
+    {
+      "name": "cryptography",
+      "version": "3.6.8",
+      "ecosystem": "pypi",
+      "description": "Python package cryptography"
+    },
+    {
+      "name": "pyopenssl",
+      "version": "3.0.8",
+      "ecosystem": "pypi",
+      "description": "Python package pyopenssl"
+    },
+    {
+      "name": "truststore",
+      "version": "4.8.0",
+      "ecosystem": "pypi",
+      "description": "Python package truststore"
+    },
+    {
+      "name": "xmlsec",
+      "version": "3.12.0",
+      "ecosystem": "pypi",
+      "description": "Python package xmlsec"
+    },
+    {
+      "name": "lxml-stubs",
+      "version": "1.4.4",
+      "ecosystem": "pypi",
+      "description": "Python package lxml-stubs"
+    },
+    {
+      "name": "email-validator",
+      "version": "3.3.3",
+      "ecosystem": "pypi",
+      "description": "Python package email-validator"
+    },
+    {
+      "name": "phonenumbers",
+      "version": "4.4.8",
+      "ecosystem": "pypi",
+      "description": "Python package phonenumbers"
+    },
+    {
+      "name": "stdnum",
+      "version": "5.9.5",
+      "ecosystem": "pypi",
+      "description": "Python package stdnum"
+    },
+    {
+      "name": "braintree",
+      "version": "4.3.5",
+      "ecosystem": "pypi",
+      "description": "Python package braintree"
+    },
+    {
+      "name": "paypalrestsdk",
+      "version": "1.2.0",
+      "ecosystem": "pypi",
+      "description": "Python package paypalrestsdk"
+    },
+    {
+      "name": "gitpython",
+      "version": "5.8.8",
+      "ecosystem": "pypi",
+      "description": "Python package gitpython"
+    },
+    {
+      "name": "dulwich",
+      "version": "1.6.8",
+      "ecosystem": "pypi",
+      "description": "Python package dulwich"
+    },
+    {
+      "name": "parameterized",
+      "version": "2.8.1",
+      "ecosystem": "pypi",
+      "description": "Python package parameterized"
+    },
+    {
+      "name": "faker",
+      "version": "1.12.6",
+      "ecosystem": "pypi",
+      "description": "Python package faker"
+    },
+    {
+      "name": "factory-boy",
+      "version": "1.11.7",
+      "ecosystem": "pypi",
+      "description": "Python package factory-boy"
+    },
+    {
+      "name": "hypothesis",
+      "version": "2.8.6",
+      "ecosystem": "pypi",
+      "description": "Python package hypothesis"
+    },
+    {
+      "name": "locust",
+      "version": "3.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package locust"
+    },
+    {
+      "name": "molotov",
+      "version": "3.1.9",
+      "ecosystem": "pypi",
+      "description": "Python package molotov"
+    },
+    {
+      "name": "artillery",
+      "version": "3.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package artillery"
+    },
+    {
+      "name": "lib-6853",
+      "version": "2.9.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6853"
+    },
+    {
+      "name": "lib-4086",
+      "version": "3.8.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4086"
+    },
+    {
+      "name": "lib-7318",
+      "version": "2.10.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7318"
+    },
+    {
+      "name": "lib-8466",
+      "version": "5.0.9",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8466"
+    },
+    {
+      "name": "lib-1504",
+      "version": "1.0.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1504"
+    },
+    {
+      "name": "lib-4890",
+      "version": "3.8.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4890"
+    },
+    {
+      "name": "lib-5494",
+      "version": "1.7.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5494"
+    },
+    {
+      "name": "lib-5725",
+      "version": "2.9.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5725"
+    },
+    {
+      "name": "lib-8782",
+      "version": "3.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8782"
+    },
+    {
+      "name": "lib-6378",
+      "version": "3.4.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6378"
+    },
+    {
+      "name": "lib-4185",
+      "version": "1.0.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4185"
+    },
+    {
+      "name": "lib-5217",
+      "version": "4.8.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5217"
+    },
+    {
+      "name": "lib-4686",
+      "version": "3.12.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4686"
+    },
+    {
+      "name": "lib-4858",
+      "version": "2.7.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4858"
+    },
+    {
+      "name": "lib-8287",
+      "version": "2.3.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8287"
+    },
+    {
+      "name": "lib-7007",
+      "version": "4.5.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7007"
+    },
+    {
+      "name": "lib-7549",
+      "version": "2.6.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7549"
+    },
+    {
+      "name": "lib-9175",
+      "version": "3.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9175"
+    },
+    {
+      "name": "lib-7717",
+      "version": "4.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7717"
+    },
+    {
+      "name": "lib-2254",
+      "version": "1.3.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2254"
+    },
+    {
+      "name": "lib-8508",
+      "version": "1.3.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8508"
+    },
+    {
+      "name": "lib-1490",
+      "version": "1.6.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1490"
+    },
+    {
+      "name": "lib-8028",
+      "version": "1.2.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8028"
+    },
+    {
+      "name": "lib-7512",
+      "version": "2.2.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7512"
+    },
+    {
+      "name": "lib-6839",
+      "version": "3.2.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6839"
+    },
+    {
+      "name": "lib-8094",
+      "version": "5.3.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8094"
+    },
+    {
+      "name": "lib-4000",
+      "version": "4.9.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4000"
+    },
+    {
+      "name": "lib-6755",
+      "version": "1.6.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6755"
+    },
+    {
+      "name": "lib-3933",
+      "version": "3.6.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3933"
+    },
+    {
+      "name": "lib-9429",
+      "version": "1.1.9",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9429"
+    },
+    {
+      "name": "lib-1876",
+      "version": "2.10.4",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1876"
+    },
+    {
+      "name": "lib-9641",
+      "version": "2.0.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9641"
+    },
+    {
+      "name": "lib-4035",
+      "version": "3.8.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4035"
+    },
+    {
+      "name": "lib-9325",
+      "version": "4.9.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9325"
+    },
+    {
+      "name": "lib-7425",
+      "version": "2.2.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7425"
+    },
+    {
+      "name": "lib-3501",
+      "version": "2.0.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3501"
+    },
+    {
+      "name": "lib-3864",
+      "version": "2.3.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3864"
+    },
+    {
+      "name": "lib-7296",
+      "version": "5.6.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7296"
+    },
+    {
+      "name": "lib-7823",
+      "version": "4.3.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7823"
+    },
+    {
+      "name": "lib-2503",
+      "version": "1.0.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2503"
+    },
+    {
+      "name": "lib-8698",
+      "version": "3.2.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8698"
+    },
+    {
+      "name": "lib-4094",
+      "version": "1.3.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4094"
+    },
+    {
+      "name": "lib-8227",
+      "version": "3.11.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8227"
+    },
+    {
+      "name": "lib-8188",
+      "version": "5.1.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8188"
+    },
+    {
+      "name": "lib-8732",
+      "version": "1.9.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8732"
+    },
+    {
+      "name": "lib-4346",
+      "version": "2.6.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4346"
+    },
+    {
+      "name": "lib-3544",
+      "version": "3.8.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3544"
+    },
+    {
+      "name": "lib-3501",
+      "version": "2.5.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3501"
+    },
+    {
+      "name": "lib-9178",
+      "version": "4.5.4",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9178"
+    },
+    {
+      "name": "lib-7499",
+      "version": "2.1.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7499"
+    },
+    {
+      "name": "lib-4284",
+      "version": "5.3.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4284"
+    },
+    {
+      "name": "lib-3752",
+      "version": "3.10.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3752"
+    },
+    {
+      "name": "lib-8519",
+      "version": "4.9.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8519"
+    },
+    {
+      "name": "lib-7484",
+      "version": "2.6.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7484"
+    },
+    {
+      "name": "lib-7884",
+      "version": "4.12.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7884"
+    },
+    {
+      "name": "lib-1290",
+      "version": "4.1.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1290"
+    },
+    {
+      "name": "lib-5039",
+      "version": "3.5.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5039"
+    },
+    {
+      "name": "lib-3919",
+      "version": "2.11.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3919"
+    },
+    {
+      "name": "lib-5879",
+      "version": "1.5.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5879"
+    },
+    {
+      "name": "lib-1513",
+      "version": "1.9.9",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1513"
+    },
+    {
+      "name": "lib-5076",
+      "version": "2.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5076"
+    },
+    {
+      "name": "lib-4256",
+      "version": "1.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4256"
+    },
+    {
+      "name": "lib-5955",
+      "version": "2.12.9",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5955"
+    },
+    {
+      "name": "lib-5436",
+      "version": "4.12.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5436"
+    },
+    {
+      "name": "lib-6848",
+      "version": "1.7.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6848"
+    },
+    {
+      "name": "lib-4567",
+      "version": "1.6.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4567"
+    },
+    {
+      "name": "lib-5342",
+      "version": "5.11.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5342"
+    },
+    {
+      "name": "lib-9009",
+      "version": "5.4.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9009"
+    },
+    {
+      "name": "lib-6375",
+      "version": "4.11.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6375"
+    },
+    {
+      "name": "lib-8246",
+      "version": "1.8.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8246"
+    },
+    {
+      "name": "lib-6518",
+      "version": "2.9.4",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6518"
+    },
+    {
+      "name": "lib-5126",
+      "version": "3.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5126"
+    },
+    {
+      "name": "lib-5314",
+      "version": "1.10.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5314"
+    },
+    {
+      "name": "lib-3140",
+      "version": "1.11.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3140"
+    },
+    {
+      "name": "lib-5486",
+      "version": "3.10.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5486"
+    },
+    {
+      "name": "lib-1875",
+      "version": "3.1.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1875"
+    },
+    {
+      "name": "lib-5184",
+      "version": "1.10.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5184"
+    },
+    {
+      "name": "lib-4372",
+      "version": "5.4.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4372"
+    },
+    {
+      "name": "lib-5351",
+      "version": "1.0.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-5351"
+    },
+    {
+      "name": "lib-8229",
+      "version": "5.0.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8229"
+    },
+    {
+      "name": "lib-2473",
+      "version": "3.11.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2473"
+    },
+    {
+      "name": "lib-7419",
+      "version": "2.5.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7419"
+    },
+    {
+      "name": "lib-3739",
+      "version": "1.3.9",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3739"
+    },
+    {
+      "name": "lib-2997",
+      "version": "5.9.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2997"
+    },
+    {
+      "name": "lib-2107",
+      "version": "3.9.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2107"
+    },
+    {
+      "name": "lib-8737",
+      "version": "2.4.7",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8737"
+    },
+    {
+      "name": "lib-9912",
+      "version": "3.3.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9912"
+    },
+    {
+      "name": "lib-6636",
+      "version": "2.10.4",
+      "ecosystem": "pypi",
+      "description": "Python package lib-6636"
+    },
+    {
+      "name": "lib-1353",
+      "version": "5.11.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1353"
+    },
+    {
+      "name": "lib-9541",
+      "version": "5.4.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9541"
+    },
+    {
+      "name": "lib-2753",
+      "version": "1.5.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2753"
+    },
+    {
+      "name": "lib-7828",
+      "version": "2.12.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7828"
+    },
+    {
+      "name": "lib-2260",
+      "version": "2.2.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-2260"
+    },
+    {
+      "name": "lib-1802",
+      "version": "1.4.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-1802"
+    },
+    {
+      "name": "lib-4624",
+      "version": "4.5.0",
+      "ecosystem": "pypi",
+      "description": "Python package lib-4624"
+    },
+    {
+      "name": "lib-7136",
+      "version": "4.11.2",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7136"
+    },
+    {
+      "name": "lib-7469",
+      "version": "4.12.3",
+      "ecosystem": "pypi",
+      "description": "Python package lib-7469"
+    },
+    {
+      "name": "lib-3647",
+      "version": "5.0.1",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3647"
+    },
+    {
+      "name": "lib-8053",
+      "version": "1.7.6",
+      "ecosystem": "pypi",
+      "description": "Python package lib-8053"
+    },
+    {
+      "name": "lib-3238",
+      "version": "2.6.8",
+      "ecosystem": "pypi",
+      "description": "Python package lib-3238"
+    },
+    {
+      "name": "lib-9948",
+      "version": "4.5.5",
+      "ecosystem": "pypi",
+      "description": "Python package lib-9948"
+    },
+    {
+      "name": "lodash",
+      "version": "5.3.8",
+      "ecosystem": "npm",
+      "description": "Node.js package lodash"
+    },
+    {
+      "name": "express",
+      "version": "1.11.7",
+      "ecosystem": "npm",
+      "description": "Node.js package express"
+    },
+    {
+      "name": "axios",
+      "version": "1.1.5",
+      "ecosystem": "npm",
+      "description": "Node.js package axios"
+    },
+    {
+      "name": "react",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "description": "Node.js package react"
+    },
+    {
+      "name": "vue",
+      "version": "1.7.8",
+      "ecosystem": "npm",
+      "description": "Node.js package vue"
+    },
+    {
+      "name": "angular",
+      "version": "5.8.9",
+      "ecosystem": "npm",
+      "description": "Node.js package angular"
+    },
+    {
+      "name": "typescript",
+      "version": "4.12.7",
+      "ecosystem": "npm",
+      "description": "Node.js package typescript"
+    },
+    {
+      "name": "webpack",
+      "version": "1.9.1",
+      "ecosystem": "npm",
+      "description": "Node.js package webpack"
+    },
+    {
+      "name": "babel",
+      "version": "4.6.2",
+      "ecosystem": "npm",
+      "description": "Node.js package babel"
+    },
+    {
+      "name": "eslint",
+      "version": "4.5.6",
+      "ecosystem": "npm",
+      "description": "Node.js package eslint"
+    },
+    {
+      "name": "prettier",
+      "version": "1.0.6",
+      "ecosystem": "npm",
+      "description": "Node.js package prettier"
+    },
+    {
+      "name": "jest",
+      "version": "5.9.5",
+      "ecosystem": "npm",
+      "description": "Node.js package jest"
+    },
+    {
+      "name": "mocha",
+      "version": "5.12.6",
+      "ecosystem": "npm",
+      "description": "Node.js package mocha"
+    },
+    {
+      "name": "chai",
+      "version": "1.3.2",
+      "ecosystem": "npm",
+      "description": "Node.js package chai"
+    },
+    {
+      "name": "sinon",
+      "version": "5.9.4",
+      "ecosystem": "npm",
+      "description": "Node.js package sinon"
+    },
+    {
+      "name": "supertest",
+      "version": "5.1.6",
+      "ecosystem": "npm",
+      "description": "Node.js package supertest"
+    },
+    {
+      "name": "mongoose",
+      "version": "5.5.3",
+      "ecosystem": "npm",
+      "description": "Node.js package mongoose"
+    },
+    {
+      "name": "sequelize",
+      "version": "5.5.5",
+      "ecosystem": "npm",
+      "description": "Node.js package sequelize"
+    },
+    {
+      "name": "typeorm",
+      "version": "1.12.6",
+      "ecosystem": "npm",
+      "description": "Node.js package typeorm"
+    },
+    {
+      "name": "prisma",
+      "version": "5.1.8",
+      "ecosystem": "npm",
+      "description": "Node.js package prisma"
+    },
+    {
+      "name": "redis",
+      "version": "2.2.0",
+      "ecosystem": "npm",
+      "description": "Node.js package redis"
+    },
+    {
+      "name": "ioredis",
+      "version": "3.1.2",
+      "ecosystem": "npm",
+      "description": "Node.js package ioredis"
+    },
+    {
+      "name": "bull",
+      "version": "3.6.1",
+      "ecosystem": "npm",
+      "description": "Node.js package bull"
+    },
+    {
+      "name": "bullmq",
+      "version": "2.1.8",
+      "ecosystem": "npm",
+      "description": "Node.js package bullmq"
+    },
+    {
+      "name": "socket.io",
+      "version": "4.7.7",
+      "ecosystem": "npm",
+      "description": "Node.js package socket.io"
+    },
+    {
+      "name": "ws",
+      "version": "3.4.3",
+      "ecosystem": "npm",
+      "description": "Node.js package ws"
+    },
+    {
+      "name": "uWebSockets.js",
+      "version": "1.5.2",
+      "ecosystem": "npm",
+      "description": "Node.js package uWebSockets.js"
+    },
+    {
+      "name": "passport",
+      "version": "3.7.2",
+      "ecosystem": "npm",
+      "description": "Node.js package passport"
+    },
+    {
+      "name": "passport-jwt",
+      "version": "5.6.1",
+      "ecosystem": "npm",
+      "description": "Node.js package passport-jwt"
+    },
+    {
+      "name": "passport-local",
+      "version": "1.2.3",
+      "ecosystem": "npm",
+      "description": "Node.js package passport-local"
+    },
+    {
+      "name": "jsonwebtoken",
+      "version": "5.0.6",
+      "ecosystem": "npm",
+      "description": "Node.js package jsonwebtoken"
+    },
+    {
+      "name": "bcrypt",
+      "version": "2.9.4",
+      "ecosystem": "npm",
+      "description": "Node.js package bcrypt"
+    },
+    {
+      "name": "bcryptjs",
+      "version": "5.5.5",
+      "ecosystem": "npm",
+      "description": "Node.js package bcryptjs"
+    },
+    {
+      "name": "argon2",
+      "version": "2.8.0",
+      "ecosystem": "npm",
+      "description": "Node.js package argon2"
+    },
+    {
+      "name": "speakeasy",
+      "version": "3.3.8",
+      "ecosystem": "npm",
+      "description": "Node.js package speakeasy"
+    },
+    {
+      "name": "dotenv",
+      "version": "3.3.9",
+      "ecosystem": "npm",
+      "description": "Node.js package dotenv"
+    },
+    {
+      "name": "config",
+      "version": "5.9.5",
+      "ecosystem": "npm",
+      "description": "Node.js package config"
+    },
+    {
+      "name": "convict",
+      "version": "5.11.0",
+      "ecosystem": "npm",
+      "description": "Node.js package convict"
+    },
+    {
+      "name": "nconf",
+      "version": "1.9.6",
+      "ecosystem": "npm",
+      "description": "Node.js package nconf"
+    },
+    {
+      "name": "winston",
+      "version": "2.7.5",
+      "ecosystem": "npm",
+      "description": "Node.js package winston"
+    },
+    {
+      "name": "pino",
+      "version": "5.4.8",
+      "ecosystem": "npm",
+      "description": "Node.js package pino"
+    },
+    {
+      "name": "bunyan",
+      "version": "3.4.7",
+      "ecosystem": "npm",
+      "description": "Node.js package bunyan"
+    },
+    {
+      "name": "debug",
+      "version": "5.2.4",
+      "ecosystem": "npm",
+      "description": "Node.js package debug"
+    },
+    {
+      "name": "morgan",
+      "version": "1.2.9",
+      "ecosystem": "npm",
+      "description": "Node.js package morgan"
+    },
+    {
+      "name": "helmet",
+      "version": "3.5.2",
+      "ecosystem": "npm",
+      "description": "Node.js package helmet"
+    },
+    {
+      "name": "cors",
+      "version": "2.0.4",
+      "ecosystem": "npm",
+      "description": "Node.js package cors"
+    },
+    {
+      "name": "compression",
+      "version": "5.12.3",
+      "ecosystem": "npm",
+      "description": "Node.js package compression"
+    },
+    {
+      "name": "multer",
+      "version": "3.8.9",
+      "ecosystem": "npm",
+      "description": "Node.js package multer"
+    },
+    {
+      "name": "formidable",
+      "version": "3.11.9",
+      "ecosystem": "npm",
+      "description": "Node.js package formidable"
+    },
+    {
+      "name": "busboy",
+      "version": "1.8.6",
+      "ecosystem": "npm",
+      "description": "Node.js package busboy"
+    },
+    {
+      "name": "nodemailer",
+      "version": "2.11.7",
+      "ecosystem": "npm",
+      "description": "Node.js package nodemailer"
+    },
+    {
+      "name": "mailgun-js",
+      "version": "1.7.6",
+      "ecosystem": "npm",
+      "description": "Node.js package mailgun-js"
+    },
+    {
+      "name": "sendgrid",
+      "version": "4.5.1",
+      "ecosystem": "npm",
+      "description": "Node.js package sendgrid"
+    },
+    {
+      "name": "stripe",
+      "version": "1.2.3",
+      "ecosystem": "npm",
+      "description": "Node.js package stripe"
+    },
+    {
+      "name": "braintree",
+      "version": "5.0.7",
+      "ecosystem": "npm",
+      "description": "Node.js package braintree"
+    },
+    {
+      "name": "paypal",
+      "version": "2.6.0",
+      "ecosystem": "npm",
+      "description": "Node.js package paypal"
+    },
+    {
+      "name": "aws-sdk",
+      "version": "4.2.9",
+      "ecosystem": "npm",
+      "description": "Node.js package aws-sdk"
+    },
+    {
+      "name": "googleapis",
+      "version": "4.7.0",
+      "ecosystem": "npm",
+      "description": "Node.js package googleapis"
+    },
+    {
+      "name": "azure-sdk",
+      "version": "1.6.6",
+      "ecosystem": "npm",
+      "description": "Node.js package azure-sdk"
+    },
+    {
+      "name": "sharp",
+      "version": "5.0.2",
+      "ecosystem": "npm",
+      "description": "Node.js package sharp"
+    },
+    {
+      "name": "jimp",
+      "version": "4.8.8",
+      "ecosystem": "npm",
+      "description": "Node.js package jimp"
+    },
+    {
+      "name": "imagemin",
+      "version": "3.8.3",
+      "ecosystem": "npm",
+      "description": "Node.js package imagemin"
+    },
+    {
+      "name": "cheerio",
+      "version": "2.1.4",
+      "ecosystem": "npm",
+      "description": "Node.js package cheerio"
+    },
+    {
+      "name": "puppeteer",
+      "version": "4.12.7",
+      "ecosystem": "npm",
+      "description": "Node.js package puppeteer"
+    },
+    {
+      "name": "playwright",
+      "version": "3.0.3",
+      "ecosystem": "npm",
+      "description": "Node.js package playwright"
+    },
+    {
+      "name": "graphql",
+      "version": "5.2.7",
+      "ecosystem": "npm",
+      "description": "Node.js package graphql"
+    },
+    {
+      "name": "apollo-server",
+      "version": "4.5.1",
+      "ecosystem": "npm",
+      "description": "Node.js package apollo-server"
+    },
+    {
+      "name": "apollo-client",
+      "version": "3.6.8",
+      "ecosystem": "npm",
+      "description": "Node.js package apollo-client"
+    },
+    {
+      "name": "grpc",
+      "version": "4.0.7",
+      "ecosystem": "npm",
+      "description": "Node.js package grpc"
+    },
+    {
+      "name": "protobufjs",
+      "version": "3.1.0",
+      "ecosystem": "npm",
+      "description": "Node.js package protobufjs"
+    },
+    {
+      "name": "moment",
+      "version": "3.6.8",
+      "ecosystem": "npm",
+      "description": "Node.js package moment"
+    },
+    {
+      "name": "dayjs",
+      "version": "1.4.2",
+      "ecosystem": "npm",
+      "description": "Node.js package dayjs"
+    },
+    {
+      "name": "luxon",
+      "version": "4.12.6",
+      "ecosystem": "npm",
+      "description": "Node.js package luxon"
+    },
+    {
+      "name": "date-fns",
+      "version": "2.7.6",
+      "ecosystem": "npm",
+      "description": "Node.js package date-fns"
+    },
+    {
+      "name": "uuid",
+      "version": "2.9.0",
+      "ecosystem": "npm",
+      "description": "Node.js package uuid"
+    },
+    {
+      "name": "nanoid",
+      "version": "4.2.8",
+      "ecosystem": "npm",
+      "description": "Node.js package nanoid"
+    },
+    {
+      "name": "shortid",
+      "version": "4.4.1",
+      "ecosystem": "npm",
+      "description": "Node.js package shortid"
+    },
+    {
+      "name": "yup",
+      "version": "4.9.5",
+      "ecosystem": "npm",
+      "description": "Node.js package yup"
+    },
+    {
+      "name": "joi",
+      "version": "5.0.0",
+      "ecosystem": "npm",
+      "description": "Node.js package joi"
+    },
+    {
+      "name": "zod",
+      "version": "3.2.5",
+      "ecosystem": "npm",
+      "description": "Node.js package zod"
+    },
+    {
+      "name": "ajv",
+      "version": "4.10.9",
+      "ecosystem": "npm",
+      "description": "Node.js package ajv"
+    },
+    {
+      "name": "lodash.merge",
+      "version": "5.10.9",
+      "ecosystem": "npm",
+      "description": "Node.js package lodash.merge"
+    },
+    {
+      "name": "lodash.clonedeep",
+      "version": "2.9.2",
+      "ecosystem": "npm",
+      "description": "Node.js package lodash.clonedeep"
+    },
+    {
+      "name": "lodash.get",
+      "version": "2.1.4",
+      "ecosystem": "npm",
+      "description": "Node.js package lodash.get"
+    },
+    {
+      "name": "ramda",
+      "version": "5.9.9",
+      "ecosystem": "npm",
+      "description": "Node.js package ramda"
+    },
+    {
+      "name": "immutable",
+      "version": "2.0.7",
+      "ecosystem": "npm",
+      "description": "Node.js package immutable"
+    },
+    {
+      "name": "immer",
+      "version": "5.4.4",
+      "ecosystem": "npm",
+      "description": "Node.js package immer"
+    },
+    {
+      "name": "rxjs",
+      "version": "5.9.0",
+      "ecosystem": "npm",
+      "description": "Node.js package rxjs"
+    },
+    {
+      "name": "rxjs-compat",
+      "version": "1.12.8",
+      "ecosystem": "npm",
+      "description": "Node.js package rxjs-compat"
+    },
+    {
+      "name": "next",
+      "version": "4.5.3",
+      "ecosystem": "npm",
+      "description": "Node.js package next"
+    },
+    {
+      "name": "nuxt",
+      "version": "2.4.7",
+      "ecosystem": "npm",
+      "description": "Node.js package nuxt"
+    },
+    {
+      "name": "gatsby",
+      "version": "3.8.7",
+      "ecosystem": "npm",
+      "description": "Node.js package gatsby"
+    },
+    {
+      "name": "tailwindcss",
+      "version": "5.6.6",
+      "ecosystem": "npm",
+      "description": "Node.js package tailwindcss"
+    },
+    {
+      "name": "styled-components",
+      "version": "4.9.3",
+      "ecosystem": "npm",
+      "description": "Node.js package styled-components"
+    },
+    {
+      "name": "emotion",
+      "version": "4.8.7",
+      "ecosystem": "npm",
+      "description": "Node.js package emotion"
+    },
+    {
+      "name": "redux",
+      "version": "2.1.2",
+      "ecosystem": "npm",
+      "description": "Node.js package redux"
+    },
+    {
+      "name": "mobx",
+      "version": "4.2.8",
+      "ecosystem": "npm",
+      "description": "Node.js package mobx"
+    },
+    {
+      "name": "zustand",
+      "version": "4.4.9",
+      "ecosystem": "npm",
+      "description": "Node.js package zustand"
+    },
+    {
+      "name": "recoil",
+      "version": "3.1.7",
+      "ecosystem": "npm",
+      "description": "Node.js package recoil"
+    },
+    {
+      "name": "framer-motion",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "description": "Node.js package framer-motion"
+    },
+    {
+      "name": "react-spring",
+      "version": "2.7.5",
+      "ecosystem": "npm",
+      "description": "Node.js package react-spring"
+    },
+    {
+      "name": "anime",
+      "version": "1.3.4",
+      "ecosystem": "npm",
+      "description": "Node.js package anime"
+    },
+    {
+      "name": "d3",
+      "version": "3.2.0",
+      "ecosystem": "npm",
+      "description": "Node.js package d3"
+    },
+    {
+      "name": "chart.js",
+      "version": "3.0.0",
+      "ecosystem": "npm",
+      "description": "Node.js package chart.js"
+    },
+    {
+      "name": "echarts",
+      "version": "5.10.7",
+      "ecosystem": "npm",
+      "description": "Node.js package echarts"
+    },
+    {
+      "name": "highcharts",
+      "version": "3.11.2",
+      "ecosystem": "npm",
+      "description": "Node.js package highcharts"
+    },
+    {
+      "name": "three",
+      "version": "3.4.2",
+      "ecosystem": "npm",
+      "description": "Node.js package three"
+    },
+    {
+      "name": "babylon.js",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "description": "Node.js package babylon.js"
+    },
+    {
+      "name": "pixi.js",
+      "version": "1.3.4",
+      "ecosystem": "npm",
+      "description": "Node.js package pixi.js"
+    },
+    {
+      "name": "node-fetch",
+      "version": "1.9.6",
+      "ecosystem": "npm",
+      "description": "Node.js package node-fetch"
+    },
+    {
+      "name": "got",
+      "version": "3.0.0",
+      "ecosystem": "npm",
+      "description": "Node.js package got"
+    },
+    {
+      "name": "superagent",
+      "version": "1.8.5",
+      "ecosystem": "npm",
+      "description": "Node.js package superagent"
+    },
+    {
+      "name": "needle",
+      "version": "5.8.6",
+      "ecosystem": "npm",
+      "description": "Node.js package needle"
+    },
+    {
+      "name": "cheerio",
+      "version": "5.11.8",
+      "ecosystem": "npm",
+      "description": "Node.js package cheerio"
+    },
+    {
+      "name": "html-parser2",
+      "version": "5.6.9",
+      "ecosystem": "npm",
+      "description": "Node.js package html-parser2"
+    },
+    {
+      "name": "parse5",
+      "version": "1.6.8",
+      "ecosystem": "npm",
+      "description": "Node.js package parse5"
+    },
+    {
+      "name": "csv-parser",
+      "version": "5.6.7",
+      "ecosystem": "npm",
+      "description": "Node.js package csv-parser"
+    },
+    {
+      "name": "papaparse",
+      "version": "5.8.0",
+      "ecosystem": "npm",
+      "description": "Node.js package papaparse"
+    },
+    {
+      "name": "fast-csv",
+      "version": "3.5.7",
+      "ecosystem": "npm",
+      "description": "Node.js package fast-csv"
+    },
+    {
+      "name": "xlsx",
+      "version": "1.0.2",
+      "ecosystem": "npm",
+      "description": "Node.js package xlsx"
+    },
+    {
+      "name": "exceljs",
+      "version": "1.7.5",
+      "ecosystem": "npm",
+      "description": "Node.js package exceljs"
+    },
+    {
+      "name": "pdfkit",
+      "version": "5.9.1",
+      "ecosystem": "npm",
+      "description": "Node.js package pdfkit"
+    },
+    {
+      "name": "archiver",
+      "version": "2.10.4",
+      "ecosystem": "npm",
+      "description": "Node.js package archiver"
+    },
+    {
+      "name": "adm-zip",
+      "version": "5.2.2",
+      "ecosystem": "npm",
+      "description": "Node.js package adm-zip"
+    },
+    {
+      "name": "node-tar",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "description": "Node.js package node-tar"
+    },
+    {
+      "name": "crypto-js",
+      "version": "3.11.2",
+      "ecosystem": "npm",
+      "description": "Node.js package crypto-js"
+    },
+    {
+      "name": "node-forge",
+      "version": "4.12.5",
+      "ecosystem": "npm",
+      "description": "Node.js package node-forge"
+    },
+    {
+      "name": "openpgp",
+      "version": "2.2.2",
+      "ecosystem": "npm",
+      "description": "Node.js package openpgp"
+    },
+    {
+      "name": "pm2",
+      "version": "2.9.6",
+      "ecosystem": "npm",
+      "description": "Node.js package pm2"
+    },
+    {
+      "name": "forever",
+      "version": "5.0.3",
+      "ecosystem": "npm",
+      "description": "Node.js package forever"
+    },
+    {
+      "name": "nodemon",
+      "version": "4.8.2",
+      "ecosystem": "npm",
+      "description": "Node.js package nodemon"
+    },
+    {
+      "name": "docker",
+      "version": "1.5.5",
+      "ecosystem": "npm",
+      "description": "Node.js package docker"
+    },
+    {
+      "name": "dockerode",
+      "version": "5.7.0",
+      "ecosystem": "npm",
+      "description": "Node.js package dockerode"
+    },
+    {
+      "name": "nock",
+      "version": "3.12.2",
+      "ecosystem": "npm",
+      "description": "Node.js package nock"
+    },
+    {
+      "name": "sinon",
+      "version": "1.11.5",
+      "ecosystem": "npm",
+      "description": "Node.js package sinon"
+    },
+    {
+      "name": "proxyquire",
+      "version": "3.7.8",
+      "ecosystem": "npm",
+      "description": "Node.js package proxyquire"
+    },
+    {
+      "name": "istanbul",
+      "version": "5.9.2",
+      "ecosystem": "npm",
+      "description": "Node.js package istanbul"
+    },
+    {
+      "name": "nyc",
+      "version": "1.11.4",
+      "ecosystem": "npm",
+      "description": "Node.js package nyc"
+    },
+    {
+      "name": "c8",
+      "version": "3.11.9",
+      "ecosystem": "npm",
+      "description": "Node.js package c8"
+    },
+    {
+      "name": "husky",
+      "version": "2.0.5",
+      "ecosystem": "npm",
+      "description": "Node.js package husky"
+    },
+    {
+      "name": "lint-staged",
+      "version": "4.9.8",
+      "ecosystem": "npm",
+      "description": "Node.js package lint-staged"
+    },
+    {
+      "name": "commitizen",
+      "version": "4.8.3",
+      "ecosystem": "npm",
+      "description": "Node.js package commitizen"
+    },
+    {
+      "name": "rollup",
+      "version": "4.2.8",
+      "ecosystem": "npm",
+      "description": "Node.js package rollup"
+    },
+    {
+      "name": "parcel",
+      "version": "5.1.8",
+      "ecosystem": "npm",
+      "description": "Node.js package parcel"
+    },
+    {
+      "name": "vite",
+      "version": "4.0.1",
+      "ecosystem": "npm",
+      "description": "Node.js package vite"
+    },
+    {
+      "name": "esbuild",
+      "version": "2.2.3",
+      "ecosystem": "npm",
+      "description": "Node.js package esbuild"
+    },
+    {
+      "name": "swc",
+      "version": "5.6.3",
+      "ecosystem": "npm",
+      "description": "Node.js package swc"
+    },
+    {
+      "name": "pkg-6689",
+      "version": "3.8.2",
+      "ecosystem": "npm",
+      "description": "Node.js package pkg-6689"
+    },
+    {
+      "name": "pkg-1958",
+      "version": "2.10.4",
+      "ecosystem": "npm",
+      "description": "Node.js package pkg-1958"
+    },
+    {
+      "name": "pkg-4104",
+      "version": "1.8.1",
+      "ecosystem": "npm",
+      "description": "Node.js package pkg-4104"
+    },
+    {
+      "name": "requets",
+      "version": "2.28.2",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking requests"
+    },
+    {
+      "name": "numpyy",
+      "version": "1.24.1",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking numpy"
+    },
+    {
+      "name": "numpy-ml",
+      "version": "0.5.0",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking numpy"
+    },
+    {
+      "name": "flask-utils",
+      "version": "1.0.3",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking flask"
+    },
+    {
+      "name": "expres",
+      "version": "4.18.2",
+      "ecosystem": "npm",
+      "description": "Typosquat package mimicking express"
+    },
+    {
+      "name": "lod4sh",
+      "version": "4.17.21",
+      "ecosystem": "npm",
+      "description": "Typosquat package mimicking lodash"
+    },
+    {
+      "name": "axi0s",
+      "version": "1.4.0",
+      "ecosystem": "npm",
+      "description": "Typosquat package mimicking axios"
+    },
+    {
+      "name": "djang0",
+      "version": "4.2.7",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking django"
+    },
+    {
+      "name": "cryptographyy",
+      "version": "41.0.5",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking cryptography"
+    },
+    {
+      "name": "psycopg2-binary2",
+      "version": "2.9.7",
+      "ecosystem": "pypi",
+      "description": "Typosquat package mimicking psycopg2"
+    },
+    {
+      "name": "internal-auth-lib",
+      "version": "3.1.0",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "company-config",
+      "version": "2.0.1",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "svc-common-utils",
+      "version": "1.5.0",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "platform-sdk",
+      "version": "0.9.0",
+      "ecosystem": "npm",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "infra-shared",
+      "version": "1.1.0",
+      "ecosystem": "npm",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "data-pipeline-core",
+      "version": "2.3.0",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "ml-feature-store",
+      "version": "0.4.2",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "event-bus-client",
+      "version": "1.0.5",
+      "ecosystem": "npm",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "shared-crypto-utils",
+      "version": "1.2.0",
+      "ecosystem": "pypi",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "service-mesh-helpers",
+      "version": "0.7.1",
+      "ecosystem": "npm",
+      "description": "Dependency_Confusion package mimicking internal package"
+    },
+    {
+      "name": "celery-backdoor",
+      "version": "5.3.4",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking celery"
+    },
+    {
+      "name": "sqlalchemy-extra",
+      "version": "2.0.23",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking sqlalchemy"
+    },
+    {
+      "name": "pydantic-extras",
+      "version": "2.5.2",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking pydantic"
+    },
+    {
+      "name": "fastapi-security",
+      "version": "0.104.1",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking fastapi"
+    },
+    {
+      "name": "httpx-async",
+      "version": "0.25.2",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking httpx"
+    },
+    {
+      "name": "redis-cluster-py",
+      "version": "4.6.0",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking redis"
+    },
+    {
+      "name": "boto3-enhanced",
+      "version": "1.33.0",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking boto3"
+    },
+    {
+      "name": "jwt-extended",
+      "version": "4.5.3",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking pyjwt"
+    },
+    {
+      "name": "uvicorn-pro",
+      "version": "0.24.0",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking uvicorn"
+    },
+    {
+      "name": "grpcio-tools2",
+      "version": "1.59.3",
+      "ecosystem": "pypi",
+      "description": "Backdoor package mimicking grpcio"
+    },
+    {
+      "name": "passport-oauth-extra",
+      "version": "0.6.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking passport"
+    },
+    {
+      "name": "mongoose-plugin-audit",
+      "version": "7.4.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking mongoose"
+    },
+    {
+      "name": "winston-remote",
+      "version": "3.11.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking winston"
+    },
+    {
+      "name": "helmet-plus",
+      "version": "7.1.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking helmet"
+    },
+    {
+      "name": "jsonwebtoken-verify",
+      "version": "9.0.2",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking jsonwebtoken"
+    },
+    {
+      "name": "prisma-client-extra",
+      "version": "5.6.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking prisma"
+    },
+    {
+      "name": "socket.io-admin",
+      "version": "4.6.2",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking socket.io"
+    },
+    {
+      "name": "bullmq-worker-extra",
+      "version": "5.1.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking bullmq"
+    },
+    {
+      "name": "axios-oauth-client",
+      "version": "1.6.0",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking axios"
+    },
+    {
+      "name": "typeorm-audit-log",
+      "version": "0.3.17",
+      "ecosystem": "npm",
+      "description": "Backdoor package mimicking typeorm"
+    },
+    {
+      "name": "image-optimizer-pro",
+      "version": "2.1.0",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking pillow"
+    },
+    {
+      "name": "ml-accelerate",
+      "version": "1.3.0",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking numpy/scipy"
+    },
+    {
+      "name": "data-compress-fast",
+      "version": "0.8.0",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking lz4/zstd"
+    },
+    {
+      "name": "pdf-render-engine",
+      "version": "3.0.1",
+      "ecosystem": "npm",
+      "description": "Cryptominer package mimicking pdfkit"
+    },
+    {
+      "name": "color-palette-gen",
+      "version": "1.2.0",
+      "ecosystem": "npm",
+      "description": "Cryptominer package mimicking color utilities"
+    },
+    {
+      "name": "cache-optimizer",
+      "version": "2.0.5",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking cachetools"
+    },
+    {
+      "name": "fast-json-parser",
+      "version": "1.0.6",
+      "ecosystem": "npm",
+      "description": "Cryptominer package mimicking fast-json-stringify"
+    },
+    {
+      "name": "network-monitor-lite",
+      "version": "0.3.0",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking psutil"
+    },
+    {
+      "name": "font-loader-utils",
+      "version": "1.1.3",
+      "ecosystem": "npm",
+      "description": "Cryptominer package mimicking webfontloader"
+    },
+    {
+      "name": "video-thumbnail-gen",
+      "version": "0.5.0",
+      "ecosystem": "pypi",
+      "description": "Cryptominer package mimicking opencv-python"
+    }
+  ],
+  "services": [
+    {
+      "name": "svc_01",
+      "role": "auth",
+      "direct_deps": [
+        "typer",
+        "twisted",
+        "loguru",
+        "uuid",
+        "sequelize",
+        "redis",
+        "next"
+      ],
+      "all_deps": [
+        "opencv-python",
+        "passport-jwt",
+        "next",
+        "usb",
+        "typer",
+        "lib-9912",
+        "stripe",
+        "redis",
+        "zipfile",
+        "lib-9009",
+        "twisted",
+        "loguru",
+        "gputil",
+        "curio",
+        "moment",
+        "uuid",
+        "busboy",
+        "uWebSockets.js",
+        "sequelize"
+      ]
+    },
+    {
+      "name": "svc_02",
+      "role": "api",
+      "direct_deps": [
+        "certifi",
+        "lib-6853",
+        "lib-4000",
+        "elasticsearch",
+        "retry",
+        "shortid",
+        "yup",
+        "chart.js"
+      ],
+      "all_deps": [
+        "emotion",
+        "invoke",
+        "lib-6518",
+        "chart.js",
+        "bcrypt",
+        "lib-5184",
+        "elasticsearch",
+        "shortid",
+        "colorama",
+        "python-dotenv",
+        "lib-4000",
+        "needle",
+        "papaparse",
+        "yup",
+        "lib-5217",
+        "retry",
+        "lib-7318",
+        "lib-6853",
+        "lib-9541",
+        "kubernetes",
+        "ptyprocess",
+        "certifi"
+      ]
+    },
+    {
+      "name": "svc_03",
+      "role": "data",
+      "direct_deps": [
+        "invoke",
+        "lib-7484",
+        "faker",
+        "lib-3140",
+        "schedule",
+        "pylint",
+        "lib-1513",
+        "itsdangerous",
+        "sinon",
+        "rollup",
+        "requets",
+        "internal-auth-lib"
+      ],
+      "all_deps": [
+        "invoke",
+        "internal-auth-lib",
+        "schedule",
+        "python-json-logger",
+        "lib-7484",
+        "pylint",
+        "lib-8519",
+        "pkg-1958",
+        "curio",
+        "echarts",
+        "lib-4624",
+        "lib-3140",
+        "requets",
+        "rollup",
+        "sinon",
+        "fastapi",
+        "lib-1513",
+        "itsdangerous",
+        "faker"
+      ]
+    },
+    {
+      "name": "svc_04",
+      "role": "analytics",
+      "direct_deps": [
+        "aiohttp",
+        "django-rest-framework",
+        "structlog",
+        "seaborn",
+        "circuitbreaker",
+        "papaparse",
+        "jest"
+      ],
+      "all_deps": [
+        "openpgp",
+        "papaparse",
+        "nodemailer",
+        "bcryptjs",
+        "supertest",
+        "django-rest-framework",
+        "lib-4372",
+        "lib-6518",
+        "lib-7512",
+        "starlette",
+        "stripe",
+        "aiohttp",
+        "structlog",
+        "seaborn",
+        "circuitbreaker",
+        "marshmallow",
+        "node-tar",
+        "jest"
+      ]
+    },
+    {
+      "name": "svc_05",
+      "role": "notify",
+      "direct_deps": [
+        "jinja2",
+        "matplotlib",
+        "lib-6636",
+        "phonenumbers",
+        "lib-8782",
+        "invoke",
+        "mocha",
+        "supertest"
+      ],
+      "all_deps": [
+        "lib-8782",
+        "invoke",
+        "lib-6636",
+        "aiohttp",
+        "redis",
+        "lib-1490",
+        "lib-1290",
+        "supertest",
+        "coverage",
+        "lib-7484",
+        "matplotlib",
+        "multiprocessing",
+        "mocha",
+        "environs",
+        "pytest-asyncio",
+        "phonenumbers",
+        "lib-8188",
+        "lib-7318",
+        "lib-1353",
+        "lib-7007",
+        "jinja2",
+        "urllib3",
+        "forever"
+      ]
+    },
+    {
+      "name": "svc_06",
+      "role": "storage",
+      "direct_deps": [
+        "opentelemetry-sdk",
+        "imageio",
+        "lib-9325",
+        "black",
+        "shapely",
+        "scipy",
+        "yup",
+        "parcel",
+        "passport-local",
+        "nuxt",
+        "prettier",
+        "protobufjs"
+      ],
+      "all_deps": [
+        "passport-local",
+        "next",
+        "protobufjs",
+        "pexpect",
+        "morgan",
+        "pyopenssl",
+        "black",
+        "imageio",
+        "nuxt",
+        "scipy",
+        "hypothesis",
+        "yup",
+        "parcel",
+        "moment",
+        "lxml",
+        "opentelemetry-sdk",
+        "shapely",
+        "mongoose",
+        "lib-4256",
+        "prettier",
+        "lib-9325",
+        "lib-3238",
+        "imaplib"
+      ]
+    },
+    {
+      "name": "svc_07",
+      "role": "search",
+      "direct_deps": [
+        "psycopg2",
+        "xmlsec",
+        "asyncpg",
+        "msgpack",
+        "gputil",
+        "lib-4086",
+        "concurrent-futures",
+        "pkg-4104",
+        "luxon",
+        "typeorm",
+        "express",
+        "immer",
+        "date-fns"
+      ],
+      "all_deps": [
+        "concurrent-futures",
+        "lib-5486",
+        "luxon",
+        "lib-2107",
+        "express",
+        "immer",
+        "lib-4086",
+        "arrow",
+        "gputil",
+        "date-fns",
+        "xmlsec",
+        "typeorm",
+        "pkg-4104",
+        "asyncpg",
+        "psycopg2",
+        "sinon",
+        "cors",
+        "ptyprocess",
+        "django-cors-headers",
+        "msgpack"
+      ]
+    },
+    {
+      "name": "svc_08",
+      "role": "payments",
+      "direct_deps": [
+        "faker",
+        "lib-9175",
+        "structlog",
+        "ujson",
+        "puppeteer",
+        "luxon",
+        "multer",
+        "cors"
+      ],
+      "all_deps": [
+        "cors",
+        "braintree",
+        "puppeteer",
+        "sinon",
+        "multer",
+        "ujson",
+        "luxon",
+        "zod",
+        "nodemon",
+        "structlog",
+        "mocha",
+        "faker",
+        "lib-9175"
+      ]
+    },
+    {
+      "name": "svc_09",
+      "role": "users",
+      "direct_deps": [
+        "lib-9541",
+        "joblib",
+        "lib-6848",
+        "usb",
+        "scrapy",
+        "mongoose",
+        "lodash",
+        "framer-motion",
+        "formidable"
+      ],
+      "all_deps": [
+        "mongoose",
+        "usb",
+        "lib-6848",
+        "paramiko",
+        "passlib",
+        "joblib",
+        "lib-9541",
+        "framer-motion",
+        "formidable",
+        "sequelize",
+        "scrapy",
+        "lodash",
+        "trio",
+        "lib-8246",
+        "arrow",
+        "node-tar"
+      ]
+    },
+    {
+      "name": "svc_10",
+      "role": "orders",
+      "direct_deps": [
+        "psycopg2",
+        "fastapi",
+        "click",
+        "vue",
+        "graphql",
+        "typescript",
+        "grpc",
+        "paypal"
+      ],
+      "all_deps": [
+        "braintree",
+        "typescript",
+        "grpc",
+        "psycopg2",
+        "paypal",
+        "fastapi",
+        "graphql",
+        "vue",
+        "click",
+        "texttable",
+        "keyring",
+        "lxml",
+        "blessed"
+      ]
+    },
+    {
+      "name": "svc_11",
+      "role": "auth",
+      "direct_deps": [
+        "lib-4256",
+        "jinja2",
+        "pyopenssl",
+        "secrets",
+        "lib-6755",
+        "uvicorn",
+        "helmet",
+        "pixi.js",
+        "config",
+        "nconf",
+        "imagemin",
+        "luxon"
+      ],
+      "all_deps": [
+        "imagemin",
+        "luxon",
+        "opentelemetry-api",
+        "superagent",
+        "lib-5184",
+        "pyopenssl",
+        "three",
+        "pymongo",
+        "zipfile",
+        "lib-1290",
+        "helmet",
+        "uvicorn",
+        "nconf",
+        "lib-6755",
+        "lib-1802",
+        "multer",
+        "lib-8737",
+        "uuid",
+        "config",
+        "apollo-server",
+        "lib-4256",
+        "jinja2",
+        "lib-3501",
+        "secrets",
+        "pixi.js"
+      ]
+    },
+    {
+      "name": "svc_12",
+      "role": "api",
+      "direct_deps": [
+        "lxml-stubs",
+        "schedule",
+        "braintree",
+        "lib-8466",
+        "molotov",
+        "date-fns",
+        "supertest",
+        "debug",
+        "aws-sdk",
+        "lodash.get"
+      ],
+      "all_deps": [
+        "braintree",
+        "imagemin",
+        "schedule",
+        "marshmallow-sqlalchemy",
+        "lxml-stubs",
+        "supertest",
+        "aws-sdk",
+        "debug",
+        "lib-2503",
+        "tenacity",
+        "date-fns",
+        "lib-8466",
+        "ioredis",
+        "phonenumbers",
+        "molotov",
+        "lodash.get",
+        "grpcio",
+        "lib-4567",
+        "lib-3501",
+        "pyserial",
+        "boto3"
+      ]
+    },
+    {
+      "name": "svc_13",
+      "role": "data",
+      "direct_deps": [
+        "lib-8227",
+        "lib-7828",
+        "requests",
+        "msgpack",
+        "starlette",
+        "marshmallow-sqlalchemy",
+        "motor",
+        "lib-7823",
+        "prisma",
+        "immutable",
+        "typescript",
+        "shortid",
+        "recoil"
+      ],
+      "all_deps": [
+        "passport-jwt",
+        "motor",
+        "immutable",
+        "marshmallow-sqlalchemy",
+        "hid",
+        "lib-5725",
+        "pyopenssl",
+        "lib-8227",
+        "shortid",
+        "typescript",
+        "requests",
+        "lib-7828",
+        "prisma",
+        "recoil",
+        "node-tar",
+        "pkg-6689",
+        "channels",
+        "starlette",
+        "mypy",
+        "lib-7823",
+        "msgpack"
+      ]
+    },
+    {
+      "name": "svc_14",
+      "role": "analytics",
+      "direct_deps": [
+        "pydot",
+        "tensorflow",
+        "diskcache",
+        "csv-parser",
+        "busboy",
+        "winston",
+        "pdfkit",
+        "docker"
+      ],
+      "all_deps": [
+        "tensorflow",
+        "busboy",
+        "pdfkit",
+        "uvicorn",
+        "docker",
+        "diskcache",
+        "lib-4890",
+        "winston",
+        "bull",
+        "mocha",
+        "pydot",
+        "csv-parser",
+        "daphne"
+      ]
+    },
+    {
+      "name": "svc_15",
+      "role": "notify",
+      "direct_deps": [
+        "lib-7425",
+        "prometheus-client",
+        "lib-5126",
+        "tabulate",
+        "typescript",
+        "zod",
+        "openpgp",
+        "config"
+      ],
+      "all_deps": [
+        "tabulate",
+        "openpgp",
+        "lib-7425",
+        "typescript",
+        "lib-1290",
+        "huggingface-hub",
+        "mongoose",
+        "aiosqlite",
+        "lib-5076",
+        "matplotlib",
+        "xlsx",
+        "zod",
+        "config",
+        "lib-5126",
+        "prometheus-client",
+        "passport",
+        "lib-4686"
+      ]
+    },
+    {
+      "name": "svc_16",
+      "role": "storage",
+      "direct_deps": [
+        "py-cpuinfo",
+        "lib-4000",
+        "pytest-asyncio",
+        "lib-3501",
+        "aiohttp",
+        "sharp",
+        "c8",
+        "papaparse",
+        "bunyan"
+      ],
+      "all_deps": [
+        "concurrent-futures",
+        "opencv-python",
+        "sharp",
+        "superagent",
+        "aiohttp",
+        "pydot",
+        "py-cpuinfo",
+        "lib-1504",
+        "lib-4000",
+        "lib-9178",
+        "pm2",
+        "papaparse",
+        "pytest-asyncio",
+        "recoil",
+        "c8",
+        "minio",
+        "paypalrestsdk",
+        "pyyaml",
+        "bunyan",
+        "lib-3501",
+        "pillow"
+      ]
+    },
+    {
+      "name": "svc_17",
+      "role": "search",
+      "direct_deps": [
+        "lib-7884",
+        "sh",
+        "lib-7425",
+        "fast-csv",
+        "bullmq",
+        "convict",
+        "node-tar",
+        "sinon",
+        "zustand",
+        "numpyy",
+        "celery-backdoor",
+        "image-optimizer-pro"
+      ],
+      "all_deps": [
+        "werkzeug",
+        "sh",
+        "zustand",
+        "watchdog",
+        "numpyy",
+        "ujson",
+        "py-cpuinfo",
+        "lib-8053",
+        "convict",
+        "image-optimizer-pro",
+        "lib-7884",
+        "pkg-1958",
+        "ftplib",
+        "asyncpg",
+        "vite",
+        "node-tar",
+        "lib-7425",
+        "celery-backdoor",
+        "puppeteer",
+        "sinon",
+        "psutil",
+        "fast-csv",
+        "bullmq",
+        "lib-9541",
+        "joblib",
+        "lib-7823"
+      ]
+    },
+    {
+      "name": "svc_18",
+      "role": "payments",
+      "direct_deps": [
+        "tabulate",
+        "cryptography",
+        "click",
+        "apollo-client",
+        "forever",
+        "react",
+        "rollup",
+        "fast-csv",
+        "compression"
+      ],
+      "all_deps": [
+        "proxyquire",
+        "node-forge",
+        "compression",
+        "watchdog",
+        "passlib",
+        "termcolor",
+        "lib-3933",
+        "nodemailer",
+        "flask-sqlalchemy",
+        "tenacity",
+        "cryptography",
+        "apollo-client",
+        "click",
+        "react",
+        "tabulate",
+        "rollup",
+        "fast-csv",
+        "mypy",
+        "forever"
+      ]
+    },
+    {
+      "name": "svc_19",
+      "role": "users",
+      "direct_deps": [
+        "lib-5126",
+        "lib-8698",
+        "lib-3752",
+        "arrow",
+        "fast-csv",
+        "stripe",
+        "istanbul",
+        "echarts"
+      ],
+      "all_deps": [
+        "istanbul",
+        "braintree",
+        "echarts",
+        "lib-3752",
+        "helmet",
+        "jinja2",
+        "fast-csv",
+        "lib-9541",
+        "stripe",
+        "lib-8698",
+        "lib-5126",
+        "lib-5076",
+        "arrow",
+        "shortid",
+        "lib-9175"
+      ]
+    },
+    {
+      "name": "svc_20",
+      "role": "orders",
+      "direct_deps": [
+        "msgpack",
+        "lib-6755",
+        "pyzmq",
+        "scikit-learn",
+        "stdnum",
+        "vite",
+        "swc",
+        "pkg-1958",
+        "convict",
+        "nuxt",
+        "node-forge"
+      ],
+      "all_deps": [
+        "swc",
+        "node-forge",
+        "three",
+        "convict",
+        "django",
+        "lib-6755",
+        "tenacity",
+        "nuxt",
+        "pkg-1958",
+        "pyzmq",
+        "cheerio",
+        "vite",
+        "pydantic",
+        "scikit-learn",
+        "docker",
+        "lib-3238",
+        "ptyprocess",
+        "stdnum",
+        "pyserial",
+        "msgpack"
+      ]
+    },
+    {
+      "name": "svc_21",
+      "role": "auth",
+      "direct_deps": [
+        "torch",
+        "numpy",
+        "lib-4256",
+        "texttable",
+        "node-fetch",
+        "jsonwebtoken",
+        "typeorm",
+        "gatsby",
+        "dayjs"
+      ],
+      "all_deps": [
+        "curio",
+        "lib-1290",
+        "openpgp",
+        "node-fetch",
+        "lib-4256",
+        "helmet",
+        "ansible",
+        "typeorm",
+        "gatsby",
+        "imageio",
+        "torch",
+        "numpy",
+        "texttable",
+        "jsonwebtoken",
+        "dayjs",
+        "rich",
+        "csv-parser"
+      ]
+    },
+    {
+      "name": "svc_22",
+      "role": "api",
+      "direct_deps": [
+        "lib-8229",
+        "lib-8053",
+        "sh",
+        "lib-9429",
+        "cryptography",
+        "lib-1513",
+        "arrow",
+        "truststore",
+        "morgan",
+        "grpc",
+        "puppeteer",
+        "lodash.get"
+      ],
+      "all_deps": [
+        "istanbul",
+        "swc",
+        "grpc",
+        "sh",
+        "watchdog",
+        "lodash.clonedeep",
+        "dulwich",
+        "morgan",
+        "lib-5879",
+        "playwright",
+        "shortid",
+        "lib-3933",
+        "lib-8053",
+        "arrow",
+        "lib-9429",
+        "truststore",
+        "hypothesis",
+        "cryptography",
+        "lib-7828",
+        "lib-4624",
+        "lib-8229",
+        "asyncpg",
+        "puppeteer",
+        "lodash.get",
+        "lib-1513",
+        "cors"
+      ]
+    },
+    {
+      "name": "svc_23",
+      "role": "data",
+      "direct_deps": [
+        "apispec",
+        "terraform",
+        "phonenumbers",
+        "lib-6755",
+        "supertest",
+        "needle"
+      ],
+      "all_deps": [
+        "supertest",
+        "py7zr",
+        "puppeteer",
+        "echarts",
+        "pyyaml",
+        "terraform",
+        "apispec",
+        "chart.js",
+        "husky",
+        "django",
+        "lib-6755",
+        "phonenumbers",
+        "pyopenssl",
+        "Pillow",
+        "node-tar",
+        "needle",
+        "ftplib",
+        "lib-7296"
+      ]
+    },
+    {
+      "name": "svc_24",
+      "role": "analytics",
+      "direct_deps": [
+        "curio",
+        "pinecone-client",
+        "lib-4686",
+        "lib-6848",
+        "helmet",
+        "shortid",
+        "istanbul",
+        "ioredis",
+        "crypto-js"
+      ],
+      "all_deps": [
+        "istanbul",
+        "emotion",
+        "chart.js",
+        "nodemon",
+        "pydot",
+        "shortid",
+        "helmet",
+        "pyjwt",
+        "lib-6375",
+        "d3",
+        "lib-4686",
+        "arrow",
+        "curio",
+        "cheerio",
+        "lib-6848",
+        "ioredis",
+        "crypto-js",
+        "rollup",
+        "puppeteer",
+        "pinecone-client",
+        "eslint"
+      ]
+    },
+    {
+      "name": "svc_25",
+      "role": "notify",
+      "direct_deps": [
+        "gevent",
+        "lib-4094",
+        "phonenumbers",
+        "jimp",
+        "prettier",
+        "mocha",
+        "angular",
+        "braintree",
+        "exceljs"
+      ],
+      "all_deps": [
+        "braintree",
+        "exceljs",
+        "schedule",
+        "gevent",
+        "lib-9912",
+        "pymongo",
+        "lib-9009",
+        "nconf",
+        "d3",
+        "mocha",
+        "arrow",
+        "anime",
+        "ftplib",
+        "jimp",
+        "phonenumbers",
+        "lib-4094",
+        "nyc",
+        "prettier",
+        "google-cloud-storage",
+        "angular"
+      ]
+    },
+    {
+      "name": "svc_26",
+      "role": "storage",
+      "direct_deps": [
+        "lib-5725",
+        "lib-8227",
+        "elasticsearch",
+        "grpc",
+        "zustand",
+        "emotion",
+        "uWebSockets.js",
+        "sequelize",
+        "protobufjs"
+      ],
+      "all_deps": [
+        "grpc",
+        "zustand",
+        "emotion",
+        "supertest",
+        "uWebSockets.js",
+        "protobufjs",
+        "lib-2473",
+        "zod",
+        "lib-5725",
+        "sequelize",
+        "lib-3501",
+        "redis",
+        "elasticsearch",
+        "lib-8227"
+      ]
+    },
+    {
+      "name": "svc_27",
+      "role": "search",
+      "direct_deps": [
+        "colorama",
+        "imageio",
+        "cerberus",
+        "lib-2260",
+        "shapely",
+        "multiprocessing",
+        "pdfkit",
+        "nconf",
+        "axios",
+        "node-forge"
+      ],
+      "all_deps": [
+        "axios",
+        "node-forge",
+        "lib-4185",
+        "lodash.clonedeep",
+        "cerberus",
+        "gunicorn",
+        "colorama",
+        "subprocess32",
+        "nats-py",
+        "imageio",
+        "multiprocessing",
+        "nconf",
+        "pdfkit",
+        "lib-2260",
+        "shapely",
+        "psycopg2",
+        "grpcio",
+        "lib-4858",
+        "kubernetes",
+        "boto3"
+      ]
+    },
+    {
+      "name": "svc_28",
+      "role": "payments",
+      "direct_deps": [
+        "django-cors-headers",
+        "lib-5342",
+        "pytest",
+        "charset-normalizer",
+        "lib-6378",
+        "pydantic",
+        "uuid",
+        "jsonwebtoken"
+      ],
+      "all_deps": [
+        "stdnum",
+        "lib-3933",
+        "lib-7007",
+        "puppeteer",
+        "lib-6378",
+        "pyjwt",
+        "lib-5217",
+        "starlette",
+        "uuid",
+        "pexpect",
+        "pydantic",
+        "jsonwebtoken",
+        "pytest",
+        "django-cors-headers",
+        "lib-5342",
+        "charset-normalizer"
+      ]
+    },
+    {
+      "name": "svc_29",
+      "role": "users",
+      "direct_deps": [
+        "cachetools",
+        "opentelemetry-sdk",
+        "lib-4624",
+        "jsonwebtoken",
+        "lint-staged",
+        "uuid",
+        "bcrypt",
+        "nodemailer",
+        "vue"
+      ],
+      "all_deps": [
+        "lint-staged",
+        "bcrypt",
+        "sharp",
+        "jsonwebtoken",
+        "black",
+        "python-multipart",
+        "nodemailer",
+        "lib-4035",
+        "immer",
+        "nconf",
+        "lib-8519",
+        "lib-4624",
+        "moment",
+        "cachetools",
+        "uuid",
+        "vue",
+        "opentelemetry-sdk",
+        "sinon",
+        "docker",
+        "aiofiles"
+      ]
+    },
+    {
+      "name": "svc_30",
+      "role": "orders",
+      "direct_deps": [
+        "keyring",
+        "numpy",
+        "gputil",
+        "lib-2260",
+        "scrapy",
+        "passport-jwt",
+        "winston",
+        "dayjs",
+        "busboy",
+        "pkg-4104",
+        "dotenv"
+      ],
+      "all_deps": [
+        "passport-jwt",
+        "azure-sdk",
+        "exceljs",
+        "dotenv",
+        "lib-9009",
+        "nodemailer",
+        "scrapy",
+        "gputil",
+        "xmlsec",
+        "pkg-4104",
+        "lib-2260",
+        "keyring",
+        "rich",
+        "sentry-sdk",
+        "busboy",
+        "grpcio",
+        "pendulum",
+        "numpy",
+        "winston",
+        "dayjs",
+        "formidable"
+      ]
+    },
+    {
+      "name": "svc_31",
+      "role": "auth",
+      "direct_deps": [
+        "lib-6375",
+        "lib-2473",
+        "docker",
+        "lib-4185",
+        "uvicorn",
+        "aiofiles",
+        "tenacity",
+        "apollo-client",
+        "morgan",
+        "parcel",
+        "echarts"
+      ],
+      "all_deps": [
+        "flask-migrate",
+        "lib-4185",
+        "echarts",
+        "parcel",
+        "protobuf",
+        "uvicorn",
+        "docker",
+        "lib-6375",
+        "aiofiles",
+        "lib-2473",
+        "apollo-client",
+        "morgan",
+        "uWebSockets.js",
+        "pydantic",
+        "lodash",
+        "lib-5076",
+        "tenacity"
+      ]
+    },
+    {
+      "name": "svc_32",
+      "role": "api",
+      "direct_deps": [
+        "sqlalchemy",
+        "lib-5184",
+        "tabulate",
+        "flasgger",
+        "lib-4256",
+        "lib-7717",
+        "rxjs-compat",
+        "immer"
+      ],
+      "all_deps": [
+        "lib-7717",
+        "azure-sdk",
+        "sqlalchemy",
+        "python-json-logger",
+        "lib-5184",
+        "aiohttp",
+        "lib-5725",
+        "lib-2753",
+        "rxjs-compat",
+        "hashlib",
+        "immer",
+        "cheerio",
+        "lib-4284",
+        "flasgger",
+        "lib-6378",
+        "tabulate",
+        "tarfile",
+        "botocore",
+        "lib-4372",
+        "lib-4256",
+        "lib-4567",
+        "pillow"
+      ]
+    },
+    {
+      "name": "svc_33",
+      "role": "data",
+      "direct_deps": [
+        "lib-8466",
+        "braintree",
+        "lib-7425",
+        "environs",
+        "lib-4372",
+        "google-cloud-storage",
+        "lib-3501",
+        "igraph",
+        "compression",
+        "echarts",
+        "debug"
+      ],
+      "all_deps": [
+        "lib-7469",
+        "braintree",
+        "compression",
+        "lib-7717",
+        "httpcore",
+        "lib-5486",
+        "luxon",
+        "lib-6636",
+        "debug",
+        "bull",
+        "igraph",
+        "arrow",
+        "environs",
+        "echarts",
+        "pdfkit",
+        "lib-3544",
+        "lib-8466",
+        "babel",
+        "lib-7425",
+        "lib-4372",
+        "jinja2",
+        "grpcio",
+        "lib-3501",
+        "google-cloud-storage"
+      ]
+    },
+    {
+      "name": "svc_34",
+      "role": "analytics",
+      "direct_deps": [
+        "keyring",
+        "pillow",
+        "cerberus",
+        "isort",
+        "lib-7828",
+        "grpc",
+        "three",
+        "rxjs-compat",
+        "moment",
+        "graphql"
+      ],
+      "all_deps": [
+        "grpc",
+        "lib-6636",
+        "lib-5126",
+        "cerberus",
+        "three",
+        "py-cpuinfo",
+        "rxjs-compat",
+        "alembic",
+        "ramda",
+        "lib-8698",
+        "pdfkit",
+        "lib-7828",
+        "moment",
+        "lib-7499",
+        "isort",
+        "graphql",
+        "crypto-js",
+        "keyring",
+        "lib-4567",
+        "lib-1513",
+        "pillow",
+        "pyserial",
+        "boto3"
+      ]
+    },
+    {
+      "name": "svc_35",
+      "role": "notify",
+      "direct_deps": [
+        "flasgger",
+        "lib-7717",
+        "factory-boy",
+        "sentry-sdk",
+        "lib-8466",
+        "retry",
+        "azure-sdk",
+        "node-forge"
+      ],
+      "all_deps": [
+        "node-forge",
+        "lib-7717",
+        "azure-sdk",
+        "apispec",
+        "lib-5879",
+        "convict",
+        "express",
+        "prettytable",
+        "mailchimp-marketing",
+        "azure-storage-blob",
+        "hypothesis",
+        "factory-boy",
+        "lib-8466",
+        "retry",
+        "pkg-4104",
+        "pydantic",
+        "flasgger",
+        "lib-8287",
+        "sentry-sdk",
+        "joblib",
+        "lodash.merge",
+        "cors"
+      ]
+    },
+    {
+      "name": "svc_36",
+      "role": "storage",
+      "direct_deps": [
+        "lib-8737",
+        "secrets",
+        "cryptography",
+        "lxml-stubs",
+        "numpy",
+        "minio",
+        "gitpython",
+        "shortid",
+        "papaparse",
+        "tailwindcss",
+        "forever",
+        "react-spring",
+        "speakeasy"
+      ],
+      "all_deps": [
+        "tailwindcss",
+        "nodemon",
+        "seaborn",
+        "shortid",
+        "lxml-stubs",
+        "speakeasy",
+        "mailchimp-marketing",
+        "aiomysql",
+        "cryptography",
+        "papaparse",
+        "beautifulsoup4",
+        "lib-4284",
+        "lib-8737",
+        "minio",
+        "google-cloud-pubsub",
+        "lib-6853",
+        "paypalrestsdk",
+        "react-spring",
+        "docker",
+        "lib-4858",
+        "numpy",
+        "forever",
+        "gitpython",
+        "secrets"
+      ]
+    },
+    {
+      "name": "svc_37",
+      "role": "search",
+      "direct_deps": [
+        "ujson",
+        "tensorflow",
+        "secrets",
+        "lib-5184",
+        "s3transfer",
+        "docker",
+        "typeorm",
+        "xlsx",
+        "passport",
+        "react",
+        "pdfkit"
+      ],
+      "all_deps": [
+        "tailwindcss",
+        "ujson",
+        "xlsx",
+        "lib-5184",
+        "lib-2254",
+        "tensorflow",
+        "hashlib",
+        "matplotlib",
+        "flask-sqlalchemy",
+        "scipy",
+        "pdfkit",
+        "lib-4284",
+        "typeorm",
+        "graphql",
+        "react",
+        "s3transfer",
+        "lib-7007",
+        "docker",
+        "grpcio",
+        "passport",
+        "secrets"
+      ]
+    },
+    {
+      "name": "svc_38",
+      "role": "payments",
+      "direct_deps": [
+        "certifi",
+        "sh",
+        "lib-4624",
+        "lib-3544",
+        "anyio",
+        "py7zr",
+        "django-cors-headers",
+        "istanbul",
+        "papaparse",
+        "stripe"
+      ],
+      "all_deps": [
+        "istanbul",
+        "sh",
+        "stripe",
+        "nodemon",
+        "dotenv",
+        "python-multipart",
+        "pytest",
+        "papaparse",
+        "parcel",
+        "lib-4624",
+        "lib-3544",
+        "lib-7828",
+        "lxml",
+        "py7zr",
+        "mailgun-js",
+        "nyc",
+        "anyio",
+        "django-cors-headers",
+        "certifi",
+        "django-filter"
+      ]
+    },
+    {
+      "name": "svc_39",
+      "role": "users",
+      "direct_deps": [
+        "joblib",
+        "lib-4686",
+        "lib-9912",
+        "azure-storage-blob",
+        "lib-4890",
+        "channels",
+        "daphne",
+        "truststore",
+        "nyc",
+        "lint-staged",
+        "braintree",
+        "bcrypt",
+        "commitizen",
+        "playwright"
+      ],
+      "all_deps": [
+        "pandas",
+        "braintree",
+        "lint-staged",
+        "lib-4890",
+        "pino",
+        "bcrypt",
+        "lib-9912",
+        "folium",
+        "playwright",
+        "commitizen",
+        "lib-9009",
+        "lib-6375",
+        "azure-storage-blob",
+        "lib-4686",
+        "truststore",
+        "lib-8737",
+        "sentry-sdk",
+        "channels",
+        "lib-5314",
+        "react-spring",
+        "nyc",
+        "joblib",
+        "pendulum",
+        "dayjs",
+        "circuitbreaker",
+        "passport",
+        "pyserial",
+        "daphne"
+      ]
+    },
+    {
+      "name": "svc_40",
+      "role": "orders",
+      "direct_deps": [
+        "email-validator",
+        "opentelemetry-api",
+        "flask-sqlalchemy",
+        "adm-zip",
+        "mocha",
+        "dayjs",
+        "googleapis",
+        "framer-motion"
+      ],
+      "all_deps": [
+        "cryptography",
+        "braintree",
+        "email-validator",
+        "adm-zip",
+        "docker",
+        "opentelemetry-api",
+        "flask-sqlalchemy",
+        "framer-motion",
+        "dayjs",
+        "sequelize",
+        "mocha",
+        "googleapis",
+        "lib-9175"
+      ]
+    },
+    {
+      "name": "svc_41",
+      "role": "auth",
+      "direct_deps": [
+        "pinecone-client",
+        "lib-1802",
+        "arrow",
+        "uWebSockets.js",
+        "passport-jwt",
+        "swc",
+        "jest",
+        "nuxt",
+        "sequelize"
+      ],
+      "all_deps": [
+        "swc",
+        "concurrent-futures",
+        "passport-jwt",
+        "compression",
+        "tailwindcss",
+        "seaborn",
+        "lib-5076",
+        "mocha",
+        "arrow",
+        "nuxt",
+        "jest",
+        "lib-1802",
+        "pytz",
+        "kafka-python",
+        "s3transfer",
+        "nyc",
+        "uWebSockets.js",
+        "pinecone-client",
+        "sequelize"
+      ]
+    },
+    {
+      "name": "svc_42",
+      "role": "api",
+      "direct_deps": [
+        "lib-6853",
+        "trio",
+        "channels",
+        "marshmallow-sqlalchemy",
+        "nats-py",
+        "lib-8028",
+        "joi",
+        "commitizen",
+        "typeorm",
+        "lod4sh",
+        "platform-sdk",
+        "fast-json-parser"
+      ],
+      "all_deps": [
+        "istanbul",
+        "marshmallow-sqlalchemy",
+        "bcrypt",
+        "commitizen",
+        "lib-8053",
+        "lib-8028",
+        "huggingface-hub",
+        "simplejson",
+        "lib-7512",
+        "nats-py",
+        "joi",
+        "platform-sdk",
+        "ftplib",
+        "lod4sh",
+        "typeorm",
+        "fast-json-parser",
+        "vue",
+        "trio",
+        "lib-6853",
+        "channels",
+        "secrets-manager",
+        "mailgun-js",
+        "mypy"
+      ]
+    },
+    {
+      "name": "svc_43",
+      "role": "data",
+      "direct_deps": [
+        "lib-2260",
+        "secrets",
+        "sentry-sdk",
+        "lib-5039",
+        "colorama",
+        "prisma",
+        "recoil",
+        "immer",
+        "chai"
+      ],
+      "all_deps": [
+        "sentry-sdk",
+        "istanbul",
+        "colorama",
+        "prisma",
+        "babylon.js",
+        "anyio",
+        "matplotlib",
+        "recoil",
+        "immer",
+        "lib-5039",
+        "chai",
+        "gatsby",
+        "lib-2260",
+        "lib-3501",
+        "lib-5126",
+        "secrets",
+        "python-multipart"
+      ]
+    },
+    {
+      "name": "svc_44",
+      "role": "analytics",
+      "direct_deps": [
+        "aiofiles",
+        "smtplib",
+        "opensearch-py",
+        "lib-4624",
+        "simplejson",
+        "lib-4686",
+        "geopandas",
+        "esbuild",
+        "chart.js",
+        "commitizen",
+        "mailgun-js"
+      ],
+      "all_deps": [
+        "lib-3752",
+        "lib-4624",
+        "opensearch-py",
+        "simplejson",
+        "mailgun-js",
+        "convict",
+        "smtplib",
+        "aiofiles",
+        "chart.js",
+        "terraform",
+        "geopandas",
+        "torch",
+        "bandit",
+        "lib-4686",
+        "esbuild",
+        "psycopg2",
+        "locust",
+        "commitizen"
+      ]
+    },
+    {
+      "name": "svc_45",
+      "role": "notify",
+      "direct_deps": [
+        "paramiko",
+        "lib-4624",
+        "twisted",
+        "lib-5314",
+        "opencv-python",
+        "sendgrid",
+        "py7zr",
+        "lib-3501",
+        "uuid",
+        "graphql",
+        "parse5"
+      ],
+      "all_deps": [
+        "opencv-python",
+        "sendgrid",
+        "azure-sdk",
+        "chart.js",
+        "pyjwt",
+        "paramiko",
+        "twisted",
+        "lib-5436",
+        "charset-normalizer",
+        "lib-4624",
+        "lib-3544",
+        "lib-6848",
+        "uuid",
+        "graphql",
+        "crypto-js",
+        "py7zr",
+        "lib-5314",
+        "nyc",
+        "starlette",
+        "lib-3501",
+        "parse5",
+        "secrets",
+        "angular"
+      ]
+    },
+    {
+      "name": "svc_46",
+      "role": "storage",
+      "direct_deps": [
+        "charset-normalizer",
+        "requests",
+        "usb",
+        "botocore",
+        "msgpack",
+        "marshmallow",
+        "compression",
+        "supertest",
+        "azure-sdk",
+        "zod",
+        "sinon"
+      ],
+      "all_deps": [
+        "compression",
+        "azure-sdk",
+        "usb",
+        "playwright",
+        "lib-5076",
+        "python-multipart",
+        "commitizen",
+        "supertest",
+        "immer",
+        "lib-8698",
+        "charset-normalizer",
+        "requests",
+        "terraform",
+        "botocore",
+        "sinon",
+        "zod",
+        "stdnum",
+        "marshmallow",
+        "boto3",
+        "msgpack"
+      ]
+    },
+    {
+      "name": "svc_47",
+      "role": "search",
+      "direct_deps": [
+        "structlog",
+        "dynaconf",
+        "azure-storage-blob",
+        "typer",
+        "pika",
+        "twisted",
+        "loguru",
+        "pexpect",
+        "bcryptjs",
+        "nuxt",
+        "styled-components"
+      ],
+      "all_deps": [
+        "pandas",
+        "lib-7717",
+        "bcryptjs",
+        "styled-components",
+        "typer",
+        "pexpect",
+        "bcrypt",
+        "stripe",
+        "Pillow",
+        "lib-7296",
+        "lib-1290",
+        "helmet",
+        "azure-storage-blob",
+        "torch",
+        "twisted",
+        "loguru",
+        "nuxt",
+        "gputil",
+        "pika",
+        "hypothesis",
+        "structlog",
+        "pendulum",
+        "dynaconf"
+      ]
+    },
+    {
+      "name": "svc_48",
+      "role": "payments",
+      "direct_deps": [
+        "botocore",
+        "pika",
+        "numpy",
+        "lib-7823",
+        "prettytable",
+        "lib-5217",
+        "lib-4624",
+        "mocha",
+        "yup",
+        "config",
+        "forever",
+        "sinon",
+        "prettier"
+      ],
+      "all_deps": [
+        "gevent",
+        "nats-py",
+        "prettytable",
+        "matplotlib",
+        "lib-6375",
+        "alembic",
+        "loguru",
+        "mocha",
+        "anime",
+        "pika",
+        "yup",
+        "lib-4624",
+        "lib-5217",
+        "config",
+        "lib-8287",
+        "botocore",
+        "sinon",
+        "prettier",
+        "numpy",
+        "forever",
+        "lib-7823"
+      ]
+    },
+    {
+      "name": "svc_49",
+      "role": "users",
+      "direct_deps": [
+        "circuitbreaker",
+        "elasticsearch",
+        "tarfile",
+        "lib-8732",
+        "black",
+        "lib-8188",
+        "lib-2753",
+        "tailwindcss",
+        "mobx",
+        "babel"
+      ],
+      "all_deps": [
+        "tarfile",
+        "mobx",
+        "grpc",
+        "lodash.get",
+        "scikit-learn",
+        "tailwindcss",
+        "babel",
+        "lib-8732",
+        "dotenv",
+        "lib-2753",
+        "lib-8188",
+        "circuitbreaker",
+        "elasticsearch",
+        "black",
+        "lib-2254",
+        "lib-1802"
+      ]
+    },
+    {
+      "name": "svc_50",
+      "role": "orders",
+      "direct_deps": [
+        "opencv-python",
+        "gunicorn",
+        "colorama",
+        "mongoose",
+        "esbuild",
+        "immer",
+        "bull",
+        "swc",
+        "lodash.merge"
+      ],
+      "all_deps": [
+        "swc",
+        "opencv-python",
+        "sendgrid",
+        "lib-5184",
+        "elasticsearch",
+        "gunicorn",
+        "colorama",
+        "immer",
+        "bull",
+        "gputil",
+        "cheerio",
+        "keyring",
+        "opentelemetry-sdk",
+        "mongoose",
+        "fastapi",
+        "pyyaml",
+        "bullmq",
+        "lodash.merge",
+        "esbuild"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "svc_01",
+      "to": "typer"
+    },
+    {
+      "from": "svc_01",
+      "to": "twisted"
+    },
+    {
+      "from": "svc_01",
+      "to": "loguru"
+    },
+    {
+      "from": "svc_01",
+      "to": "uuid"
+    },
+    {
+      "from": "svc_01",
+      "to": "sequelize"
+    },
+    {
+      "from": "svc_01",
+      "to": "redis"
+    },
+    {
+      "from": "svc_01",
+      "to": "next"
+    },
+    {
+      "from": "svc_02",
+      "to": "certifi"
+    },
+    {
+      "from": "svc_02",
+      "to": "lib-6853"
+    },
+    {
+      "from": "svc_02",
+      "to": "lib-4000"
+    },
+    {
+      "from": "svc_02",
+      "to": "elasticsearch"
+    },
+    {
+      "from": "svc_02",
+      "to": "retry"
+    },
+    {
+      "from": "svc_02",
+      "to": "shortid"
+    },
+    {
+      "from": "svc_02",
+      "to": "yup"
+    },
+    {
+      "from": "svc_02",
+      "to": "chart.js"
+    },
+    {
+      "from": "svc_03",
+      "to": "invoke"
+    },
+    {
+      "from": "svc_03",
+      "to": "lib-7484"
+    },
+    {
+      "from": "svc_03",
+      "to": "faker"
+    },
+    {
+      "from": "svc_03",
+      "to": "lib-3140"
+    },
+    {
+      "from": "svc_03",
+      "to": "schedule"
+    },
+    {
+      "from": "svc_03",
+      "to": "pylint"
+    },
+    {
+      "from": "svc_03",
+      "to": "lib-1513"
+    },
+    {
+      "from": "svc_03",
+      "to": "itsdangerous"
+    },
+    {
+      "from": "svc_03",
+      "to": "sinon"
+    },
+    {
+      "from": "svc_03",
+      "to": "rollup"
+    },
+    {
+      "from": "svc_03",
+      "to": "requets"
+    },
+    {
+      "from": "svc_03",
+      "to": "internal-auth-lib"
+    },
+    {
+      "from": "svc_04",
+      "to": "aiohttp"
+    },
+    {
+      "from": "svc_04",
+      "to": "django-rest-framework"
+    },
+    {
+      "from": "svc_04",
+      "to": "structlog"
+    },
+    {
+      "from": "svc_04",
+      "to": "seaborn"
+    },
+    {
+      "from": "svc_04",
+      "to": "circuitbreaker"
+    },
+    {
+      "from": "svc_04",
+      "to": "papaparse"
+    },
+    {
+      "from": "svc_04",
+      "to": "jest"
+    },
+    {
+      "from": "svc_05",
+      "to": "jinja2"
+    },
+    {
+      "from": "svc_05",
+      "to": "matplotlib"
+    },
+    {
+      "from": "svc_05",
+      "to": "lib-6636"
+    },
+    {
+      "from": "svc_05",
+      "to": "phonenumbers"
+    },
+    {
+      "from": "svc_05",
+      "to": "lib-8782"
+    },
+    {
+      "from": "svc_05",
+      "to": "invoke"
+    },
+    {
+      "from": "svc_05",
+      "to": "mocha"
+    },
+    {
+      "from": "svc_05",
+      "to": "supertest"
+    },
+    {
+      "from": "svc_06",
+      "to": "opentelemetry-sdk"
+    },
+    {
+      "from": "svc_06",
+      "to": "imageio"
+    },
+    {
+      "from": "svc_06",
+      "to": "lib-9325"
+    },
+    {
+      "from": "svc_06",
+      "to": "black"
+    },
+    {
+      "from": "svc_06",
+      "to": "shapely"
+    },
+    {
+      "from": "svc_06",
+      "to": "scipy"
+    },
+    {
+      "from": "svc_06",
+      "to": "yup"
+    },
+    {
+      "from": "svc_06",
+      "to": "parcel"
+    },
+    {
+      "from": "svc_06",
+      "to": "passport-local"
+    },
+    {
+      "from": "svc_06",
+      "to": "nuxt"
+    },
+    {
+      "from": "svc_06",
+      "to": "prettier"
+    },
+    {
+      "from": "svc_06",
+      "to": "protobufjs"
+    },
+    {
+      "from": "svc_07",
+      "to": "psycopg2"
+    },
+    {
+      "from": "svc_07",
+      "to": "xmlsec"
+    },
+    {
+      "from": "svc_07",
+      "to": "asyncpg"
+    },
+    {
+      "from": "svc_07",
+      "to": "msgpack"
+    },
+    {
+      "from": "svc_07",
+      "to": "gputil"
+    },
+    {
+      "from": "svc_07",
+      "to": "lib-4086"
+    },
+    {
+      "from": "svc_07",
+      "to": "concurrent-futures"
+    },
+    {
+      "from": "svc_07",
+      "to": "pkg-4104"
+    },
+    {
+      "from": "svc_07",
+      "to": "luxon"
+    },
+    {
+      "from": "svc_07",
+      "to": "typeorm"
+    },
+    {
+      "from": "svc_07",
+      "to": "express"
+    },
+    {
+      "from": "svc_07",
+      "to": "immer"
+    },
+    {
+      "from": "svc_07",
+      "to": "date-fns"
+    },
+    {
+      "from": "svc_08",
+      "to": "faker"
+    },
+    {
+      "from": "svc_08",
+      "to": "lib-9175"
+    },
+    {
+      "from": "svc_08",
+      "to": "structlog"
+    },
+    {
+      "from": "svc_08",
+      "to": "ujson"
+    },
+    {
+      "from": "svc_08",
+      "to": "puppeteer"
+    },
+    {
+      "from": "svc_08",
+      "to": "luxon"
+    },
+    {
+      "from": "svc_08",
+      "to": "multer"
+    },
+    {
+      "from": "svc_08",
+      "to": "cors"
+    },
+    {
+      "from": "svc_09",
+      "to": "lib-9541"
+    },
+    {
+      "from": "svc_09",
+      "to": "joblib"
+    },
+    {
+      "from": "svc_09",
+      "to": "lib-6848"
+    },
+    {
+      "from": "svc_09",
+      "to": "usb"
+    },
+    {
+      "from": "svc_09",
+      "to": "scrapy"
+    },
+    {
+      "from": "svc_09",
+      "to": "mongoose"
+    },
+    {
+      "from": "svc_09",
+      "to": "lodash"
+    },
+    {
+      "from": "svc_09",
+      "to": "framer-motion"
+    },
+    {
+      "from": "svc_09",
+      "to": "formidable"
+    },
+    {
+      "from": "svc_10",
+      "to": "psycopg2"
+    },
+    {
+      "from": "svc_10",
+      "to": "fastapi"
+    },
+    {
+      "from": "svc_10",
+      "to": "click"
+    },
+    {
+      "from": "svc_10",
+      "to": "vue"
+    },
+    {
+      "from": "svc_10",
+      "to": "graphql"
+    },
+    {
+      "from": "svc_10",
+      "to": "typescript"
+    },
+    {
+      "from": "svc_10",
+      "to": "grpc"
+    },
+    {
+      "from": "svc_10",
+      "to": "paypal"
+    },
+    {
+      "from": "svc_11",
+      "to": "lib-4256"
+    },
+    {
+      "from": "svc_11",
+      "to": "jinja2"
+    },
+    {
+      "from": "svc_11",
+      "to": "pyopenssl"
+    },
+    {
+      "from": "svc_11",
+      "to": "secrets"
+    },
+    {
+      "from": "svc_11",
+      "to": "lib-6755"
+    },
+    {
+      "from": "svc_11",
+      "to": "uvicorn"
+    },
+    {
+      "from": "svc_11",
+      "to": "helmet"
+    },
+    {
+      "from": "svc_11",
+      "to": "pixi.js"
+    },
+    {
+      "from": "svc_11",
+      "to": "config"
+    },
+    {
+      "from": "svc_11",
+      "to": "nconf"
+    },
+    {
+      "from": "svc_11",
+      "to": "imagemin"
+    },
+    {
+      "from": "svc_11",
+      "to": "luxon"
+    },
+    {
+      "from": "svc_12",
+      "to": "lxml-stubs"
+    },
+    {
+      "from": "svc_12",
+      "to": "schedule"
+    },
+    {
+      "from": "svc_12",
+      "to": "braintree"
+    },
+    {
+      "from": "svc_12",
+      "to": "lib-8466"
+    },
+    {
+      "from": "svc_12",
+      "to": "molotov"
+    },
+    {
+      "from": "svc_12",
+      "to": "date-fns"
+    },
+    {
+      "from": "svc_12",
+      "to": "supertest"
+    },
+    {
+      "from": "svc_12",
+      "to": "debug"
+    },
+    {
+      "from": "svc_12",
+      "to": "aws-sdk"
+    },
+    {
+      "from": "svc_12",
+      "to": "lodash.get"
+    },
+    {
+      "from": "svc_13",
+      "to": "lib-8227"
+    },
+    {
+      "from": "svc_13",
+      "to": "lib-7828"
+    },
+    {
+      "from": "svc_13",
+      "to": "requests"
+    },
+    {
+      "from": "svc_13",
+      "to": "msgpack"
+    },
+    {
+      "from": "svc_13",
+      "to": "starlette"
+    },
+    {
+      "from": "svc_13",
+      "to": "marshmallow-sqlalchemy"
+    },
+    {
+      "from": "svc_13",
+      "to": "motor"
+    },
+    {
+      "from": "svc_13",
+      "to": "lib-7823"
+    },
+    {
+      "from": "svc_13",
+      "to": "prisma"
+    },
+    {
+      "from": "svc_13",
+      "to": "immutable"
+    },
+    {
+      "from": "svc_13",
+      "to": "typescript"
+    },
+    {
+      "from": "svc_13",
+      "to": "shortid"
+    },
+    {
+      "from": "svc_13",
+      "to": "recoil"
+    },
+    {
+      "from": "svc_14",
+      "to": "pydot"
+    },
+    {
+      "from": "svc_14",
+      "to": "tensorflow"
+    },
+    {
+      "from": "svc_14",
+      "to": "diskcache"
+    },
+    {
+      "from": "svc_14",
+      "to": "csv-parser"
+    },
+    {
+      "from": "svc_14",
+      "to": "busboy"
+    },
+    {
+      "from": "svc_14",
+      "to": "winston"
+    },
+    {
+      "from": "svc_14",
+      "to": "pdfkit"
+    },
+    {
+      "from": "svc_14",
+      "to": "docker"
+    },
+    {
+      "from": "svc_15",
+      "to": "lib-7425"
+    },
+    {
+      "from": "svc_15",
+      "to": "prometheus-client"
+    },
+    {
+      "from": "svc_15",
+      "to": "lib-5126"
+    },
+    {
+      "from": "svc_15",
+      "to": "tabulate"
+    },
+    {
+      "from": "svc_15",
+      "to": "typescript"
+    },
+    {
+      "from": "svc_15",
+      "to": "zod"
+    },
+    {
+      "from": "svc_15",
+      "to": "openpgp"
+    },
+    {
+      "from": "svc_15",
+      "to": "config"
+    },
+    {
+      "from": "svc_16",
+      "to": "py-cpuinfo"
+    },
+    {
+      "from": "svc_16",
+      "to": "lib-4000"
+    },
+    {
+      "from": "svc_16",
+      "to": "pytest-asyncio"
+    },
+    {
+      "from": "svc_16",
+      "to": "lib-3501"
+    },
+    {
+      "from": "svc_16",
+      "to": "aiohttp"
+    },
+    {
+      "from": "svc_16",
+      "to": "sharp"
+    },
+    {
+      "from": "svc_16",
+      "to": "c8"
+    },
+    {
+      "from": "svc_16",
+      "to": "papaparse"
+    },
+    {
+      "from": "svc_16",
+      "to": "bunyan"
+    },
+    {
+      "from": "svc_17",
+      "to": "lib-7884"
+    },
+    {
+      "from": "svc_17",
+      "to": "sh"
+    },
+    {
+      "from": "svc_17",
+      "to": "lib-7425"
+    },
+    {
+      "from": "svc_17",
+      "to": "fast-csv"
+    },
+    {
+      "from": "svc_17",
+      "to": "bullmq"
+    },
+    {
+      "from": "svc_17",
+      "to": "convict"
+    },
+    {
+      "from": "svc_17",
+      "to": "node-tar"
+    },
+    {
+      "from": "svc_17",
+      "to": "sinon"
+    },
+    {
+      "from": "svc_17",
+      "to": "zustand"
+    },
+    {
+      "from": "svc_17",
+      "to": "numpyy"
+    },
+    {
+      "from": "svc_17",
+      "to": "celery-backdoor"
+    },
+    {
+      "from": "svc_17",
+      "to": "image-optimizer-pro"
+    },
+    {
+      "from": "svc_18",
+      "to": "tabulate"
+    },
+    {
+      "from": "svc_18",
+      "to": "cryptography"
+    },
+    {
+      "from": "svc_18",
+      "to": "click"
+    },
+    {
+      "from": "svc_18",
+      "to": "apollo-client"
+    },
+    {
+      "from": "svc_18",
+      "to": "forever"
+    },
+    {
+      "from": "svc_18",
+      "to": "react"
+    },
+    {
+      "from": "svc_18",
+      "to": "rollup"
+    },
+    {
+      "from": "svc_18",
+      "to": "fast-csv"
+    },
+    {
+      "from": "svc_18",
+      "to": "compression"
+    },
+    {
+      "from": "svc_19",
+      "to": "lib-5126"
+    },
+    {
+      "from": "svc_19",
+      "to": "lib-8698"
+    },
+    {
+      "from": "svc_19",
+      "to": "lib-3752"
+    },
+    {
+      "from": "svc_19",
+      "to": "arrow"
+    },
+    {
+      "from": "svc_19",
+      "to": "fast-csv"
+    },
+    {
+      "from": "svc_19",
+      "to": "stripe"
+    },
+    {
+      "from": "svc_19",
+      "to": "istanbul"
+    },
+    {
+      "from": "svc_19",
+      "to": "echarts"
+    },
+    {
+      "from": "svc_20",
+      "to": "msgpack"
+    },
+    {
+      "from": "svc_20",
+      "to": "lib-6755"
+    },
+    {
+      "from": "svc_20",
+      "to": "pyzmq"
+    },
+    {
+      "from": "svc_20",
+      "to": "scikit-learn"
+    },
+    {
+      "from": "svc_20",
+      "to": "stdnum"
+    },
+    {
+      "from": "svc_20",
+      "to": "vite"
+    },
+    {
+      "from": "svc_20",
+      "to": "swc"
+    },
+    {
+      "from": "svc_20",
+      "to": "pkg-1958"
+    },
+    {
+      "from": "svc_20",
+      "to": "convict"
+    },
+    {
+      "from": "svc_20",
+      "to": "nuxt"
+    },
+    {
+      "from": "svc_20",
+      "to": "node-forge"
+    },
+    {
+      "from": "svc_21",
+      "to": "torch"
+    },
+    {
+      "from": "svc_21",
+      "to": "numpy"
+    },
+    {
+      "from": "svc_21",
+      "to": "lib-4256"
+    },
+    {
+      "from": "svc_21",
+      "to": "texttable"
+    },
+    {
+      "from": "svc_21",
+      "to": "node-fetch"
+    },
+    {
+      "from": "svc_21",
+      "to": "jsonwebtoken"
+    },
+    {
+      "from": "svc_21",
+      "to": "typeorm"
+    },
+    {
+      "from": "svc_21",
+      "to": "gatsby"
+    },
+    {
+      "from": "svc_21",
+      "to": "dayjs"
+    },
+    {
+      "from": "svc_22",
+      "to": "lib-8229"
+    },
+    {
+      "from": "svc_22",
+      "to": "lib-8053"
+    },
+    {
+      "from": "svc_22",
+      "to": "sh"
+    },
+    {
+      "from": "svc_22",
+      "to": "lib-9429"
+    },
+    {
+      "from": "svc_22",
+      "to": "cryptography"
+    },
+    {
+      "from": "svc_22",
+      "to": "lib-1513"
+    },
+    {
+      "from": "svc_22",
+      "to": "arrow"
+    },
+    {
+      "from": "svc_22",
+      "to": "truststore"
+    },
+    {
+      "from": "svc_22",
+      "to": "morgan"
+    },
+    {
+      "from": "svc_22",
+      "to": "grpc"
+    },
+    {
+      "from": "svc_22",
+      "to": "puppeteer"
+    },
+    {
+      "from": "svc_22",
+      "to": "lodash.get"
+    },
+    {
+      "from": "svc_23",
+      "to": "apispec"
+    },
+    {
+      "from": "svc_23",
+      "to": "terraform"
+    },
+    {
+      "from": "svc_23",
+      "to": "phonenumbers"
+    },
+    {
+      "from": "svc_23",
+      "to": "lib-6755"
+    },
+    {
+      "from": "svc_23",
+      "to": "supertest"
+    },
+    {
+      "from": "svc_23",
+      "to": "needle"
+    },
+    {
+      "from": "svc_24",
+      "to": "curio"
+    },
+    {
+      "from": "svc_24",
+      "to": "pinecone-client"
+    },
+    {
+      "from": "svc_24",
+      "to": "lib-4686"
+    },
+    {
+      "from": "svc_24",
+      "to": "lib-6848"
+    },
+    {
+      "from": "svc_24",
+      "to": "helmet"
+    },
+    {
+      "from": "svc_24",
+      "to": "shortid"
+    },
+    {
+      "from": "svc_24",
+      "to": "istanbul"
+    },
+    {
+      "from": "svc_24",
+      "to": "ioredis"
+    },
+    {
+      "from": "svc_24",
+      "to": "crypto-js"
+    },
+    {
+      "from": "svc_25",
+      "to": "gevent"
+    },
+    {
+      "from": "svc_25",
+      "to": "lib-4094"
+    },
+    {
+      "from": "svc_25",
+      "to": "phonenumbers"
+    },
+    {
+      "from": "svc_25",
+      "to": "jimp"
+    },
+    {
+      "from": "svc_25",
+      "to": "prettier"
+    },
+    {
+      "from": "svc_25",
+      "to": "mocha"
+    },
+    {
+      "from": "svc_25",
+      "to": "angular"
+    },
+    {
+      "from": "svc_25",
+      "to": "braintree"
+    },
+    {
+      "from": "svc_25",
+      "to": "exceljs"
+    },
+    {
+      "from": "svc_26",
+      "to": "lib-5725"
+    },
+    {
+      "from": "svc_26",
+      "to": "lib-8227"
+    },
+    {
+      "from": "svc_26",
+      "to": "elasticsearch"
+    },
+    {
+      "from": "svc_26",
+      "to": "grpc"
+    },
+    {
+      "from": "svc_26",
+      "to": "zustand"
+    },
+    {
+      "from": "svc_26",
+      "to": "emotion"
+    },
+    {
+      "from": "svc_26",
+      "to": "uWebSockets.js"
+    },
+    {
+      "from": "svc_26",
+      "to": "sequelize"
+    },
+    {
+      "from": "svc_26",
+      "to": "protobufjs"
+    },
+    {
+      "from": "svc_27",
+      "to": "colorama"
+    },
+    {
+      "from": "svc_27",
+      "to": "imageio"
+    },
+    {
+      "from": "svc_27",
+      "to": "cerberus"
+    },
+    {
+      "from": "svc_27",
+      "to": "lib-2260"
+    },
+    {
+      "from": "svc_27",
+      "to": "shapely"
+    },
+    {
+      "from": "svc_27",
+      "to": "multiprocessing"
+    },
+    {
+      "from": "svc_27",
+      "to": "pdfkit"
+    },
+    {
+      "from": "svc_27",
+      "to": "nconf"
+    },
+    {
+      "from": "svc_27",
+      "to": "axios"
+    },
+    {
+      "from": "svc_27",
+      "to": "node-forge"
+    },
+    {
+      "from": "svc_28",
+      "to": "django-cors-headers"
+    },
+    {
+      "from": "svc_28",
+      "to": "lib-5342"
+    },
+    {
+      "from": "svc_28",
+      "to": "pytest"
+    },
+    {
+      "from": "svc_28",
+      "to": "charset-normalizer"
+    },
+    {
+      "from": "svc_28",
+      "to": "lib-6378"
+    },
+    {
+      "from": "svc_28",
+      "to": "pydantic"
+    },
+    {
+      "from": "svc_28",
+      "to": "uuid"
+    },
+    {
+      "from": "svc_28",
+      "to": "jsonwebtoken"
+    },
+    {
+      "from": "svc_29",
+      "to": "cachetools"
+    },
+    {
+      "from": "svc_29",
+      "to": "opentelemetry-sdk"
+    },
+    {
+      "from": "svc_29",
+      "to": "lib-4624"
+    },
+    {
+      "from": "svc_29",
+      "to": "jsonwebtoken"
+    },
+    {
+      "from": "svc_29",
+      "to": "lint-staged"
+    },
+    {
+      "from": "svc_29",
+      "to": "uuid"
+    },
+    {
+      "from": "svc_29",
+      "to": "bcrypt"
+    },
+    {
+      "from": "svc_29",
+      "to": "nodemailer"
+    },
+    {
+      "from": "svc_29",
+      "to": "vue"
+    },
+    {
+      "from": "svc_30",
+      "to": "keyring"
+    },
+    {
+      "from": "svc_30",
+      "to": "numpy"
+    },
+    {
+      "from": "svc_30",
+      "to": "gputil"
+    },
+    {
+      "from": "svc_30",
+      "to": "lib-2260"
+    },
+    {
+      "from": "svc_30",
+      "to": "scrapy"
+    },
+    {
+      "from": "svc_30",
+      "to": "passport-jwt"
+    },
+    {
+      "from": "svc_30",
+      "to": "winston"
+    },
+    {
+      "from": "svc_30",
+      "to": "dayjs"
+    },
+    {
+      "from": "svc_30",
+      "to": "busboy"
+    },
+    {
+      "from": "svc_30",
+      "to": "pkg-4104"
+    },
+    {
+      "from": "svc_30",
+      "to": "dotenv"
+    },
+    {
+      "from": "svc_31",
+      "to": "lib-6375"
+    },
+    {
+      "from": "svc_31",
+      "to": "lib-2473"
+    },
+    {
+      "from": "svc_31",
+      "to": "docker"
+    },
+    {
+      "from": "svc_31",
+      "to": "lib-4185"
+    },
+    {
+      "from": "svc_31",
+      "to": "uvicorn"
+    },
+    {
+      "from": "svc_31",
+      "to": "aiofiles"
+    },
+    {
+      "from": "svc_31",
+      "to": "tenacity"
+    },
+    {
+      "from": "svc_31",
+      "to": "apollo-client"
+    },
+    {
+      "from": "svc_31",
+      "to": "morgan"
+    },
+    {
+      "from": "svc_31",
+      "to": "parcel"
+    },
+    {
+      "from": "svc_31",
+      "to": "echarts"
+    },
+    {
+      "from": "svc_32",
+      "to": "sqlalchemy"
+    },
+    {
+      "from": "svc_32",
+      "to": "lib-5184"
+    },
+    {
+      "from": "svc_32",
+      "to": "tabulate"
+    },
+    {
+      "from": "svc_32",
+      "to": "flasgger"
+    },
+    {
+      "from": "svc_32",
+      "to": "lib-4256"
+    },
+    {
+      "from": "svc_32",
+      "to": "lib-7717"
+    },
+    {
+      "from": "svc_32",
+      "to": "rxjs-compat"
+    },
+    {
+      "from": "svc_32",
+      "to": "immer"
+    },
+    {
+      "from": "svc_33",
+      "to": "lib-8466"
+    },
+    {
+      "from": "svc_33",
+      "to": "braintree"
+    },
+    {
+      "from": "svc_33",
+      "to": "lib-7425"
+    },
+    {
+      "from": "svc_33",
+      "to": "environs"
+    },
+    {
+      "from": "svc_33",
+      "to": "lib-4372"
+    },
+    {
+      "from": "svc_33",
+      "to": "google-cloud-storage"
+    },
+    {
+      "from": "svc_33",
+      "to": "lib-3501"
+    },
+    {
+      "from": "svc_33",
+      "to": "igraph"
+    },
+    {
+      "from": "svc_33",
+      "to": "compression"
+    },
+    {
+      "from": "svc_33",
+      "to": "echarts"
+    },
+    {
+      "from": "svc_33",
+      "to": "debug"
+    },
+    {
+      "from": "svc_34",
+      "to": "keyring"
+    },
+    {
+      "from": "svc_34",
+      "to": "pillow"
+    },
+    {
+      "from": "svc_34",
+      "to": "cerberus"
+    },
+    {
+      "from": "svc_34",
+      "to": "isort"
+    },
+    {
+      "from": "svc_34",
+      "to": "lib-7828"
+    },
+    {
+      "from": "svc_34",
+      "to": "grpc"
+    },
+    {
+      "from": "svc_34",
+      "to": "three"
+    },
+    {
+      "from": "svc_34",
+      "to": "rxjs-compat"
+    },
+    {
+      "from": "svc_34",
+      "to": "moment"
+    },
+    {
+      "from": "svc_34",
+      "to": "graphql"
+    },
+    {
+      "from": "svc_35",
+      "to": "flasgger"
+    },
+    {
+      "from": "svc_35",
+      "to": "lib-7717"
+    },
+    {
+      "from": "svc_35",
+      "to": "factory-boy"
+    },
+    {
+      "from": "svc_35",
+      "to": "sentry-sdk"
+    },
+    {
+      "from": "svc_35",
+      "to": "lib-8466"
+    },
+    {
+      "from": "svc_35",
+      "to": "retry"
+    },
+    {
+      "from": "svc_35",
+      "to": "azure-sdk"
+    },
+    {
+      "from": "svc_35",
+      "to": "node-forge"
+    },
+    {
+      "from": "svc_36",
+      "to": "lib-8737"
+    },
+    {
+      "from": "svc_36",
+      "to": "secrets"
+    },
+    {
+      "from": "svc_36",
+      "to": "cryptography"
+    },
+    {
+      "from": "svc_36",
+      "to": "lxml-stubs"
+    },
+    {
+      "from": "svc_36",
+      "to": "numpy"
+    },
+    {
+      "from": "svc_36",
+      "to": "minio"
+    },
+    {
+      "from": "svc_36",
+      "to": "gitpython"
+    },
+    {
+      "from": "svc_36",
+      "to": "shortid"
+    },
+    {
+      "from": "svc_36",
+      "to": "papaparse"
+    },
+    {
+      "from": "svc_36",
+      "to": "tailwindcss"
+    },
+    {
+      "from": "svc_36",
+      "to": "forever"
+    },
+    {
+      "from": "svc_36",
+      "to": "react-spring"
+    },
+    {
+      "from": "svc_36",
+      "to": "speakeasy"
+    },
+    {
+      "from": "svc_37",
+      "to": "ujson"
+    },
+    {
+      "from": "svc_37",
+      "to": "tensorflow"
+    },
+    {
+      "from": "svc_37",
+      "to": "secrets"
+    },
+    {
+      "from": "svc_37",
+      "to": "lib-5184"
+    },
+    {
+      "from": "svc_37",
+      "to": "s3transfer"
+    },
+    {
+      "from": "svc_37",
+      "to": "docker"
+    },
+    {
+      "from": "svc_37",
+      "to": "typeorm"
+    },
+    {
+      "from": "svc_37",
+      "to": "xlsx"
+    },
+    {
+      "from": "svc_37",
+      "to": "passport"
+    },
+    {
+      "from": "svc_37",
+      "to": "react"
+    },
+    {
+      "from": "svc_37",
+      "to": "pdfkit"
+    },
+    {
+      "from": "svc_38",
+      "to": "certifi"
+    },
+    {
+      "from": "svc_38",
+      "to": "sh"
+    },
+    {
+      "from": "svc_38",
+      "to": "lib-4624"
+    },
+    {
+      "from": "svc_38",
+      "to": "lib-3544"
+    },
+    {
+      "from": "svc_38",
+      "to": "anyio"
+    },
+    {
+      "from": "svc_38",
+      "to": "py7zr"
+    },
+    {
+      "from": "svc_38",
+      "to": "django-cors-headers"
+    },
+    {
+      "from": "svc_38",
+      "to": "istanbul"
+    },
+    {
+      "from": "svc_38",
+      "to": "papaparse"
+    },
+    {
+      "from": "svc_38",
+      "to": "stripe"
+    },
+    {
+      "from": "svc_39",
+      "to": "joblib"
+    },
+    {
+      "from": "svc_39",
+      "to": "lib-4686"
+    },
+    {
+      "from": "svc_39",
+      "to": "lib-9912"
+    },
+    {
+      "from": "svc_39",
+      "to": "azure-storage-blob"
+    },
+    {
+      "from": "svc_39",
+      "to": "lib-4890"
+    },
+    {
+      "from": "svc_39",
+      "to": "channels"
+    },
+    {
+      "from": "svc_39",
+      "to": "daphne"
+    },
+    {
+      "from": "svc_39",
+      "to": "truststore"
+    },
+    {
+      "from": "svc_39",
+      "to": "nyc"
+    },
+    {
+      "from": "svc_39",
+      "to": "lint-staged"
+    },
+    {
+      "from": "svc_39",
+      "to": "braintree"
+    },
+    {
+      "from": "svc_39",
+      "to": "bcrypt"
+    },
+    {
+      "from": "svc_39",
+      "to": "commitizen"
+    },
+    {
+      "from": "svc_39",
+      "to": "playwright"
+    },
+    {
+      "from": "svc_40",
+      "to": "email-validator"
+    },
+    {
+      "from": "svc_40",
+      "to": "opentelemetry-api"
+    },
+    {
+      "from": "svc_40",
+      "to": "flask-sqlalchemy"
+    },
+    {
+      "from": "svc_40",
+      "to": "adm-zip"
+    },
+    {
+      "from": "svc_40",
+      "to": "mocha"
+    },
+    {
+      "from": "svc_40",
+      "to": "dayjs"
+    },
+    {
+      "from": "svc_40",
+      "to": "googleapis"
+    },
+    {
+      "from": "svc_40",
+      "to": "framer-motion"
+    },
+    {
+      "from": "svc_41",
+      "to": "pinecone-client"
+    },
+    {
+      "from": "svc_41",
+      "to": "lib-1802"
+    },
+    {
+      "from": "svc_41",
+      "to": "arrow"
+    },
+    {
+      "from": "svc_41",
+      "to": "uWebSockets.js"
+    },
+    {
+      "from": "svc_41",
+      "to": "passport-jwt"
+    },
+    {
+      "from": "svc_41",
+      "to": "swc"
+    },
+    {
+      "from": "svc_41",
+      "to": "jest"
+    },
+    {
+      "from": "svc_41",
+      "to": "nuxt"
+    },
+    {
+      "from": "svc_41",
+      "to": "sequelize"
+    },
+    {
+      "from": "svc_42",
+      "to": "lib-6853"
+    },
+    {
+      "from": "svc_42",
+      "to": "trio"
+    },
+    {
+      "from": "svc_42",
+      "to": "channels"
+    },
+    {
+      "from": "svc_42",
+      "to": "marshmallow-sqlalchemy"
+    },
+    {
+      "from": "svc_42",
+      "to": "nats-py"
+    },
+    {
+      "from": "svc_42",
+      "to": "lib-8028"
+    },
+    {
+      "from": "svc_42",
+      "to": "joi"
+    },
+    {
+      "from": "svc_42",
+      "to": "commitizen"
+    },
+    {
+      "from": "svc_42",
+      "to": "typeorm"
+    },
+    {
+      "from": "svc_42",
+      "to": "lod4sh"
+    },
+    {
+      "from": "svc_42",
+      "to": "platform-sdk"
+    },
+    {
+      "from": "svc_42",
+      "to": "fast-json-parser"
+    },
+    {
+      "from": "svc_43",
+      "to": "lib-2260"
+    },
+    {
+      "from": "svc_43",
+      "to": "secrets"
+    },
+    {
+      "from": "svc_43",
+      "to": "sentry-sdk"
+    },
+    {
+      "from": "svc_43",
+      "to": "lib-5039"
+    },
+    {
+      "from": "svc_43",
+      "to": "colorama"
+    },
+    {
+      "from": "svc_43",
+      "to": "prisma"
+    },
+    {
+      "from": "svc_43",
+      "to": "recoil"
+    },
+    {
+      "from": "svc_43",
+      "to": "immer"
+    },
+    {
+      "from": "svc_43",
+      "to": "chai"
+    },
+    {
+      "from": "svc_44",
+      "to": "aiofiles"
+    },
+    {
+      "from": "svc_44",
+      "to": "smtplib"
+    },
+    {
+      "from": "svc_44",
+      "to": "opensearch-py"
+    },
+    {
+      "from": "svc_44",
+      "to": "lib-4624"
+    },
+    {
+      "from": "svc_44",
+      "to": "simplejson"
+    },
+    {
+      "from": "svc_44",
+      "to": "lib-4686"
+    },
+    {
+      "from": "svc_44",
+      "to": "geopandas"
+    },
+    {
+      "from": "svc_44",
+      "to": "esbuild"
+    },
+    {
+      "from": "svc_44",
+      "to": "chart.js"
+    },
+    {
+      "from": "svc_44",
+      "to": "commitizen"
+    },
+    {
+      "from": "svc_44",
+      "to": "mailgun-js"
+    },
+    {
+      "from": "svc_45",
+      "to": "paramiko"
+    },
+    {
+      "from": "svc_45",
+      "to": "lib-4624"
+    },
+    {
+      "from": "svc_45",
+      "to": "twisted"
+    },
+    {
+      "from": "svc_45",
+      "to": "lib-5314"
+    },
+    {
+      "from": "svc_45",
+      "to": "opencv-python"
+    },
+    {
+      "from": "svc_45",
+      "to": "sendgrid"
+    },
+    {
+      "from": "svc_45",
+      "to": "py7zr"
+    },
+    {
+      "from": "svc_45",
+      "to": "lib-3501"
+    },
+    {
+      "from": "svc_45",
+      "to": "uuid"
+    },
+    {
+      "from": "svc_45",
+      "to": "graphql"
+    },
+    {
+      "from": "svc_45",
+      "to": "parse5"
+    },
+    {
+      "from": "svc_46",
+      "to": "charset-normalizer"
+    },
+    {
+      "from": "svc_46",
+      "to": "requests"
+    },
+    {
+      "from": "svc_46",
+      "to": "usb"
+    },
+    {
+      "from": "svc_46",
+      "to": "botocore"
+    },
+    {
+      "from": "svc_46",
+      "to": "msgpack"
+    },
+    {
+      "from": "svc_46",
+      "to": "marshmallow"
+    },
+    {
+      "from": "svc_46",
+      "to": "compression"
+    },
+    {
+      "from": "svc_46",
+      "to": "supertest"
+    },
+    {
+      "from": "svc_46",
+      "to": "azure-sdk"
+    },
+    {
+      "from": "svc_46",
+      "to": "zod"
+    },
+    {
+      "from": "svc_46",
+      "to": "sinon"
+    },
+    {
+      "from": "svc_47",
+      "to": "structlog"
+    },
+    {
+      "from": "svc_47",
+      "to": "dynaconf"
+    },
+    {
+      "from": "svc_47",
+      "to": "azure-storage-blob"
+    },
+    {
+      "from": "svc_47",
+      "to": "typer"
+    },
+    {
+      "from": "svc_47",
+      "to": "pika"
+    },
+    {
+      "from": "svc_47",
+      "to": "twisted"
+    },
+    {
+      "from": "svc_47",
+      "to": "loguru"
+    },
+    {
+      "from": "svc_47",
+      "to": "pexpect"
+    },
+    {
+      "from": "svc_47",
+      "to": "bcryptjs"
+    },
+    {
+      "from": "svc_47",
+      "to": "nuxt"
+    },
+    {
+      "from": "svc_47",
+      "to": "styled-components"
+    },
+    {
+      "from": "svc_48",
+      "to": "botocore"
+    },
+    {
+      "from": "svc_48",
+      "to": "pika"
+    },
+    {
+      "from": "svc_48",
+      "to": "numpy"
+    },
+    {
+      "from": "svc_48",
+      "to": "lib-7823"
+    },
+    {
+      "from": "svc_48",
+      "to": "prettytable"
+    },
+    {
+      "from": "svc_48",
+      "to": "lib-5217"
+    },
+    {
+      "from": "svc_48",
+      "to": "lib-4624"
+    },
+    {
+      "from": "svc_48",
+      "to": "mocha"
+    },
+    {
+      "from": "svc_48",
+      "to": "yup"
+    },
+    {
+      "from": "svc_48",
+      "to": "config"
+    },
+    {
+      "from": "svc_48",
+      "to": "forever"
+    },
+    {
+      "from": "svc_48",
+      "to": "sinon"
+    },
+    {
+      "from": "svc_48",
+      "to": "prettier"
+    },
+    {
+      "from": "svc_49",
+      "to": "circuitbreaker"
+    },
+    {
+      "from": "svc_49",
+      "to": "elasticsearch"
+    },
+    {
+      "from": "svc_49",
+      "to": "tarfile"
+    },
+    {
+      "from": "svc_49",
+      "to": "lib-8732"
+    },
+    {
+      "from": "svc_49",
+      "to": "black"
+    },
+    {
+      "from": "svc_49",
+      "to": "lib-8188"
+    },
+    {
+      "from": "svc_49",
+      "to": "lib-2753"
+    },
+    {
+      "from": "svc_49",
+      "to": "tailwindcss"
+    },
+    {
+      "from": "svc_49",
+      "to": "mobx"
+    },
+    {
+      "from": "svc_49",
+      "to": "babel"
+    },
+    {
+      "from": "svc_50",
+      "to": "opencv-python"
+    },
+    {
+      "from": "svc_50",
+      "to": "gunicorn"
+    },
+    {
+      "from": "svc_50",
+      "to": "colorama"
+    },
+    {
+      "from": "svc_50",
+      "to": "mongoose"
+    },
+    {
+      "from": "svc_50",
+      "to": "esbuild"
+    },
+    {
+      "from": "svc_50",
+      "to": "immer"
+    },
+    {
+      "from": "svc_50",
+      "to": "bull"
+    },
+    {
+      "from": "svc_50",
+      "to": "swc"
+    },
+    {
+      "from": "svc_50",
+      "to": "lodash.merge"
+    }
+  ]
+}

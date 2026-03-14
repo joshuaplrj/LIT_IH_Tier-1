@@ -1,0 +1,18 @@
+{
+  "name": "svc_05",
+  "version": "1.0.0",
+  "description": "svc_05 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mocha": "^1.12.5",
+    "supertest": "^1.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

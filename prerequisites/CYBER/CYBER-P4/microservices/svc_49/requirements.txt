@@ -1,0 +1,7 @@
+circuitbreaker==4.0.5
+elasticsearch==3.5.9
+tarfile==4.7.1
+lib-8732==2.11.7
+black==3.3.6
+lib-8188==5.0.2
+lib-2753==1.1.0

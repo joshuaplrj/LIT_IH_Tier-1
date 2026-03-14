@@ -1,0 +1,141 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:98011f8c-929e-4dcf-9d2e-451fd9d2fcde",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_24",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "istanbul",
+      "version": "1.12.7",
+      "purl": "pkg:npm/istanbul@1.12.7"
+    },
+    {
+      "type": "library",
+      "name": "emotion",
+      "version": "4.0.7",
+      "purl": "pkg:pypi/emotion@4.0.7"
+    },
+    {
+      "type": "library",
+      "name": "chart.js",
+      "version": "5.6.6",
+      "purl": "pkg:pypi/chart.js@5.6.6"
+    },
+    {
+      "type": "library",
+      "name": "nodemon",
+      "version": "2.10.3",
+      "purl": "pkg:pypi/nodemon@2.10.3"
+    },
+    {
+      "type": "library",
+      "name": "pydot",
+      "version": "3.1.0",
+      "purl": "pkg:pypi/pydot@3.1.0"
+    },
+    {
+      "type": "library",
+      "name": "shortid",
+      "version": "2.5.0",
+      "purl": "pkg:npm/shortid@2.5.0"
+    },
+    {
+      "type": "library",
+      "name": "helmet",
+      "version": "3.11.5",
+      "purl": "pkg:pypi/helmet@3.11.5"
+    },
+    {
+      "type": "library",
+      "name": "pyjwt",
+      "version": "4.0.7",
+      "purl": "pkg:npm/pyjwt@4.0.7"
+    },
+    {
+      "type": "library",
+      "name": "lib-6375",
+      "version": "3.11.1",
+      "purl": "pkg:npm/lib-6375@3.11.1"
+    },
+    {
+      "type": "library",
+      "name": "d3",
+      "version": "3.4.9",
+      "purl": "pkg:npm/d3@3.4.9"
+    },
+    {
+      "type": "library",
+      "name": "lib-4686",
+      "version": "2.8.6",
+      "purl": "pkg:npm/lib-4686@2.8.6"
+    },
+    {
+      "type": "library",
+      "name": "arrow",
+      "version": "3.6.1",
+      "purl": "pkg:pypi/arrow@3.6.1"
+    },
+    {
+      "type": "library",
+      "name": "curio",
+      "version": "2.0.6",
+      "purl": "pkg:pypi/curio@2.0.6"
+    },
+    {
+      "type": "library",
+      "name": "cheerio",
+      "version": "2.8.4",
+      "purl": "pkg:pypi/cheerio@2.8.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-6848",
+      "version": "3.12.1",
+      "purl": "pkg:npm/lib-6848@3.12.1"
+    },
+    {
+      "type": "library",
+      "name": "ioredis",
+      "version": "1.8.9",
+      "purl": "pkg:npm/ioredis@1.8.9"
+    },
+    {
+      "type": "library",
+      "name": "crypto-js",
+      "version": "5.7.9",
+      "purl": "pkg:pypi/crypto-js@5.7.9"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "4.6.7",
+      "purl": "pkg:pypi/rollup@4.6.7"
+    },
+    {
+      "type": "library",
+      "name": "puppeteer",
+      "version": "4.1.7",
+      "purl": "pkg:pypi/puppeteer@4.1.7"
+    },
+    {
+      "type": "library",
+      "name": "pinecone-client",
+      "version": "3.12.2",
+      "purl": "pkg:pypi/pinecone-client@3.12.2"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "1.7.3",
+      "purl": "pkg:pypi/eslint@1.7.3"
+    }
+  ]
+}

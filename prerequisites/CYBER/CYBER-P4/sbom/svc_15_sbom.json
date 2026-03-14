@@ -1,0 +1,117 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:126b8d8c-6e2a-45f8-9fbf-ccc319c0c95d",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_15",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "tabulate",
+      "version": "5.5.8",
+      "purl": "pkg:pypi/tabulate@5.5.8"
+    },
+    {
+      "type": "library",
+      "name": "openpgp",
+      "version": "1.6.4",
+      "purl": "pkg:npm/openpgp@1.6.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-7425",
+      "version": "3.5.8",
+      "purl": "pkg:pypi/lib-7425@3.5.8"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "3.11.5",
+      "purl": "pkg:npm/typescript@3.11.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-1290",
+      "version": "3.2.2",
+      "purl": "pkg:npm/lib-1290@3.2.2"
+    },
+    {
+      "type": "library",
+      "name": "huggingface-hub",
+      "version": "2.0.3",
+      "purl": "pkg:pypi/huggingface-hub@2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "mongoose",
+      "version": "1.2.5",
+      "purl": "pkg:npm/mongoose@1.2.5"
+    },
+    {
+      "type": "library",
+      "name": "aiosqlite",
+      "version": "1.4.4",
+      "purl": "pkg:pypi/aiosqlite@1.4.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-5076",
+      "version": "4.2.2",
+      "purl": "pkg:pypi/lib-5076@4.2.2"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.6.0",
+      "purl": "pkg:pypi/matplotlib@3.6.0"
+    },
+    {
+      "type": "library",
+      "name": "xlsx",
+      "version": "3.8.5",
+      "purl": "pkg:npm/xlsx@3.8.5"
+    },
+    {
+      "type": "library",
+      "name": "zod",
+      "version": "1.8.2",
+      "purl": "pkg:npm/zod@1.8.2"
+    },
+    {
+      "type": "library",
+      "name": "config",
+      "version": "1.9.8",
+      "purl": "pkg:pypi/config@1.9.8"
+    },
+    {
+      "type": "library",
+      "name": "lib-5126",
+      "version": "4.5.8",
+      "purl": "pkg:npm/lib-5126@4.5.8"
+    },
+    {
+      "type": "library",
+      "name": "prometheus-client",
+      "version": "4.7.9",
+      "purl": "pkg:npm/prometheus-client@4.7.9"
+    },
+    {
+      "type": "library",
+      "name": "passport",
+      "version": "5.3.3",
+      "purl": "pkg:npm/passport@5.3.3"
+    },
+    {
+      "type": "library",
+      "name": "lib-4686",
+      "version": "2.11.8",
+      "purl": "pkg:npm/lib-4686@2.11.8"
+    }
+  ]
+}

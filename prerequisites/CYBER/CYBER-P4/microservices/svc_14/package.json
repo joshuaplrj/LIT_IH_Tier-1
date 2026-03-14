@@ -1,0 +1,21 @@
+{
+  "name": "svc_14",
+  "version": "1.0.0",
+  "description": "svc_14 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "csv-parser": "^1.5.1",
+    "busboy": "^2.6.8",
+    "winston": "^5.5.7",
+    "pdfkit": "^4.1.5",
+    "docker": "^4.11.6"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

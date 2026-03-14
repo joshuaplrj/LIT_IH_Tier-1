@@ -1,0 +1,21 @@
+{
+  "name": "svc_21",
+  "version": "1.0.0",
+  "description": "svc_21 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "node-fetch": "^5.6.0",
+    "jsonwebtoken": "^3.0.4",
+    "typeorm": "^2.12.1",
+    "gatsby": "^2.4.5",
+    "dayjs": "^4.0.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

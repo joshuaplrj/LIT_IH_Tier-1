@@ -1,0 +1,7 @@
+lib-6375==5.3.8
+lib-2473==4.7.9
+docker==3.8.4
+lib-4185==4.1.0
+uvicorn==1.0.2
+aiofiles==4.11.5
+tenacity==4.5.5

@@ -1,0 +1,6 @@
+charset-normalizer==2.4.5
+requests==3.10.9
+usb==2.8.1
+botocore==2.10.4
+msgpack==4.9.9
+marshmallow==2.1.1

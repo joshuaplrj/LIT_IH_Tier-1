@@ -1,0 +1,5 @@
+msgpack==5.4.8
+lib-6755==3.7.4
+pyzmq==2.4.8
+scikit-learn==1.11.8
+stdnum==3.5.1

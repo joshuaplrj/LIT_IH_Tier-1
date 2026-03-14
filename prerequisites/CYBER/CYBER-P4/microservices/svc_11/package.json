@@ -1,0 +1,22 @@
+{
+  "name": "svc_11",
+  "version": "1.0.0",
+  "description": "svc_11 microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "helmet": "^1.9.4",
+    "pixi.js": "^3.6.7",
+    "config": "^2.9.5",
+    "nconf": "^5.9.2",
+    "imagemin": "^3.3.8",
+    "luxon": "^5.10.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

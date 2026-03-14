@@ -1,0 +1,8 @@
+fn double(x: i32) -> i32 {
+    return x * 2;
+}
+fn quad(x: i32) -> i32 {
+    return double(double(x));
+}
+let result: i32 = quad(15);
+println!("{}", result);

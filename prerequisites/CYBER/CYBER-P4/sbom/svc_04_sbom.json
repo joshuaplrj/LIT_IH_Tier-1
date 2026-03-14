@@ -1,0 +1,123 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.4",
+  "serialNumber": "urn:uuid:0214df25-b42b-4c2b-8533-015c83ba824f",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "svc_04",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "openpgp",
+      "version": "2.2.8",
+      "purl": "pkg:pypi/openpgp@2.2.8"
+    },
+    {
+      "type": "library",
+      "name": "papaparse",
+      "version": "5.11.0",
+      "purl": "pkg:pypi/papaparse@5.11.0"
+    },
+    {
+      "type": "library",
+      "name": "nodemailer",
+      "version": "5.5.0",
+      "purl": "pkg:npm/nodemailer@5.5.0"
+    },
+    {
+      "type": "library",
+      "name": "bcryptjs",
+      "version": "3.11.4",
+      "purl": "pkg:pypi/bcryptjs@3.11.4"
+    },
+    {
+      "type": "library",
+      "name": "supertest",
+      "version": "4.7.4",
+      "purl": "pkg:pypi/supertest@4.7.4"
+    },
+    {
+      "type": "library",
+      "name": "django-rest-framework",
+      "version": "4.2.4",
+      "purl": "pkg:npm/django-rest-framework@4.2.4"
+    },
+    {
+      "type": "library",
+      "name": "lib-4372",
+      "version": "5.0.5",
+      "purl": "pkg:pypi/lib-4372@5.0.5"
+    },
+    {
+      "type": "library",
+      "name": "lib-6518",
+      "version": "5.2.1",
+      "purl": "pkg:pypi/lib-6518@5.2.1"
+    },
+    {
+      "type": "library",
+      "name": "lib-7512",
+      "version": "5.4.1",
+      "purl": "pkg:npm/lib-7512@5.4.1"
+    },
+    {
+      "type": "library",
+      "name": "starlette",
+      "version": "4.10.2",
+      "purl": "pkg:pypi/starlette@4.10.2"
+    },
+    {
+      "type": "library",
+      "name": "stripe",
+      "version": "4.7.3",
+      "purl": "pkg:npm/stripe@4.7.3"
+    },
+    {
+      "type": "library",
+      "name": "aiohttp",
+      "version": "4.10.0",
+      "purl": "pkg:pypi/aiohttp@4.10.0"
+    },
+    {
+      "type": "library",
+      "name": "structlog",
+      "version": "5.10.8",
+      "purl": "pkg:pypi/structlog@5.10.8"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": "4.0.0",
+      "purl": "pkg:pypi/seaborn@4.0.0"
+    },
+    {
+      "type": "library",
+      "name": "circuitbreaker",
+      "version": "2.1.0",
+      "purl": "pkg:pypi/circuitbreaker@2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "marshmallow",
+      "version": "3.4.3",
+      "purl": "pkg:npm/marshmallow@3.4.3"
+    },
+    {
+      "type": "library",
+      "name": "node-tar",
+      "version": "4.1.1",
+      "purl": "pkg:pypi/node-tar@4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "2.6.6",
+      "purl": "pkg:npm/jest@2.6.6"
+    }
+  ]
+}
