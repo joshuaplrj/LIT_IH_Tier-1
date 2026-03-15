@@ -1,6 +1,79 @@
 {
-  "last_updated": "2026-03-14T00:00:00Z",
-  "disciplines": ["CSE", "CYBER", "IT", "EEE", "ECE", "MECH", "AIDS", "MBA"],
+  "last_updated": "2026-03-15T18:29:56Z",
+  "disciplines": [
+    "CSE",
+    "CYBER",
+    "IT",
+    "EEE",
+    "ECE",
+    "MECH",
+    "AIDS",
+    "MBA"
+  ],
   "max_score_per_problem": 100,
-  "teams": {}
+  "teams": {
+    "test-team": {
+      "scores": {
+        "CSE": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "CYBER": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "IT": {
+          "P1": 100,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "EEE": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "ECE": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "MECH": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "AIDS": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        },
+        "MBA": {
+          "P1": null,
+          "P2": null,
+          "P3": null,
+          "P4": null,
+          "P5": null
+        }
+      },
+      "total_score": 100,
+      "problems_solved": 1,
+      "max_possible": 4000
+    }
+  }
 }
