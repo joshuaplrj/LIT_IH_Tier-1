@@ -8,6 +8,9 @@ on:
     paths:
       - 'submissions/**'
 
+permissions:
+  contents: write
+
 jobs:
   # ------------------------------------------------------------------ #
   # JOB 1: Detect which submission folders changed                       #
