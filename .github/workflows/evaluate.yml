@@ -224,6 +224,7 @@ ${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
         with:
           # Use a token that allows pushing back to the repo
           token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -268,6 +269,7 @@ ${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
             echo "No changes to leaderboard.json — skipping commit"
           else
             git commit -m "leaderboard: auto-update scores [skip ci]"
-            git push origin HEAD
+            git pull --rebase origin main
+            git push origin main
             echo "Leaderboard pushed successfully"
           fi
