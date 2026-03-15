@@ -78,7 +78,7 @@ jobs:
                 echo "Skipping $SUB_DIR — directory does not exist"
                 continue
               fi
-              FILE_COUNT=$(find "$SUB_DIR" -maxdepth 1 -type f | wc -l)
+              FILE_COUNT=$(find "$SUB_DIR" -type f | wc -l)
               if [ "$FILE_COUNT" -eq 0 ]; then
                 echo "Skipping $SUB_DIR — no files in submission folder"
                 continue
