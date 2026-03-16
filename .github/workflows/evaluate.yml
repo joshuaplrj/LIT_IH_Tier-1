@@ -134,9 +134,15 @@ jobs:
         run: |
           EVAL_SCRIPT="problems/${{ matrix.discipline }}/${{ matrix.problem }}/evaluate.py"
           SUB_DIR="submissions/${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
+          SUB_INPUT="$SUB_DIR"
+
+          # Some evaluators (e.g., CSE/P1) expect a file path, not a directory.
+          if [ -f "$SUB_DIR/solution.csv" ]; then
+            SUB_INPUT="$SUB_DIR/solution.csv"
+          fi
 
           echo "Evaluator : $EVAL_SCRIPT"
-          echo "Submission: $SUB_DIR"
+          echo "Submission: $SUB_INPUT"
 
           if [ ! -f "$EVAL_SCRIPT" ]; then
             echo "ERROR: evaluate.py not found at $EVAL_SCRIPT"
@@ -147,7 +153,7 @@ jobs:
 
           # Run evaluator; capture output; handle non-zero exit gracefully
           set +e
-          OUTPUT=$(python "$EVAL_SCRIPT" --submission "$SUB_DIR" 2>&1)
+          OUTPUT=$(python "$EVAL_SCRIPT" --submission "$SUB_INPUT" 2>&1)
           EXIT_CODE=$?
           set -e
 
@@ -162,23 +168,53 @@ jobs:
             exit 0
           fi
 
-          # Extract the last valid JSON object from stdout that contains "total"
-          SCORE=$(echo "$OUTPUT" \
+            # Extract score from evaluator output.
+            # Supports pretty-printed JSON and log lines before/after the JSON blob.
+            SCORE=$(printf "%s" "$OUTPUT" \
             | python3 -c "
-import sys, json
-score = 0
-for line in sys.stdin:
-    line = line.strip()
-    try:
-        obj = json.loads(line)
-        if 'total' in obj:
-            score = int(obj['total'])
-    except Exception:
+      import json
+      import sys
+
+      text = sys.stdin.read()
+      score = 0
+
+      def maybe_set_score(obj):
+        global score
+        if isinstance(obj, dict) and 'total' in obj:
+          try:
+            score = int(float(obj['total']))
+            return True
+          except Exception:
+            return False
+        return False
+
+      # Fast path: output is pure JSON
+      try:
+        if maybe_set_score(json.loads(text)):
+          pass
+      except Exception:
         pass
-# Clamp to [0, 100]
-score = max(0, min(100, score))
-print(score)
-" 2>/dev/null || echo "0")
+
+      # Fallback: scan for JSON objects and keep the last one with a total field
+      decoder = json.JSONDecoder()
+      idx = 0
+      while idx < len(text):
+        ch = text[idx]
+        if ch != '{':
+          idx += 1
+          continue
+        try:
+          obj, end = decoder.raw_decode(text, idx)
+        except Exception:
+          idx += 1
+          continue
+        maybe_set_score(obj)
+        idx = end
+
+      # Clamp to [0, 100]
+      score = max(0, min(100, score))
+      print(score)
+      " 2>/dev/null || echo "0")
 
           echo "Parsed score: $SCORE"
           echo "score=$SCORE" >> "$GITHUB_OUTPUT"
@@ -242,7 +278,7 @@ ${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
           find /tmp/all-scores -name "*.txt" | while read -r score_file; do
             BASENAME=$(basename "$score_file" .txt)
             # Format: <team>__<discipline>__<problem>
-            TEAM=$(echo "$BASENAME" | cut -d'_' -f1)
+            TEAM=$(echo "$BASENAME" | awk -F'__' '{print $1}')
             DISC=$(echo "$BASENAME" | awk -F'__' '{print $2}')
             PROB=$(echo "$BASENAME" | awk -F'__' '{print $3}')
             SCORE=$(cat "$score_file" | tr -d '[:space:]')
