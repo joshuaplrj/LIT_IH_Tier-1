@@ -168,53 +168,11 @@ jobs:
             exit 0
           fi
 
-            # Extract score from evaluator output.
-            # Supports pretty-printed JSON and log lines before/after the JSON blob.
-            SCORE=$(printf "%s" "$OUTPUT" \
-            | python3 -c "
-      import json
-      import sys
-
-      text = sys.stdin.read()
-      score = 0
-
-      def maybe_set_score(obj):
-        global score
-        if isinstance(obj, dict) and 'total' in obj:
-          try:
-            score = int(float(obj['total']))
-            return True
-          except Exception:
-            return False
-        return False
-
-      # Fast path: output is pure JSON
-      try:
-        if maybe_set_score(json.loads(text)):
-          pass
-      except Exception:
-        pass
-
-      # Fallback: scan for JSON objects and keep the last one with a total field
-      decoder = json.JSONDecoder()
-      idx = 0
-      while idx < len(text):
-        ch = text[idx]
-        if ch != '{':
-          idx += 1
-          continue
-        try:
-          obj, end = decoder.raw_decode(text, idx)
-        except Exception:
-          idx += 1
-          continue
-        maybe_set_score(obj)
-        idx = end
-
-      # Clamp to [0, 100]
-      score = max(0, min(100, score))
-      print(score)
-      " 2>/dev/null || echo "0")
+          # Extract score from evaluator output.
+          # Supports pretty-printed JSON and log lines before/after the JSON blob.
+              SCORE=$(printf "%s" "$OUTPUT" \
+              | python3 -c "import re,sys; t=sys.stdin.read(); m=re.findall(r'\"total\"\\s*:\\s*([-+]?\\d*\\.?\\d+)', t); s=int(float(m[-1])) if m else 0; s=max(0,min(100,s)); print(s)" \
+              2>/dev/null || echo "0")
 
           echo "Parsed score: $SCORE"
           echo "score=$SCORE" >> "$GITHUB_OUTPUT"
@@ -232,8 +190,7 @@ jobs:
           mkdir -p /tmp/scores
           echo "${{ steps.run-eval.outputs.score }}" > \
             "/tmp/scores/${{ matrix.team }}__${{ matrix.discipline }}__${{ matrix.problem }}.txt"
-          echo "Recorded score ${{ steps.run-eval.outputs.score }} for \
-${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
+          echo "Recorded score ${{ steps.run-eval.outputs.score }} for ${{ matrix.team }}/${{ matrix.discipline }}/${{ matrix.problem }}"
 
       - name: Upload score file artifact
         uses: actions/upload-artifact@v4
